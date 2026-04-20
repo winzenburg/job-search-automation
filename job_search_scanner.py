@@ -140,7 +140,7 @@ def filter_opportunities(opportunities):
         
         # Check that it's actually a Product/Design role instead of HR or Sales
         PRIMARY_DOMAINS = ["design", "product", "ux", "ui", "creative", "strategy", "design operations", "design ops"]
-        domain_match = any(d in title for d in PRIMARY_DOMAINS) or (description.count("design") + description.count("product")) > 4
+        domain_match = any(d in title for d in PRIMARY_DOMAINS) or description.count("design") > 4
         
         # Check description/title has correct technical keyword using regex bounds to avoid matching 'ai' in 'email'
         tech_match = False
