@@ -10,6 +10,7 @@ import sys
 from datetime import datetime
 import hashlib
 import urllib.request
+import re
 from pathlib import Path
 
 # Target parameters
@@ -137,8 +138,16 @@ def filter_opportunities(opportunities):
         # Check title has correct rank (Manager, Director, VP, etc)
         rank_match = any(rank in title for rank in TARGET_RANKS)
         
-        # Check description/title has correct domain keyword
-        domain_match = any(kw in description for kw in TARGET_KEYWORDS) or any(kw in title for kw in TARGET_KEYWORDS)
+        # Check that it's actually a Product/Design role instead of HR or Sales
+        PRIMARY_DOMAINS = ["design", "product", "ux", "ui", "creative", "strategy", "ops"]
+        domain_match = any(d in title for d in PRIMARY_DOMAINS) or (description.count("design") + description.count("product")) > 4
+        
+        # Check description/title has correct technical keyword using regex bounds to avoid matching 'ai' in 'email'
+        tech_match = False
+        for kw in TARGET_KEYWORDS:
+            if re.search(rf'\b{kw}\b', description) or kw in title:
+                tech_match = True
+                break
         
         # Check location match
         location_match = any(loc in location for loc in LOCATIONS)
@@ -146,7 +155,7 @@ def filter_opportunities(opportunities):
         # Check salary (if available)
         salary_match = salary >= MIN_SALARY if salary > 0 else True
         
-        if rank_match and domain_match and location_match and salary_match:
+        if rank_match and domain_match and tech_match and location_match and salary_match:
             filtered.append(opp)
     
     return filtered
