@@ -1,0 +1,44 @@
+name: Antigravity Daily Job Sweep
+
+on:
+  schedule:
+    # 14:00 UTC is 8:00 AM MT (Mountain Time)
+    - cron: '0 14 * * 1-5'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  run-sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install anthropic reportlab markdown beautifulsoup4 pymupdf python-docx
+
+      - name: Run Antigravity Worker
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python github_daily_worker.py
+
+      - name: Send Email Report
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: 🚀 Antigravity Job Sweep Results
+          to: ryanwinzenburg@gmail.com
+          from: Antigravity Subagent
+          html_body: file://email_report.html
+          attachments: customized_applications/**/*.pdf
+          ignore_cert: true
