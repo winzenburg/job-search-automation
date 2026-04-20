@@ -9,6 +9,7 @@ import os
 import sys
 from datetime import datetime
 import hashlib
+import urllib.request
 from pathlib import Path
 
 # Target parameters
@@ -34,7 +35,7 @@ TARGET_KEYWORDS = [
 ]
 
 MIN_SALARY = 165000
-LOCATIONS = ["remote", "boulder", "denver", "colorado"]
+LOCATIONS = ["remote", "boulder", "denver", "colorado", "worldwide", "global", "us", "usa", "anywhere"]
 
 OPPORTUNITIES_FILE = Path(__file__).parent / "OPPORTUNITIES.md"
 STATE_FILE = Path(__file__).parent / "scanner_state.json"
@@ -60,51 +61,29 @@ def hash_opportunity(title, company, url):
     return hashlib.md5(key.encode()).hexdigest()[:8]
 
 
-def search_indeed():
-    """Search Indeed for target roles. Returns list of opportunities."""
+def search_remotive():
+    """Search Remotive for remote design and product roles natively via API."""
     opportunities = []
     
-    search_queries = [
-        "principal design systems",
-        "design systems manager remote",
-        "senior product designer AI",
-        "design operations manager",
-        "creative technologist",
-    ]
-    
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching Indeed...")
-    
-    # Note: Direct scraping Indeed is blocked (Cloudflare). 
-    # This would need Selenium or paid Indeed API.
-    # For now, return structure ready for API integration.
-    
-    for query in search_queries:
-        # Placeholder: would integrate with Indeed API here
-        # opportunity = {
-        #     "source": "Indeed",
-        #     "title": "...",
-        #     "company": "...",
-        #     "location": "...",
-        #     "salary": "...",
-        #     "url": "...",
-        #     "postedDate": "...",
-        # }
-        # opportunities.append(opportunity)
-        pass
-    
-    return opportunities
-
-
-def search_linkedin():
-    """Search LinkedIn for target roles. Returns list of opportunities."""
-    opportunities = []
-    
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching LinkedIn...")
-    
-    # Note: LinkedIn direct scraping violates ToS.
-    # Would need LinkedIn Recruiter API or authenticated session.
-    # Placeholder for API integration.
-    
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching Remotive API...")
+    try:
+        url = "https://remotive.com/api/remote-jobs?category=design"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode())
+            for job in data.get("jobs", []):
+                opportunities.append({
+                    "source": "Remotive",
+                    "title": job.get("title", ""),
+                    "company": job.get("company_name", ""),
+                    "location": job.get("candidate_required_location", "Remote"),
+                    "salary": job.get("salary", ""), # Remotive sometimes lacks exact salary arrays
+                    "url": job.get("url", ""),
+                    "postedDate": job.get("publication_date", "")
+                })
+    except Exception as e:
+        print(f"Error searching remotive: {e}")
+        
     return opportunities
 
 
@@ -213,8 +192,7 @@ def main():
     # Search across platforms
     print("Starting searches...\n")
     all_opportunities = []
-    all_opportunities.extend(search_indeed())
-    all_opportunities.extend(search_linkedin())
+    all_opportunities.extend(search_remotive())
     all_opportunities.extend(search_buildincolorado())
     
     print(f"\nTotal opportunities found: {len(all_opportunities)}")
