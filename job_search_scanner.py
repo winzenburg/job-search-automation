@@ -60,29 +60,42 @@ def hash_opportunity(title, company, url):
     return hashlib.md5(key.encode()).hexdigest()[:8]
 
 
-def search_remotive():
-    """Search Remotive for remote design and product roles natively via API."""
+def search_weworkremotely():
+    """Search WeWorkRemotely for remote design roles natively via XML RSS."""
     opportunities = []
     
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching Remotive API...")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching WeWorkRemotely RSS...")
     try:
-        url = "https://remotive.com/api/remote-jobs?category=design"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        import xml.etree.ElementTree as ET
+        url = "https://weworkremotely.com/categories/remote-design-jobs.rss"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
         with urllib.request.urlopen(req) as response:
-            data = json.loads(response.read().decode())
-            for job in data.get("jobs", []):
+            root = ET.fromstring(response.read())
+            for item in root.findall('.//item'):
+                title_text = item.find('title').text if item.find('title') is not None else ""
+                company = ""
+                title = title_text
+                if ":" in title_text:
+                    parts = title_text.split(":", 1)
+                    company = parts[0]
+                    title = parts[1]
+                    
+                desc = item.find('description').text if item.find('description') is not None else ""
+                link = item.find('link').text if item.find('link') is not None else ""
+                pubDate = item.find('pubDate').text if item.find('pubDate') is not None else ""
+                
                 opportunities.append({
-                    "source": "Remotive",
-                    "title": job.get("title", ""),
-                    "company": job.get("company_name", ""),
-                    "location": job.get("candidate_required_location", "Remote"),
-                    "salary": job.get("salary", ""), # Remotive sometimes lacks exact salary arrays
-                    "url": job.get("url", ""),
-                    "postedDate": job.get("publication_date", ""),
-                    "description": job.get("description", "")
+                    "source": "WeWorkRemotely",
+                    "title": title.strip(),
+                    "company": company.strip(),
+                    "location": "Remote",
+                    "salary": 0,
+                    "url": link,
+                    "postedDate": pubDate,
+                    "description": desc
                 })
     except Exception as e:
-        print(f"Error searching remotive: {e}")
+        print(f"Error searching WWR: {e}")
         
     return opportunities
 
@@ -237,7 +250,7 @@ def main():
     # Search across platforms
     print("Starting searches...\n")
     all_opportunities = []
-    all_opportunities.extend(search_remotive())
+    all_opportunities.extend(search_weworkremotely())
     all_opportunities.extend(search_remoteok())
     
     print(f"\nTotal opportunities found: {len(all_opportunities)}")
