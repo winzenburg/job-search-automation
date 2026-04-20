@@ -26,10 +26,10 @@ TARGET_RANKS = [
 ]
 
 TARGET_KEYWORDS = [
-    "AI",
+    "ai",
     "design systems",
     "product design",
-    "UX",
+    "ux",
     "design ops",
 ]
 
