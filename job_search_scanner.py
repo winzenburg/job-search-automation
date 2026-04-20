@@ -94,7 +94,14 @@ def search_remoteok():
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching RemoteOK API...")
     try:
         url = "https://remoteok.com/api?tags=design"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'application/json, text/plain, */*',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Referer': 'https://remoteok.com/',
+            'Origin': 'https://remoteok.com'
+        }
+        req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode())
             for job in data[1:]:
