@@ -93,7 +93,7 @@ def search_remoteok():
     
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching RemoteOK API...")
     try:
-        url = "https://remoteok.com/api?tags=design,product"
+        url = "https://remoteok.com/api?tags=design"
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode())
