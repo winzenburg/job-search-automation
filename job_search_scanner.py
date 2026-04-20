@@ -13,19 +13,15 @@ import urllib.request
 from pathlib import Path
 
 # Target parameters
-TARGET_TITLES = [
-    "principal design",
-    "principal product",
-    "staff design",
-    "staff product",
-    "design systems manager",
-    "design operations",
-    "creative technologist",
-    "head of design",
-    "director of design",
-    "design manager",
-    "senior product designer",
-    "product designer"
+TARGET_RANKS = [
+    "manager",
+    "strategist",
+    "director",
+    "vp",
+    "vice president",
+    "head",
+    "principal",
+    "staff"
 ]
 
 TARGET_KEYWORDS = [
@@ -81,7 +77,8 @@ def search_remotive():
                     "location": job.get("candidate_required_location", "Remote"),
                     "salary": job.get("salary", ""), # Remotive sometimes lacks exact salary arrays
                     "url": job.get("url", ""),
-                    "postedDate": job.get("publication_date", "")
+                    "postedDate": job.get("publication_date", ""),
+                    "description": job.get("description", "")
                 })
     except Exception as e:
         print(f"Error searching remotive: {e}")
@@ -113,7 +110,8 @@ def search_remoteok():
                     "location": job.get("location", "Remote"),
                     "salary": salary,
                     "url": job.get("url", ""),
-                    "postedDate": job.get("date", "")
+                    "postedDate": job.get("date", ""),
+                    "description": job.get("description", "")
                 })
     except Exception as e:
         print(f"Error searching remoteok: {e}")
@@ -128,14 +126,19 @@ def filter_opportunities(opportunities):
     for opp in opportunities:
         title = opp.get("title", "").lower()
         location = opp.get("location", "").lower()
+        description = opp.get("description", "").lower()
+        
         salary_val = opp.get("salary", 0)
         try:
             salary = int(salary_val) if salary_val else 0
         except (ValueError, TypeError):
             salary = 0
         
-        # Check title match
-        title_match = any(target in title for target in TARGET_TITLES)
+        # Check title has correct rank (Manager, Director, VP, etc)
+        rank_match = any(rank in title for rank in TARGET_RANKS)
+        
+        # Check description/title has correct domain keyword
+        domain_match = any(kw in description for kw in TARGET_KEYWORDS) or any(kw in title for kw in TARGET_KEYWORDS)
         
         # Check location match
         location_match = any(loc in location for loc in LOCATIONS)
@@ -143,7 +146,7 @@ def filter_opportunities(opportunities):
         # Check salary (if available)
         salary_match = salary >= MIN_SALARY if salary > 0 else True
         
-        if title_match and location_match and salary_match:
+        if rank_match and domain_match and location_match and salary_match:
             filtered.append(opp)
     
     return filtered
