@@ -1,5 +1,8 @@
 name: Antigravity Daily Job Sweep
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 on:
   schedule:
     # 14:00 UTC is 8:00 AM MT (Mountain Time)
@@ -9,8 +12,6 @@ on:
 jobs:
   run-sweep:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
