@@ -87,15 +87,35 @@ def search_remotive():
     return opportunities
 
 
-def search_buildincolorado():
-    """Search BuildinColorado for Colorado-based opportunities."""
+def search_remoteok():
+    """Search RemoteOK natively via API."""
     opportunities = []
     
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching BuildinColorado...")
-    
-    # Note: BuildinColorado allows scraping. Can implement with web_fetch.
-    # For now, placeholder structure.
-    
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching RemoteOK API...")
+    try:
+        url = "https://remoteok.com/api?tags=design,product"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode())
+            for job in data[1:]:
+                salary_max = job.get("salary_max", 0)
+                try:
+                    salary = int(salary_max) if salary_max else 0
+                except (ValueError, TypeError):
+                    salary = 0
+                
+                opportunities.append({
+                    "source": "RemoteOK",
+                    "title": job.get("position", ""),
+                    "company": job.get("company", ""),
+                    "location": job.get("location", "Remote"),
+                    "salary": salary,
+                    "url": job.get("url", ""),
+                    "postedDate": job.get("date", "")
+                })
+    except Exception as e:
+        print(f"Error searching remoteok: {e}")
+        
     return opportunities
 
 
@@ -106,7 +126,11 @@ def filter_opportunities(opportunities):
     for opp in opportunities:
         title = opp.get("title", "").lower()
         location = opp.get("location", "").lower()
-        salary = opp.get("salary", 0)
+        salary_val = opp.get("salary", 0)
+        try:
+            salary = int(salary_val) if salary_val else 0
+        except (ValueError, TypeError):
+            salary = 0
         
         # Check title match
         title_match = any(target in title for target in TARGET_TITLES)
@@ -115,7 +139,7 @@ def filter_opportunities(opportunities):
         location_match = any(loc in location for loc in LOCATIONS)
         
         # Check salary (if available)
-        salary_match = salary >= MIN_SALARY if salary else True
+        salary_match = salary >= MIN_SALARY if salary > 0 else True
         
         if title_match and location_match and salary_match:
             filtered.append(opp)
@@ -193,7 +217,7 @@ def main():
     print("Starting searches...\n")
     all_opportunities = []
     all_opportunities.extend(search_remotive())
-    all_opportunities.extend(search_buildincolorado())
+    all_opportunities.extend(search_remoteok())
     
     print(f"\nTotal opportunities found: {len(all_opportunities)}")
     
