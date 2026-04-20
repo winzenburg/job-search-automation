@@ -24,6 +24,8 @@ TARGET_TITLES = [
     "head of design",
     "director of design",
     "design manager",
+    "senior product designer",
+    "product designer"
 ]
 
 TARGET_KEYWORDS = [
@@ -34,7 +36,7 @@ TARGET_KEYWORDS = [
     "design ops",
 ]
 
-MIN_SALARY = 165000
+MIN_SALARY = 0
 LOCATIONS = ["remote", "boulder", "denver", "colorado", "worldwide", "global", "us", "usa", "anywhere"]
 
 OPPORTUNITIES_FILE = Path(__file__).parent / "OPPORTUNITIES.md"
