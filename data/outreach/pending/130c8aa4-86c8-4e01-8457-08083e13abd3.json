@@ -1,5 +1,5 @@
 {
-  "id": "0f358629-ed9a-46d2-a32a-6722c73d2ead",
+  "id": "130c8aa4-86c8-4e01-8457-08083e13abd3",
   "contact_id": "3eb73e84-8106-4226-80b1-7e7c5f50d37c",
   "company_id": "0bdb98a8-d20f-49a6-94e6-fe1b46d633be",
   "contact_name": "Kevin Wong",
@@ -15,7 +15,7 @@
     "multiplier": "3"
   },
   "status": "pending_approval",
-  "generated_at": "2026-07-01T15:47:25.083639",
+  "generated_at": "2026-07-01T21:07:52.364224",
   "utm_params": {
     "utm_source": "linkedin",
     "utm_campaign": "outreach",

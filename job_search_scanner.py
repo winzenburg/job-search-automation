@@ -10,6 +10,7 @@ import sys
 from datetime import datetime
 import hashlib
 import urllib.request
+import urllib.parse
 import re
 from pathlib import Path
 
@@ -140,6 +141,278 @@ def search_remoteok():
     return opportunities
 
 
+def search_remotive():
+    """Search Remotive public API for remote design roles."""
+    opportunities = []
+
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching Remotive API...")
+    try:
+        url = "https://remotive.com/api/remote-jobs?category=design&limit=100"
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as response:
+            data = json.loads(response.read().decode())
+            for job in data.get("jobs", []):
+                opportunities.append({
+                    "source": "Remotive",
+                    "title": job.get("title", ""),
+                    "company": job.get("company_name", ""),
+                    "location": job.get("candidate_required_location", "Remote"),
+                    "salary": 0,
+                    "url": job.get("url", ""),
+                    "postedDate": job.get("publication_date", ""),
+                    "description": job.get("description", "")
+                })
+    except Exception as e:
+        print(f"Error searching Remotive: {e}")
+
+    return opportunities
+
+
+def search_himalayas():
+    """Search Himalayas public API for senior remote design roles."""
+    opportunities = []
+
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching Himalayas API...")
+    try:
+        # Search for Director/Executive level design roles worldwide
+        params = "q=design&seniority=Director,Executive,Manager&worldwide=true&sort=recent&page=1"
+        url = f"https://himalayas.app/jobs/api/search?{params}"
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as response:
+            data = json.loads(response.read().decode())
+            for job in data.get("jobs", []):
+                salary_min = job.get("salaryMin", 0) or 0
+                salary_max = job.get("salaryMax", 0) or 0
+                salary = max(salary_min, salary_max)
+                try:
+                    salary = int(salary)
+                except (ValueError, TypeError):
+                    salary = 0
+
+                opportunities.append({
+                    "source": "Himalayas",
+                    "title": job.get("title", ""),
+                    "company": job.get("companyName", ""),
+                    "location": job.get("location", "Remote"),
+                    "salary": salary,
+                    "url": job.get("applicationLink", job.get("url", "")),
+                    "postedDate": job.get("pubDate", ""),
+                    "description": job.get("description", "")
+                })
+    except Exception as e:
+        print(f"Error searching Himalayas: {e}")
+
+    return opportunities
+
+
+def search_hn_who_is_hiring() -> list[dict]:
+    """
+    Search the most recent monthly HN 'Who Is Hiring' thread for design leadership roles.
+    Uses Algolia HN API to find the thread, then scans top-level job comments.
+    Only includes comments that follow the structured "Company | Role | ..." format.
+    """
+    opportunities = []
+
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching HN Who's Hiring (monthly thread)...")
+    try:
+        # Find the most recent "Ask HN: Who is hiring?" story
+        search_url = (
+            "https://hn.algolia.com/api/v1/search"
+            "?query=Ask+HN+Who+is+hiring&tags=ask_hn&hitsPerPage=3&numericFilters=points>10"
+        )
+        req = urllib.request.Request(
+            search_url,
+            headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=10) as r:
+            results = json.loads(r.read().decode())
+
+        stories = results.get("hits", [])
+        if not stories:
+            return []
+
+        # Use the most recent hiring thread
+        story = stories[0]
+        story_id = story.get("objectID", "")
+        if not story_id:
+            return []
+
+        # Fetch comments for this story
+        comments_url = (
+            f"https://hn.algolia.com/api/v1/search"
+            f"?tags=comment,story_{story_id}&hitsPerPage=50"
+        )
+        req2 = urllib.request.Request(
+            comments_url,
+            headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+        )
+        with urllib.request.urlopen(req2, timeout=10) as r:
+            comment_data = json.loads(r.read().decode())
+
+        design_keywords = {"design", "ux", "ui", "designer"}
+        leadership_keywords = {"head", "vp", "director", "lead", "chief"}
+
+        for comment in comment_data.get("hits", []):
+            text = (comment.get("comment_text") or "").lower()
+            object_id = comment.get("objectID", "")
+            created_at = comment.get("created_at", "")
+
+            # Must mention both design and leadership
+            has_design = any(kw in text for kw in design_keywords)
+            has_leadership = any(kw in text for kw in leadership_keywords)
+            if not (has_design and has_leadership):
+                continue
+
+            # Try to extract company name — HN format: "Company | Role | Location"
+            raw_text = comment.get("comment_text") or ""
+            first_line = raw_text.split("\n")[0]
+            parts = [p.strip() for p in first_line.split("|")]
+            company = parts[0] if parts else "Unknown"
+            title_from_comment = parts[1] if len(parts) > 1 else "Design Leadership"
+
+            # Skip if company name looks like a username (no spaces, all lowercase)
+            if len(company) < 3 or company == company.lower().replace(" ", ""):
+                continue
+
+            hn_url = f"https://news.ycombinator.com/item?id={object_id}"
+            opportunities.append({
+                "source": "HN Who's Hiring",
+                "title": title_from_comment[:100],
+                "company": company[:80],
+                "location": parts[2] if len(parts) > 2 else "Remote",
+                "salary": 0,
+                "url": hn_url,
+                "postedDate": created_at,
+                "description": raw_text[:2000]
+            })
+
+    except Exception as e:
+        print(f"Error searching HN Who's Hiring: {e}")
+
+    return opportunities
+
+
+# Verified Ashby public job board slugs for target companies
+# Tested and confirmed working as of July 2026
+ASHBY_COMPANY_FEEDS: list[dict[str, str]] = [
+    {"company": "OpenAI",   "slug": "openai"},
+    {"company": "Notion",   "slug": "notion"},
+    {"company": "Linear",   "slug": "linear"},
+    {"company": "Miro",     "slug": "miro"},
+    {"company": "Airtable", "slug": "airtable"},
+]
+
+# Companies to search by name via Himalayas and Remotive
+# (their ATS feeds are not publicly accessible)
+TARGET_COMPANY_NAMES: list[str] = [
+    "Anthropic", "Stripe", "Gusto", "Databricks", "Perplexity",
+    "Brex", "Ramp", "Duolingo", "Runway", "Asana",
+    "Figma", "Canva", "Webflow", "Framer", "Pitch", "Superhuman",
+]
+
+
+def search_company_career_feeds() -> list[dict]:
+    """
+    Check Ashby career feeds for target companies that have verified public APIs.
+    Returns design leadership openings — highest-signal opportunities.
+    """
+    opportunities = []
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Checking Ashby career feeds for target companies...")
+
+    for feed in ASHBY_COMPANY_FEEDS:
+        company = feed["company"]
+        slug = feed["slug"]
+        url = f"https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true"
+
+        try:
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+            )
+            with urllib.request.urlopen(req, timeout=10) as response:
+                raw = json.loads(response.read().decode())
+
+            for job in raw.get("jobPostings", []):
+                title = job.get("title", "")
+                job_url = job.get("jobPostingUrl", "")
+                location = job.get("locationName", "Remote")
+                description = job.get("descriptionPlain", "")
+                comp = job.get("compensation", {}) or {}
+                salary = comp.get("maxValue", 0) or 0
+                try:
+                    salary = int(salary)
+                except (ValueError, TypeError):
+                    salary = 0
+
+                opportunities.append({
+                    "source": f"Careers ({company})",
+                    "title": title,
+                    "company": company,
+                    "location": location,
+                    "salary": salary,
+                    "url": job_url,
+                    "postedDate": "",
+                    "description": description
+                })
+
+        except Exception as e:
+            print(f"  ⚠️  {company} (Ashby): {e}")
+
+    return opportunities
+
+
+def search_target_companies_on_himalayas() -> list[dict]:
+    """
+    Search Himalayas for openings at specific target companies that don't have
+    public ATS feeds. Uses the Himalayas search API with company name filter.
+    """
+    opportunities = []
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching Himalayas for target company openings...")
+
+    for company_name in TARGET_COMPANY_NAMES:
+        try:
+            encoded = urllib.parse.quote(company_name)
+            url = f"https://himalayas.app/jobs/api/search?q={encoded}&sort=recent"
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+            )
+            with urllib.request.urlopen(req, timeout=10) as response:
+                data = json.loads(response.read().decode())
+
+            for job in data.get("jobs", []):
+                # Only include if company name matches (Himalayas does broad search)
+                if company_name.lower() not in job.get("companyName", "").lower():
+                    continue
+                salary = job.get("salaryMax", 0) or 0
+                try:
+                    salary = int(salary)
+                except (ValueError, TypeError):
+                    salary = 0
+
+                opportunities.append({
+                    "source": f"Himalayas ({company_name})",
+                    "title": job.get("title", ""),
+                    "company": job.get("companyName", company_name),
+                    "location": job.get("location", "Remote"),
+                    "salary": salary,
+                    "url": job.get("applicationLink", ""),
+                    "postedDate": job.get("pubDate", ""),
+                    "description": job.get("description", "")
+                })
+
+        except Exception as e:
+            print(f"  ⚠️  Himalayas/{company_name}: {e}")
+
+    return opportunities
+
+
 def filter_opportunities(opportunities):
     """Filter opportunities by target criteria."""
     filtered = []
@@ -252,6 +525,11 @@ def main():
     all_opportunities = []
     all_opportunities.extend(search_weworkremotely())
     all_opportunities.extend(search_remoteok())
+    all_opportunities.extend(search_remotive())
+    all_opportunities.extend(search_himalayas())
+    all_opportunities.extend(search_hn_who_is_hiring())
+    all_opportunities.extend(search_company_career_feeds())
+    all_opportunities.extend(search_target_companies_on_himalayas())
     
     print(f"\nTotal opportunities found: {len(all_opportunities)}")
     

@@ -1,0 +1,49 @@
+{
+  "company": {
+    "name": "Databricks",
+    "slug": "databricks",
+    "url": "https://databricks.com",
+    "linkedin": "https://linkedin.com/company/databricks",
+    "stage": "Private ($62B valuation)",
+    "funding": "$27.3B total",
+    "designer_count_estimate": 100,
+    "location": "San Francisco, CA / Denver, CO (Remote)",
+    "ai_keywords": [
+      "Mosaic AI",
+      "MLflow",
+      "Delta Lake",
+      "AI platform",
+      "data + AI"
+    ],
+    "why_target": "Colorado tier-1 target, fastest-growing enterprise AI platform, 9,875 employees, design ops at scale needed",
+    "notes": "Ryan Donahue is VP Product Design (since Jan 2020). Mission: make data and AI tools simpler and accessible. $2.6B revenue, massive scale = strong design ops need.",
+    "id": "17b3c74d-476f-439e-a8d6-b9d84db24e61",
+    "discovered_at": "2026-07-01T21:04:08.582968",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Colorado tier-1 target, fastest-growing enterprise AI platform, 9,875 employees, design ops at scale needed",
+    "design_ops_need": "Design team at Databricks needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "leading",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "Ryan Donahue's mission of making data and AI simpler requires design ops infrastructure that systematizes AI-augmented workflows across a 100-person design org.",
+      "Databricks is building the data platform that runs AI for most of the Fortune 500 \u2014 design ops at this scale is the difference between design influence and design chaos."
+    ],
+    "personalization_hooks": [
+      "scaling to 9,875 employees and $2.6B revenue while making data and AI tools simpler and more accessible",
+      "expanding the Denver office as part of rapid enterprise AI platform growth"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to VP Product Design (Colorado priority)",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

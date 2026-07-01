@@ -1,0 +1,24 @@
+{
+  "id": "3f50aa49-837d-4443-987c-22555f90d677",
+  "contact_id": "82ee8fdf-bc13-4be4-b0d9-b706e3d8acd9",
+  "company_id": "f9798d61-e509-40d7-801f-13a8fe9ec79c",
+  "contact_name": "Stu Smith",
+  "contact_title": "Head of Design, Loom Core (Senior Director)",
+  "company_name": "Loom (Atlassian)",
+  "channel": "linkedin",
+  "message": "Subject: AI + Design Operations at Loom (Atlassian)\n\nHi Stu Smith,\n\nI noticed Loom (Atlassian) is integrating Loom into Atlassian's AI-powered Rovo platform \u2014 redesigning async collaboration for the AI era.\n\nI'm Ryan Winzenburg\u201415 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).\n\nThe role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.\n\nIntegrating a 40-person design culture into Atlassian's 5,000-person product org is the highest-complexity design ops challenge there is \u2014 I architect exactly this kind of systematic integration.\n\nIf Loom (Atlassian) is thinking about this transformation, I'd love a 15-minute conversation.\n\nPortfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=loom\n\nBest,\nRyan\n",
+  "template_used": "linkedin_cold",
+  "personalization": {
+    "hook": "integrating Loom into Atlassian's AI-powered Rovo platform \u2014 redesigning async collaboration for the AI era",
+    "angle": "Integrating a 40-person design culture into Atlassian's 5,000-person product org is the highest-complexity design ops challenge there is \u2014 I architect exactly this kind of systematic integration.",
+    "team_size": "20+",
+    "multiplier": "3"
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T21:07:52.368771",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "loom"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "company": {
+    "name": "Stripe",
+    "slug": "stripe",
+    "url": "https://stripe.com",
+    "linkedin": "https://linkedin.com/company/stripe",
+    "stage": "Private ($91.5B valuation)",
+    "funding": "$9.4B total",
+    "designer_count_estimate": 200,
+    "location": "San Francisco, CA (Remote)",
+    "ai_keywords": [
+      "Stripe AI",
+      "payment intelligence",
+      "AI fraud detection"
+    ],
+    "why_target": "Legendary design culture, large org, AI-driven product expansion",
+    "notes": "Katie Dill is Head of Design (since Mar 2021). Yuliya Gorlovetsky is Head of Product Design. Stripe actively hiring designers across all levels \u2014 Design team growing.",
+    "id": "9ddd8987-8b38-486a-b925-8b49f7b6416f",
+    "discovered_at": "2026-07-01T21:04:08.582941",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Legendary design culture, large org, AI-driven product expansion",
+    "design_ops_need": "Design team at Stripe needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "mid",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "Stripe's 'quality drives growth' philosophy at 200+ designer scale is exactly the design ops challenge I architect \u2014 systematic AI integration without losing craft excellence.",
+      "Stripe is expanding into AI-powered financial products \u2014 design ops infrastructure is what makes sure quality standards scale across the new product surface area."
+    ],
+    "personalization_hooks": [
+      "launching a new era of Stripe design \u2014 redesigning stripe.com and pushing the boundaries of what's possible in code with color, light, and form",
+      "growing the design team across product design, research, content, brand, and web \u2014 multiple open roles"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to Head of Design",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

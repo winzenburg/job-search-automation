@@ -1,0 +1,24 @@
+{
+  "id": "cbcf2a03-66c7-4511-9bf7-ed08444908a8",
+  "contact_id": "7dc5b4e3-f313-4183-bf8d-ae14aaf06164",
+  "company_id": "d234ab54-e087-42ff-82a6-da404fb6015b",
+  "contact_name": "Jamie Umpherson",
+  "contact_title": "Chief Creative Officer",
+  "company_name": "Runway",
+  "channel": "linkedin",
+  "message": "Subject: AI + Design Operations at Runway\n\nHi Jamie Umpherson,\n\nI noticed Runway is just promoted Jamie Umpherson to Chief Creative Officer as you expand from AI video into general world models.\n\nI'm Ryan Winzenburg\u201415 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).\n\nThe role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.\n\nRunway's artist-first culture is a design ops challenge unlike any other \u2014 I build frameworks that systematize AI-augmented creative workflows while preserving the artistic sensibility.\n\nIf Runway is thinking about this transformation, I'd love a 15-minute conversation.\n\nPortfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=runway\n\nBest,\nRyan\n",
+  "template_used": "linkedin_cold",
+  "personalization": {
+    "hook": "just promoted Jamie Umpherson to Chief Creative Officer as you expand from AI video into general world models",
+    "angle": "Runway's artist-first culture is a design ops challenge unlike any other \u2014 I build frameworks that systematize AI-augmented creative workflows while preserving the artistic sensibility.",
+    "team_size": "20+",
+    "multiplier": "3"
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T21:07:52.368906",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "runway"
+  }
+}

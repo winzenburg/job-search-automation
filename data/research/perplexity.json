@@ -1,0 +1,48 @@
+{
+  "company": {
+    "name": "Perplexity",
+    "slug": "perplexity",
+    "url": "https://perplexity.ai",
+    "linkedin": "https://linkedin.com/company/perplexity-ai",
+    "stage": "Private ($14B valuation)",
+    "funding": "$1.7B total",
+    "designer_count_estimate": 20,
+    "location": "San Francisco, CA (Remote)",
+    "ai_keywords": [
+      "AI search",
+      "answer engine",
+      "Comet browser",
+      "AI-native UX"
+    ],
+    "why_target": "Fast-growing AI search company, VP of Design leads with curiosity + computer science background",
+    "notes": "Henry Modisett is VP of Design (since Sep 2023). Sebastian Speier just promoted to Head of Design (May 2026). Team designs in React, not Figma \u2014 AI-native workflow is core to their identity. 1,152 employees.",
+    "id": "4778a82f-1cc5-40aa-817c-b7ffacf1aeb4",
+    "discovered_at": "2026-07-01T21:04:08.582972",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Fast-growing AI search company, VP of Design leads with curiosity + computer science background",
+    "design_ops_need": "Design team at Perplexity needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "leading",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "A design team that ships in React needs AI-augmented ops to systematize the design-to-code workflow \u2014 I build frameworks for exactly this kind of AI-native product environment.",
+      "Perplexity's rapid growth to 1,152 employees while maintaining design-in-code velocity needs ops infrastructure to scale without losing the team's speed advantage."
+    ],
+    "personalization_hooks": [
+      "just launched Comet, an AI-native browser that puts AI at the heart of the UX \u2014 redefining what a browser can be",
+      "your team designs in React rather than Figma, building working versions of interfaces to use while shaping them"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to VP of Design",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

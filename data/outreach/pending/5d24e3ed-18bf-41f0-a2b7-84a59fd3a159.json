@@ -1,5 +1,5 @@
 {
-  "id": "5ba57bef-ff72-47ed-9611-bb35ef2803b3",
+  "id": "5d24e3ed-18bf-41f0-a2b7-84a59fd3a159",
   "contact_id": "39e9875c-922b-4d23-beda-0c2cd2bb5e3d",
   "company_id": "72a7652c-e5f4-48c8-b40d-caccfa874888",
   "contact_name": "Noah Levin",
@@ -15,7 +15,7 @@
     "multiplier": "3"
   },
   "status": "pending_approval",
-  "generated_at": "2026-07-01T15:47:25.082657",
+  "generated_at": "2026-07-01T21:07:52.360113",
   "utm_params": {
     "utm_source": "linkedin",
     "utm_campaign": "outreach",

@@ -1,0 +1,48 @@
+{
+  "company": {
+    "name": "Gusto",
+    "slug": "gusto",
+    "url": "https://gusto.com",
+    "linkedin": "https://linkedin.com/company/gustohq",
+    "stage": "Private ($9.5B valuation)",
+    "funding": "$746M total",
+    "designer_count_estimate": 60,
+    "location": "Denver, CO + San Francisco (Remote-friendly)",
+    "ai_keywords": [
+      "Gusto AI",
+      "HR automation",
+      "payroll AI",
+      "AI-native HR"
+    ],
+    "why_target": "Colorado-based priority target, C-level CDO hire, strong AI transformation push, 200k+ SMB customers",
+    "notes": "Amy Thibodeau is CDO and Head of Core Experiences \u2014 C-level design hire. Alaine MacKenzie is VP of Product Design for AI & Core. Denver office has 226 people. Salary range for design managers: $172k-$253k.",
+    "id": "67843300-0991-48b4-a3eb-905f15f113cb",
+    "discovered_at": "2026-07-01T21:04:08.582964",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Colorado-based priority target, C-level CDO hire, strong AI transformation push, 200k+ SMB customers",
+    "design_ops_need": "Design team at Gusto needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "mid",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "A CDO actively building out her leadership bench is the exact moment to introduce AI-augmented design ops \u2014 I architect the infrastructure that makes a new executive's vision real.",
+      "Gusto's Denver presence + AI-native HR platform makes this a Colorado priority \u2014 the design ops infrastructure that scales 200k customers to 1M is exactly what I build."
+    ],
+    "personalization_hooks": [
+      "Amy Thibodeau just hired a wave of senior design leaders \u2014 Head of Brand, Head of Service Design \u2014 actively building out the C-level design org",
+      "serving 200,000+ small businesses with AI-powered HR and payroll, expanding the Denver design team"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to CDO Amy Thibodeau (Colorado priority)",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

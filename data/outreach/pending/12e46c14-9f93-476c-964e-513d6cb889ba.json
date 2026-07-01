@@ -1,5 +1,5 @@
 {
-  "id": "2c310a34-8857-4ded-8b95-363546c30047",
+  "id": "12e46c14-9f93-476c-964e-513d6cb889ba",
   "contact_id": "ce97fef3-ac48-44f8-b6dd-74f06772869d",
   "company_id": "8be5e52c-da38-4552-a742-c2570d7e30d2",
   "contact_name": "Ari Liusaari",
@@ -15,7 +15,7 @@
     "multiplier": "3"
   },
   "status": "pending_approval",
-  "generated_at": "2026-07-01T15:47:25.083334",
+  "generated_at": "2026-07-01T21:07:52.362543",
   "utm_params": {
     "utm_source": "linkedin",
     "utm_campaign": "outreach",

@@ -1,5 +1,5 @@
 {
-  "id": "8a506bb7-d21c-4a76-a624-46225b89055d",
+  "id": "802ab0fc-1d90-4af8-bf92-e3dad79bca2a",
   "contact_id": "8ba3d854-8d5f-4a54-b703-166f2b6d3f3a",
   "company_id": "18184793-ebcc-4ce3-be50-9de0c13c6af7",
   "contact_name": "Karri Saarinen",
@@ -15,7 +15,7 @@
     "multiplier": "3"
   },
   "status": "pending_approval",
-  "generated_at": "2026-07-01T15:47:25.084071",
+  "generated_at": "2026-07-01T21:07:52.364664",
   "utm_params": {
     "utm_source": "linkedin",
     "utm_campaign": "outreach",

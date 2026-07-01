@@ -1,0 +1,49 @@
+{
+  "company": {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "url": "https://anthropic.com",
+    "linkedin": "https://linkedin.com/company/anthropic",
+    "stage": "Private ($61B valuation)",
+    "funding": "$12B+ total",
+    "designer_count_estimate": 40,
+    "location": "San Francisco, CA (Hybrid)",
+    "ai_keywords": [
+      "Claude",
+      "Claude Code",
+      "Claude Cowork",
+      "Claude Design",
+      "AI safety"
+    ],
+    "why_target": "Top AI safety company, design is now a top-level product nav item, strong design leadership",
+    "notes": "Joel Lewenstein is Head of Design (company-wide). Meaghan Choi leads Claude Code design. Jenny Wen leads Claude Cowork. Small, elite pod-based design structure \u2014 AI ops expertise directly applicable.",
+    "id": "6dc5668a-3be9-4fb5-aef7-9612fd654da5",
+    "discovered_at": "2026-07-01T21:04:08.582933",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Top AI safety company, design is now a top-level product nav item, strong design leadership",
+    "design_ops_need": "Design team at Anthropic needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "leading",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "Anthropic's pod model scales beautifully at small size \u2014 but as you grow, AI-augmented ops infrastructure is what lets you preserve that velocity and cross-functional depth.",
+      "Claude Code hitting $2.5B in year one means Anthropic's design org will need to scale rapidly \u2014 systematic AI ops is what makes that scale coherent."
+    ],
+    "personalization_hooks": [
+      "launching Claude Design as a research preview \u2014 making visual exploration and design tools a top-level product category within Claude",
+      "operating with small AI-native pods of 3-5 people where designers push code and everyone works across functions"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to Head of Design",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

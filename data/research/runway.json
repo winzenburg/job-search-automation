@@ -1,0 +1,48 @@
+{
+  "company": {
+    "name": "Runway",
+    "slug": "runway",
+    "url": "https://runwayml.com",
+    "linkedin": "https://linkedin.com/company/runwayml",
+    "stage": "Private ($4.5B valuation)",
+    "funding": "$861.5M total",
+    "designer_count_estimate": 20,
+    "location": "New York, NY (Remote)",
+    "ai_keywords": [
+      "Gen-3 Alpha",
+      "AI video generation",
+      "AI creative tools",
+      "world models"
+    ],
+    "why_target": "Frontier AI creative company, co-founder was CDO, artist-first culture that is building design tooling",
+    "notes": "Jamie Umpherson is Chief Creative Officer (since Feb 2026). Alejandro Matamala (co-founder) transitioned from CDO to Chief Innovation Officer. 227 employees, growing 52% YoY. Artistic + technical intersection.",
+    "id": "d234ab54-e087-42ff-82a6-da404fb6015b",
+    "discovered_at": "2026-07-01T21:04:08.582992",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Frontier AI creative company, co-founder was CDO, artist-first culture that is building design tooling",
+    "design_ops_need": "Design team at Runway needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "leading",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "Runway's artist-first culture is a design ops challenge unlike any other \u2014 I build frameworks that systematize AI-augmented creative workflows while preserving the artistic sensibility.",
+      "As Runway scales from 227 to hundreds more people, creative ops infrastructure is what keeps the company feeling like artists building for artists."
+    ],
+    "personalization_hooks": [
+      "just promoted Jamie Umpherson to Chief Creative Officer as you expand from AI video into general world models",
+      "building AI creative tools at the intersection of art and technology \u2014 the most ambitious creative AI platform in existence"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to Chief Creative Officer",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

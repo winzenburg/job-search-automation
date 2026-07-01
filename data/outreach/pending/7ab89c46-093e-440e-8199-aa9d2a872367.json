@@ -1,5 +1,5 @@
 {
-  "id": "3706ba7e-1557-4f15-9e1f-704552722694",
+  "id": "7ab89c46-093e-440e-8199-aa9d2a872367",
   "contact_id": "ba4e325f-19b5-4a57-9764-b40d58459b3f",
   "company_id": "7627858c-0a98-44c8-9d16-37357b96eb25",
   "contact_name": "Randy Hunt",
@@ -15,7 +15,7 @@
     "multiplier": "3"
   },
   "status": "pending_approval",
-  "generated_at": "2026-07-01T15:47:25.082852",
+  "generated_at": "2026-07-01T21:07:52.360311",
   "utm_params": {
     "utm_source": "linkedin",
     "utm_campaign": "outreach",

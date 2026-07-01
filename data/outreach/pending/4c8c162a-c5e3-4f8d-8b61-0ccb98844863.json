@@ -1,0 +1,24 @@
+{
+  "id": "4c8c162a-c5e3-4f8d-8b61-0ccb98844863",
+  "contact_id": "bdefef8d-8031-48e5-9197-b0a2b5d65372",
+  "company_id": "6dc5668a-3be9-4fb5-aef7-9612fd654da5",
+  "contact_name": "Meaghan Choi",
+  "contact_title": "Head of Design, Claude Code & Cowork",
+  "company_name": "Anthropic",
+  "channel": "linkedin",
+  "message": "Subject: AI + Design Operations at Anthropic\n\nHi Meaghan Choi,\n\nI noticed Anthropic is launching Claude Design as a research preview \u2014 making visual exploration and design tools a top-level product category within Claude.\n\nI'm Ryan Winzenburg\u201415 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).\n\nThe role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.\n\nAnthropic's pod model scales beautifully at small size \u2014 but as you grow, AI-augmented ops infrastructure is what lets you preserve that velocity and cross-functional depth.\n\nIf Anthropic is thinking about this transformation, I'd love a 15-minute conversation.\n\nPortfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=anthropic\n\nBest,\nRyan\n",
+  "template_used": "linkedin_cold",
+  "personalization": {
+    "hook": "launching Claude Design as a research preview \u2014 making visual exploration and design tools a top-level product category within Claude",
+    "angle": "Anthropic's pod model scales beautifully at small size \u2014 but as you grow, AI-augmented ops infrastructure is what lets you preserve that velocity and cross-functional depth.",
+    "team_size": "20+",
+    "multiplier": "3"
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T21:07:52.367411",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "anthropic"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "company": {
+    "name": "Asana",
+    "slug": "asana",
+    "url": "https://asana.com",
+    "linkedin": "https://linkedin.com/company/asana",
+    "stage": "Public (ASAN)",
+    "funding": "$12.4B market cap",
+    "designer_count_estimate": 80,
+    "location": "San Francisco, CA (Remote)",
+    "ai_keywords": [
+      "Asana AI",
+      "Studio AI agents",
+      "AI workflows",
+      "enterprise AI"
+    ],
+    "why_target": "Enterprise work management, VP of Design since Jun 2023, building AI Studio with agents, $790M revenue",
+    "notes": "Manesh John is VP of Design (since Jun 2023), previously led 120+ person UX team at VMware. Building AI Studio with agentic experiences. Hiring Director of Product Design for core experiences. Strong design ops need at enterprise scale.",
+    "id": "1747fbb0-5012-415b-9c86-4fa87e2a1af4",
+    "discovered_at": "2026-07-01T21:04:08.582996",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Enterprise work management, VP of Design since Jun 2023, building AI Studio with agents, $790M revenue",
+    "design_ops_need": "Design team at Asana needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "mid",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "Building AI agents into a product used by global enterprises requires systematic design ops \u2014 I architect the AI-augmented workflows that let design teams ship agentic features at scale.",
+      "Manesh John's experience leading 120+ person UX teams at VMware means he knows exactly what design ops infrastructure does \u2014 this is the conversation he's been waiting to have."
+    ],
+    "personalization_hooks": [
+      "building AI Studio with agentic experiences \u2014 transforming Asana from a project management tool into an AI-native work platform",
+      "hiring a Director of Product Design for core experiences as the design org scales across 64 countries"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to VP of Design",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

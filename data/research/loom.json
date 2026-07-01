@@ -1,0 +1,48 @@
+{
+  "company": {
+    "name": "Loom (Atlassian)",
+    "slug": "loom",
+    "url": "https://loom.com",
+    "linkedin": "https://linkedin.com/company/loom",
+    "stage": "Acquired by Atlassian (2023, $975M)",
+    "funding": "$203M pre-acquisition",
+    "designer_count_estimate": 40,
+    "location": "San Francisco, CA (Remote)",
+    "ai_keywords": [
+      "Loom AI",
+      "async video AI",
+      "Atlassian Rovo",
+      "AI video summaries"
+    ],
+    "why_target": "Atlassian portfolio, strong async + AI design culture, VP Design Christina Nguyen White spoke at Config 2025",
+    "notes": "Christina Nguyen White is VP of Design (carried over from Loom into Atlassian). Stu Smith is Head of Design Senior Director for Loom Core (since Sep 2025). Part of Atlassian's AI push with Rovo.",
+    "id": "f9798d61-e509-40d7-801f-13a8fe9ec79c",
+    "discovered_at": "2026-07-01T21:04:08.582988",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Atlassian portfolio, strong async + AI design culture, VP Design Christina Nguyen White spoke at Config 2025",
+    "design_ops_need": "Design team at Loom (Atlassian) needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "mid",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "Integrating a 40-person design culture into Atlassian's 5,000-person product org is the highest-complexity design ops challenge there is \u2014 I architect exactly this kind of systematic integration.",
+      "Loom's async video + AI combination is creating new design patterns \u2014 ops infrastructure is what makes sure those patterns scale coherently across Atlassian's product portfolio."
+    ],
+    "personalization_hooks": [
+      "integrating Loom into Atlassian's AI-powered Rovo platform \u2014 redesigning async collaboration for the AI era",
+      "Stu Smith just moved into Head of Design for Loom Core (Sep 2025) after leading Confluence and Trello design"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to Head of Design",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "outreach_batch_feb_20": {
     "sent_date": "2026-02-20",
     "strategy": "LinkedIn connection requests to 5 remote-friendly design leaders",
-    "note": "OUTDATED — contacts refreshed July 2026. See outreach_batch_jul_2026 for current batch.",
+    "note": "OUTDATED \u2014 contacts refreshed July 2026. See outreach_batch_jul_2026 for current batch.",
     "contacts": [
       {
         "name": "Noah Levin",
@@ -27,7 +27,7 @@
         "follow_up_sent": null,
         "response_received": null,
         "status": "ready_to_send",
-        "notes": "Still at Notion as Head of Design. Spoke at UXDX USA May 2026. Message can be updated with fresh hook — his 'kill the org chart / skill-based teams' talk at UXDX is a perfect conversation starter.",
+        "notes": "Still at Notion as Head of Design. Spoke at UXDX USA May 2026. Message can be updated with fresh hook \u2014 his 'kill the org chart / skill-based teams' talk at UXDX is a perfect conversation starter.",
         "priority": "high"
       },
       {
@@ -53,7 +53,7 @@
         "follow_up_sent": null,
         "response_received": null,
         "status": "contact_departed",
-        "notes": "Andrew Green LEFT Canva in 2026. DO NOT SEND. Replace with Christina (CJ) Jones (Head of Design, GenAI) — linkedin: https://au.linkedin.com/in/chrisjonesish",
+        "notes": "Andrew Green LEFT Canva in 2026. DO NOT SEND. Replace with Christina (CJ) Jones (Head of Design, GenAI) \u2014 linkedin: https://au.linkedin.com/in/chrisjonesish",
         "priority": "void"
       },
       {
@@ -66,14 +66,14 @@
         "follow_up_sent": null,
         "response_received": null,
         "status": "deprioritized",
-        "notes": "Tjard is still at Miro but now secondary — Ari Liusaari (new VP, Head of Design since Jan 2026) is the primary contact. Reach out to Ari first.",
+        "notes": "Tjard is still at Miro but now secondary \u2014 Ari Liusaari (new VP, Head of Design since Jan 2026) is the primary contact. Reach out to Ari first.",
         "priority": "low"
       }
     ]
   },
   "outreach_batch_jul_2026": {
     "sent_date": null,
-    "strategy": "Refreshed LinkedIn outreach to current July 2026 design leaders — prioritizing newly hired / transitioning leaders who are actively shaping orgs",
+    "strategy": "Refreshed LinkedIn outreach to current July 2026 design leaders \u2014 prioritizing newly hired / transitioning leaders who are actively shaping orgs",
     "contacts": [
       {
         "name": "Loredana Crisan",
@@ -85,7 +85,7 @@
         "follow_up_sent": null,
         "response_received": null,
         "status": "ready_to_send",
-        "notes": "New CDO at Figma since Sep 2025 — still building out the design org. Previously VP at Meta/Instagram. First CDO hire signals design leadership expansion. Strong AI background. Ideal timing.",
+        "notes": "New CDO at Figma since Sep 2025 \u2014 still building out the design org. Previously VP at Meta/Instagram. First CDO hire signals design leadership expansion. Strong AI background. Ideal timing.",
         "priority": "very_high"
       },
       {
@@ -98,7 +98,7 @@
         "follow_up_sent": null,
         "response_received": null,
         "status": "ready_to_send",
-        "notes": "Brand new at Miro since Jan 2026 — actively building design org from scratch. Previously VP Design & Brand at Personio, Sr Director at Spotify. Actively building out the team — highest value outreach timing.",
+        "notes": "Brand new at Miro since Jan 2026 \u2014 actively building design org from scratch. Previously VP Design & Brand at Personio, Sr Director at Spotify. Actively building out the team \u2014 highest value outreach timing.",
         "priority": "very_high"
       },
       {
@@ -111,7 +111,7 @@
         "follow_up_sent": null,
         "response_received": null,
         "status": "ready_to_send",
-        "notes": "Head of Design at Airtable, reports to CEO, leading AI-native platform transformation. Actively speaking about design-led AI transformation — literally the audience for Ryan's positioning. Hook: her CPO Summit talk on 'breaking norms to accelerate AI transformation'.",
+        "notes": "Head of Design at Airtable, reports to CEO, leading AI-native platform transformation. Actively speaking about design-led AI transformation \u2014 literally the audience for Ryan's positioning. Hook: her CPO Summit talk on 'breaking norms to accelerate AI transformation'.",
         "priority": "very_high"
       },
       {
@@ -124,7 +124,7 @@
         "follow_up_sent": null,
         "response_received": null,
         "status": "ready_to_send",
-        "notes": "Head of GenAI Design at Canva — leading AI-integrated design for 200M+ users. Replaces Andrew Green (departed). Previously at Grab, Allen Institute for AI. Strong AI-design ops alignment.",
+        "notes": "Head of GenAI Design at Canva \u2014 leading AI-integrated design for 200M+ users. Replaces Andrew Green (departed). Previously at Grab, Allen Institute for AI. Strong AI-design ops alignment.",
         "priority": "high"
       },
       {
@@ -141,5 +141,41 @@
         "priority": "high"
       }
     ]
+  },
+  "outreach_batch_expansion_jul_2026": {
+    "status": "PENDING_APPROVAL",
+    "created": "2026-07-01",
+    "description": "Expansion batch \u2014 12 new companies, 14 new contacts across AI-native, fintech, Colorado, and consumer tiers",
+    "companies": [
+      "OpenAI",
+      "Anthropic",
+      "Stripe",
+      "Gusto",
+      "Databricks",
+      "Perplexity",
+      "Brex",
+      "Ramp",
+      "Duolingo",
+      "Loom (Atlassian)",
+      "Runway",
+      "Asana"
+    ],
+    "contacts": [
+      "Ian Silber (OpenAI)",
+      "Joel Lewenstein (Anthropic)",
+      "Meaghan Choi (Anthropic)",
+      "Katie Dill (Stripe)",
+      "Amy Thibodeau (Gusto)",
+      "Alaine MacKenzie (Gusto)",
+      "Ryan Donahue (Databricks)",
+      "Henry Modisett (Perplexity)",
+      "Matt Bango (Brex)",
+      "Diego Zaks (Ramp)",
+      "Ryan Sims (Duolingo)",
+      "Stu Smith (Loom/Atlassian)",
+      "Jamie Umpherson (Runway)",
+      "Manesh John (Asana)"
+    ],
+    "notes": "Based on verified 2026 research. Colorado priorities: Gusto (CDO Amy Thibodeau) and Databricks (VP Ryan Donahue). Highest alignment: Ramp (Diego Zaks actively redesigning design org for AI era)."
   }
 }

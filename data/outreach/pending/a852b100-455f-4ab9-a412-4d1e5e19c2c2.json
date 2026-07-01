@@ -1,0 +1,24 @@
+{
+  "id": "a852b100-455f-4ab9-a412-4d1e5e19c2c2",
+  "contact_id": "ff2bab41-42cd-4e47-a121-f140efdeff5c",
+  "company_id": "1747fbb0-5012-415b-9c86-4fa87e2a1af4",
+  "contact_name": "Manesh John",
+  "contact_title": "VP of Design",
+  "company_name": "Asana",
+  "channel": "linkedin",
+  "message": "Subject: AI + Design Operations at Asana\n\nHi Manesh John,\n\nI noticed Asana is building AI Studio with agentic experiences \u2014 transforming Asana from a project management tool into an AI-native work platform.\n\nI'm Ryan Winzenburg\u201415 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).\n\nThe role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.\n\nBuilding AI agents into a product used by global enterprises requires systematic design ops \u2014 I architect the AI-augmented workflows that let design teams ship agentic features at scale.\n\nIf Asana is thinking about this transformation, I'd love a 15-minute conversation.\n\nPortfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=asana\n\nBest,\nRyan\n",
+  "template_used": "linkedin_cold",
+  "personalization": {
+    "hook": "building AI Studio with agentic experiences \u2014 transforming Asana from a project management tool into an AI-native work platform",
+    "angle": "Building AI agents into a product used by global enterprises requires systematic design ops \u2014 I architect the AI-augmented workflows that let design teams ship agentic features at scale.",
+    "team_size": "50+",
+    "multiplier": "3"
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T21:07:52.369045",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "asana"
+  }
+}

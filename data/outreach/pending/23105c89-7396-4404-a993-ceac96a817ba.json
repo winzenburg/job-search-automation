@@ -1,5 +1,5 @@
 {
-  "id": "c5e34144-f935-40bf-afc2-f26e0ee753e0",
+  "id": "23105c89-7396-4404-a993-ceac96a817ba",
   "contact_id": "fad40f06-0147-4995-8f4b-6ea77f4107a9",
   "company_id": "7d320ce4-fff9-4b89-be53-39732cc4d1f4",
   "contact_name": "Jorn van Dijk",
@@ -15,7 +15,7 @@
     "multiplier": "3"
   },
   "status": "pending_approval",
-  "generated_at": "2026-07-01T15:47:25.083780",
+  "generated_at": "2026-07-01T21:07:52.364367",
   "utm_params": {
     "utm_source": "linkedin",
     "utm_campaign": "outreach",

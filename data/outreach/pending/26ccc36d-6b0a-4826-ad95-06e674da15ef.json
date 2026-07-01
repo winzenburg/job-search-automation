@@ -1,0 +1,24 @@
+{
+  "id": "26ccc36d-6b0a-4826-ad95-06e674da15ef",
+  "contact_id": "b5155219-63b1-4a8f-b882-a051ca9316c4",
+  "company_id": "9ddd8987-8b38-486a-b925-8b49f7b6416f",
+  "contact_name": "Katie Dill",
+  "contact_title": "Head of Design",
+  "company_name": "Stripe",
+  "channel": "linkedin",
+  "message": "Subject: AI + Design Operations at Stripe\n\nHi Katie Dill,\n\nI noticed Stripe is launching a new era of Stripe design \u2014 redesigning stripe.com and pushing the boundaries of what's possible in code with color, light, and form.\n\nI'm Ryan Winzenburg\u201415 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).\n\nThe role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 100+-person design team into 3x output through systematic AI integration.\n\nStripe's 'quality drives growth' philosophy at 200+ designer scale is exactly the design ops challenge I architect \u2014 systematic AI integration without losing craft excellence.\n\nIf Stripe is thinking about this transformation, I'd love a 15-minute conversation.\n\nPortfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=stripe\n\nBest,\nRyan\n",
+  "template_used": "linkedin_cold",
+  "personalization": {
+    "hook": "launching a new era of Stripe design \u2014 redesigning stripe.com and pushing the boundaries of what's possible in code with color, light, and form",
+    "angle": "Stripe's 'quality drives growth' philosophy at 200+ designer scale is exactly the design ops challenge I architect \u2014 systematic AI integration without losing craft excellence.",
+    "team_size": "100+",
+    "multiplier": "3"
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T21:07:52.367561",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "stripe"
+  }
+}

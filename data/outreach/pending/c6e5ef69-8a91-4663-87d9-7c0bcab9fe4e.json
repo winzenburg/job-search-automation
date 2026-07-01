@@ -1,5 +1,5 @@
 {
-  "id": "3b167bdb-8aeb-4162-8cec-d25141b2192d",
+  "id": "c6e5ef69-8a91-4663-87d9-7c0bcab9fe4e",
   "contact_id": "c04a642b-01a2-4391-ae95-c577f117e11d",
   "company_id": "18184793-ebcc-4ce3-be50-9de0c13c6af7",
   "contact_name": "Conor Muirhead",
@@ -15,7 +15,7 @@
     "multiplier": "3"
   },
   "status": "pending_approval",
-  "generated_at": "2026-07-01T15:47:25.083925",
+  "generated_at": "2026-07-01T21:07:52.364522",
   "utm_params": {
     "utm_source": "linkedin",
     "utm_campaign": "outreach",

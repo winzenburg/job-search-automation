@@ -1,5 +1,5 @@
 {
-  "id": "c4d2f9f3-6a35-4305-a759-f42cd7d2496c",
+  "id": "790dc65a-780b-4b8c-82e1-43500e4e7b8e",
   "contact_id": "a81f08dd-0534-43f1-8323-cec7b0e8f8e2",
   "company_id": "0905e54c-19bd-4b5a-bee3-530632d33595",
   "contact_name": "Collin Whitehead",
@@ -15,7 +15,7 @@
     "multiplier": "3"
   },
   "status": "pending_approval",
-  "generated_at": "2026-07-01T15:47:25.084486",
+  "generated_at": "2026-07-01T21:07:52.365180",
   "utm_params": {
     "utm_source": "linkedin",
     "utm_campaign": "outreach",

@@ -1,5 +1,5 @@
 {
-  "id": "d1405e25-b103-476e-ba85-36ef20ef5cb1",
+  "id": "ae5a46cd-149e-4058-b63f-123ea8b5df29",
   "contact_id": "61e8eae5-e075-4ef6-9ffb-ee0029f12277",
   "company_id": "72a7652c-e5f4-48c8-b40d-caccfa874888",
   "contact_name": "Loredana Crisan",
@@ -15,7 +15,7 @@
     "multiplier": "3"
   },
   "status": "pending_approval",
-  "generated_at": "2026-07-01T15:47:25.082359",
+  "generated_at": "2026-07-01T21:07:52.359743",
   "utm_params": {
     "utm_source": "linkedin",
     "utm_campaign": "outreach",

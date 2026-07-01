@@ -1,0 +1,49 @@
+{
+  "company": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "url": "https://openai.com",
+    "linkedin": "https://linkedin.com/company/openai",
+    "stage": "Private ($300B valuation)",
+    "funding": "$195.9B total",
+    "designer_count_estimate": 80,
+    "location": "San Francisco, CA (Hybrid)",
+    "ai_keywords": [
+      "ChatGPT",
+      "GPT-4o",
+      "Sora",
+      "AI agents",
+      "OpenAI API"
+    ],
+    "why_target": "Most influential AI company, rapidly building product design org",
+    "notes": "Ian Silber is Head of Product Design (since Aug 2023). Actively hiring \u2014 posted for senior DPM to help shape how design team works. 6,000+ employees, growing fast.",
+    "id": "609cdba2-3d02-405f-bc68-27123bde6526",
+    "discovered_at": "2026-07-01T21:04:08.582894",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Most influential AI company, rapidly building product design org",
+    "design_ops_need": "Design team at OpenAI needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "leading",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "OpenAI is designing the tools of the AI era while simultaneously figuring out how to operate as an AI-native org \u2014 systematic AI design ops is the infrastructure that makes both possible.",
+      "With 6,000+ employees and design growing fast, OpenAI needs AI-augmented ops infrastructure before the org grows faster than the design systems that hold it together."
+    ],
+    "personalization_hooks": [
+      "actively hiring across the design org right now \u2014 Ian Silber just returned from leave and is opening a bunch of design roles",
+      "building a People Innovation Labs team focused on designing the systems and tools that power how OpenAI builds internally"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to Head of Product Design",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "id": "02c70a66-db07-44ad-af40-e20f1017c40d",
+  "id": "2b13c35f-6879-47f1-9bab-d74771355701",
   "contact_id": "8deb36ca-bd26-459d-b5bc-70190be53ea8",
   "company_id": "8be5e52c-da38-4552-a742-c2570d7e30d2",
   "contact_name": "Tjard Reimann",
@@ -15,7 +15,7 @@
     "multiplier": "3"
   },
   "status": "pending_approval",
-  "generated_at": "2026-07-01T15:47:25.083473",
+  "generated_at": "2026-07-01T21:07:52.364065",
   "utm_params": {
     "utm_source": "linkedin",
     "utm_campaign": "outreach",

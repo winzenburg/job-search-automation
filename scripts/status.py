@@ -62,12 +62,13 @@ def main():
     print(f"  ✅ Approved:            {approved_outreach}")
     print(f"  ❌ Rejected:            {rejected_outreach}")
     
-    # Top companies
+    # Top companies (show all, sorted by designer count desc)
     print("\n🎯 TARGET COMPANIES")
     print("-" * 80)
-    for i, company in enumerate(companies[:10], 1):
-        status = "✅" if company.get('status') == 'researched' else "⏳"
-        print(f"{i:2}. {status} {company['name']:<20} ({company.get('designer_count_estimate', '?')} designers)")
+    sorted_cos = sorted(companies, key=lambda c: c.get("designer_count_estimate", 0), reverse=True)
+    for i, company in enumerate(sorted_cos, 1):
+        status = "✅" if company.get('status') in ('researched', 'discovered') else "⏳"
+        print(f"{i:2}. {status} {company['name']:<30} ({company.get('designer_count_estimate', '?')} designers)")
     
     # Next actions
     print("\n📋 NEXT ACTIONS")
