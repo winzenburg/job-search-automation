@@ -2,22 +2,17 @@
 """
 Application Engine
 Reads newly discovered jobs from the scanner, generates tailored PDF
-resume + cover letter for each match, and logs everything to
-data/applications.json and APPLICATIONS.md.
+resume + cover letter for each match, attempts auto-submission via
+scripts/auto_apply.py, and logs everything to data/applications.json
+and APPLICATIONS.md.
 
 Usage:
-    python3 scripts/apply_jobs.py [--limit N] [--dry-run]
+    python3 scripts/apply_jobs.py [--limit N] [--dry-run] [--no-submit]
 
 Environment:
     ANTHROPIC_API_KEY  — required for AI customization
-
-LinkedIn / Indeed Easy Apply:
-    The script flags "Easy Apply" eligible roles in the log.
-    To submit them automatically set:
-        LINKEDIN_EMAIL, LINKEDIN_PASSWORD   (GitHub Secrets)
-    then install playwright:
-        pip install playwright && playwright install chromium
-    and the auto-submit section below will handle the flow.
+    LINKEDIN_EMAIL / LINKEDIN_PASSWORD — enables LinkedIn Easy Apply
+    APPLICANT_EMAIL / APPLICANT_PHONE  — used for ATS form-fill
 """
 
 import argparse
@@ -181,22 +176,24 @@ def rebuild_applications_md(applications: list[dict]) -> None:
     lines += [
         "---",
         "",
-        "## How to Submit",
+        "## Auto-Submit Engine",
         "",
-        "### Easy Apply (LinkedIn / Indeed)",
-        "1. Open the job URL from above",
-        "2. Click Easy Apply / Quick Apply",
-        "3. Upload the PDF from `customized_applications/<Company>/`",
-        "4. Paste the cover letter text",
+        "The pipeline auto-detects the platform (LinkedIn, Greenhouse, Lever, Ashby, Indeed)",
+        "and submits using `scripts/auto_apply.py`.",
         "",
-        "### Greenhouse / Lever / Ashby portals",
+        "**Required GitHub Secrets** (see `SETUP_SECRETS.md` for full guide):",
+        "",
+        "| Secret | Purpose |",
+        "|--------|---------|",
+        "| `LINKEDIN_EMAIL` | LinkedIn account email |",
+        "| `LINKEDIN_PASSWORD` | LinkedIn account password |",
+        "| `APPLICANT_PHONE` | Phone number for ATS forms |",
+        "| `ANTHROPIC_API_KEY` | AI resume customization |",
+        "",
+        "**Manual fallback** — if auto-submit is blocked:",
         "1. Open the job URL",
-        "2. Upload resume PDF",
-        "3. Paste or upload cover letter",
-        "",
-        "### Auto-submit (experimental)",
-        "Set `LINKEDIN_EMAIL` + `LINKEDIN_PASSWORD` in GitHub Secrets,",
-        "then run `python3 scripts/linkedin_easy_apply.py`.",
+        "2. Upload the PDF from `customized_applications/<Company>/`",
+        "3. Paste the cover letter",
         "",
     ]
 
@@ -205,91 +202,23 @@ def rebuild_applications_md(applications: list[dict]) -> None:
 
 
 # ---------------------------------------------------------------------------
-# LinkedIn Easy Apply (browser automation framework)
+# Auto-submit via scripts/auto_apply.py
 # ---------------------------------------------------------------------------
 
-def attempt_linkedin_easy_apply(opp: dict, resume_pdf: str) -> bool:
+def attempt_auto_submit(opp: dict, resume_pdf: str, cover_letter_pdf: str) -> bool:
     """
-    Submit a LinkedIn Easy Apply application using Playwright.
-    Requires LINKEDIN_EMAIL + LINKEDIN_PASSWORD environment variables
-    and: pip install playwright && playwright install chromium
-
-    Returns True if successfully submitted, False otherwise.
+    Route the job through the multi-platform auto_apply engine.
+    Returns True if successfully submitted.
     """
-    email = os.getenv("LINKEDIN_EMAIL")
-    password = os.getenv("LINKEDIN_PASSWORD")
-    if not email or not password:
-        print("  ℹ️  LinkedIn credentials not set — skipping auto-submit")
-        return False
+    from scripts.auto_apply import submit  # type: ignore[import]
 
-    url = opp.get("url", "")
-    if "linkedin.com" not in url:
-        return False
-
-    try:
-        from playwright.sync_api import sync_playwright
-    except ImportError:
-        print("  ⚠️  playwright not installed — run: pip install playwright && playwright install chromium")
-        return False
-
-    print(f"  🤖 Attempting LinkedIn Easy Apply for {opp.get('company')}...")
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            context = browser.new_context()
-            page = context.new_page()
-
-            # Log in to LinkedIn
-            page.goto("https://www.linkedin.com/login", timeout=30000)
-            page.fill('input[name="session_key"]', email)
-            page.fill('input[name="session_password"]', password)
-            page.click('button[type="submit"]')
-            page.wait_for_load_state("networkidle", timeout=20000)
-
-            # Navigate to job
-            page.goto(url, timeout=30000)
-            page.wait_for_load_state("networkidle", timeout=15000)
-
-            # Click Easy Apply button
-            easy_apply_btn = page.locator("button:has-text('Easy Apply')").first
-            if not easy_apply_btn.is_visible(timeout=5000):
-                print("  ⚠️  No Easy Apply button found")
-                browser.close()
-                return False
-
-            easy_apply_btn.click()
-            page.wait_for_timeout(2000)
-
-            # Upload resume if file upload prompt appears
-            file_input = page.locator('input[type="file"]').first
-            if file_input.is_visible(timeout=3000):
-                file_input.set_input_files(resume_pdf)
-                page.wait_for_timeout(1500)
-
-            # Step through modal pages (Next → Review → Submit)
-            for _ in range(8):
-                submit_btn = page.locator("button:has-text('Submit application')").first
-                if submit_btn.is_visible(timeout=2000):
-                    submit_btn.click()
-                    page.wait_for_timeout(2000)
-                    print(f"  ✅ Submitted LinkedIn Easy Apply for {opp.get('company')}")
-                    browser.close()
-                    return True
-
-                next_btn = page.locator("button:has-text('Next')").first
-                if next_btn.is_visible(timeout=2000):
-                    next_btn.click()
-                    page.wait_for_timeout(1500)
-                else:
-                    break
-
-            browser.close()
-            print("  ⚠️  Could not complete Easy Apply flow — manual review needed")
-            return False
-
-    except Exception as e:
-        print(f"  ⚠️  LinkedIn Easy Apply failed: {e}")
-        return False
+    print(f"  🤖 Attempting auto-submit for {opp.get('company')}…")
+    result = submit(
+        url=opp.get("url", ""),
+        resume_pdf=resume_pdf if resume_pdf and Path(resume_pdf).exists() else None,
+        cover_letter_pdf=cover_letter_pdf if cover_letter_pdf and Path(cover_letter_pdf).exists() else None,
+    )
+    return bool(result.get("success"))
 
 
 # ---------------------------------------------------------------------------
@@ -300,6 +229,7 @@ def main():
     parser = argparse.ArgumentParser(description="Apply to discovered jobs")
     parser.add_argument("--limit", type=int, default=5, help="Max new jobs to process per run (default: 5)")
     parser.add_argument("--dry-run", action="store_true", help="Show what would be processed without calling the AI")
+    parser.add_argument("--no-submit", action="store_true", help="Generate materials but skip auto-submission")
     parser.add_argument("--force-url", type=str, help="Process a specific job URL directly")
     args = parser.parse_args()
 
@@ -370,10 +300,10 @@ def main():
 
         resume_pdf, cover_letter_pdf = result
 
-        # Attempt auto-submit for LinkedIn Easy Apply
+        # Attempt auto-submit (all supported platforms)
         submitted = False
-        if "linkedin.com" in url:
-            submitted = attempt_linkedin_easy_apply(opp, resume_pdf)
+        if not args.no_submit:
+            submitted = attempt_auto_submit(opp, str(resume_pdf), str(cover_letter_pdf))
 
         # Record in tracker
         applications = record_application(applications, opp, str(resume_pdf), str(cover_letter_pdf), submitted)

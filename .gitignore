@@ -7,3 +7,7 @@ customized_applications/
 *.pdf
 *.docx
 .DS_Store
+
+# Auto-submit engine artifacts
+data/.linkedin_session.json
+data/failed_screenshots/

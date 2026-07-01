@@ -21,30 +21,62 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Dependencies
+      - name: Install Python dependencies
         run: |
-          pip install anthropic reportlab markdown beautifulsoup4 pymupdf python-docx requests lxml
+          pip install \
+            anthropic reportlab markdown beautifulsoup4 pymupdf python-docx \
+            requests lxml playwright
 
-      - name: Run Antigravity Worker (scan + customize)
+      - name: Install Playwright browser (Chromium)
+        run: playwright install chromium --with-deps
+
+      - name: Run Antigravity Worker (scan + discover)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python github_daily_worker.py
 
-      - name: Run Application Engine (generate + submit)
+      - name: Generate application materials (AI resume + cover letter)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # LinkedIn Easy Apply — add these in repo Settings > Secrets
+          APPLICANT_NAME: ${{ secrets.APPLICANT_NAME }}
+          APPLICANT_EMAIL: ${{ secrets.APPLICANT_EMAIL }}
+          APPLICANT_PHONE: ${{ secrets.APPLICANT_PHONE }}
+          APPLICANT_LINKEDIN: ${{ secrets.APPLICANT_LINKEDIN }}
+          APPLICANT_LOCATION: ${{ secrets.APPLICANT_LOCATION }}
+          APPLICANT_WEBSITE: ${{ secrets.APPLICANT_WEBSITE }}
+          APPLICANT_SALARY: ${{ secrets.APPLICANT_SALARY }}
+        run: |
+          python3 scripts/apply_jobs.py --limit 5 --no-submit
+
+      - name: Auto-submit applications (LinkedIn, Greenhouse, Lever, Ashby, Indeed)
+        env:
+          # LinkedIn Easy Apply
           LINKEDIN_EMAIL: ${{ secrets.LINKEDIN_EMAIL }}
           LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
+          # Applicant profile for ATS form-fill
+          APPLICANT_NAME: ${{ secrets.APPLICANT_NAME }}
+          APPLICANT_EMAIL: ${{ secrets.APPLICANT_EMAIL }}
+          APPLICANT_PHONE: ${{ secrets.APPLICANT_PHONE }}
+          APPLICANT_LINKEDIN: ${{ secrets.APPLICANT_LINKEDIN }}
+          APPLICANT_LOCATION: ${{ secrets.APPLICANT_LOCATION }}
+          APPLICANT_WEBSITE: ${{ secrets.APPLICANT_WEBSITE }}
+          APPLICANT_SALARY: ${{ secrets.APPLICANT_SALARY }}
+          # Indeed (optional — only needed for Indeed Quick Apply)
+          INDEED_EMAIL: ${{ secrets.APPLICANT_EMAIL }}
+          INDEED_PASSWORD: ${{ secrets.INDEED_PASSWORD }}
         run: |
-          python3 scripts/apply_jobs.py --limit 5
+          python3 scripts/auto_apply.py --batch --limit 5
 
-      - name: Commit application log back to repo
+      - name: Commit application logs back to repo
         run: |
           git config user.name "Antigravity Bot"
           git config user.email "bot@antigravity"
-          git add data/applications.json APPLICATIONS.md scanner_state.json || true
+          git add \
+            data/applications.json \
+            data/.submit_rate.json \
+            APPLICATIONS.md \
+            scanner_state.json || true
           git diff --cached --quiet || git commit -m "chore: daily sweep $(date +%Y-%m-%d)"
           git push || true
 
