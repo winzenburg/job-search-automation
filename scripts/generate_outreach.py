@@ -81,8 +81,8 @@ def generate_opportunity_angle(brief: Dict) -> str:
     angles = brief.get('opportunity_angles', [])
     
     if angles:
-        # Pick strongest angle
-        return angles[0] + "."
+        angle = angles[0]
+        return angle if angle.endswith((".", "!", "?")) else angle + "."
     
     # Fallback
     return "I've built frameworks that help design teams adopt AI systematically—not just adding tools, but transforming how they work."

@@ -2,18 +2,19 @@
   "outreach_batch_feb_20": {
     "sent_date": "2026-02-20",
     "strategy": "LinkedIn connection requests to 5 remote-friendly design leaders",
+    "note": "OUTDATED — contacts refreshed July 2026. See outreach_batch_jul_2026 for current batch.",
     "contacts": [
       {
         "name": "Noah Levin",
-        "title": "Head of Product Design",
+        "title": "VP of Product Design",
         "company": "Figma",
         "linkedin": "https://www.linkedin.com/in/noahlewislevin/",
         "connection_sent": null,
         "connection_accepted": null,
         "follow_up_sent": null,
         "response_received": null,
-        "status": "ready_to_send",
-        "notes": "Grew Figma design team from 3 to 80+",
+        "status": "stale_not_sent",
+        "notes": "Title updated: now VP (not Head). Messages need refresh. Also consider reaching out to new CDO Loredana Crisan instead.",
         "priority": "high"
       },
       {
@@ -26,7 +27,7 @@
         "follow_up_sent": null,
         "response_received": null,
         "status": "ready_to_send",
-        "notes": "Advocates for designers using AI to code frontend",
+        "notes": "Still at Notion as Head of Design. Spoke at UXDX USA May 2026. Message can be updated with fresh hook — his 'kill the org chart / skill-based teams' talk at UXDX is a perfect conversation starter.",
         "priority": "high"
       },
       {
@@ -39,7 +40,7 @@
         "follow_up_sent": null,
         "response_received": null,
         "status": "ready_to_send",
-        "notes": "Design-focused CEO, ex-Airbnb, hosted recent design leadership event",
+        "notes": "Still CEO. Linear now has a dedicated Head of Product Design (Conor Muirhead, Jun 2025). Karri still worth contacting to propose a net-new design ops role.",
         "priority": "very_high"
       },
       {
@@ -51,9 +52,9 @@
         "connection_accepted": null,
         "follow_up_sent": null,
         "response_received": null,
-        "status": "ready_to_send",
-        "notes": "Leads design for 260M users, AI tools used 24B+ times",
-        "priority": "high"
+        "status": "contact_departed",
+        "notes": "Andrew Green LEFT Canva in 2026. DO NOT SEND. Replace with Christina (CJ) Jones (Head of Design, GenAI) — linkedin: https://au.linkedin.com/in/chrisjonesish",
+        "priority": "void"
       },
       {
         "name": "Tjard Reimann",
@@ -64,9 +65,80 @@
         "connection_accepted": null,
         "follow_up_sent": null,
         "response_received": null,
+        "status": "deprioritized",
+        "notes": "Tjard is still at Miro but now secondary — Ari Liusaari (new VP, Head of Design since Jan 2026) is the primary contact. Reach out to Ari first.",
+        "priority": "low"
+      }
+    ]
+  },
+  "outreach_batch_jul_2026": {
+    "sent_date": null,
+    "strategy": "Refreshed LinkedIn outreach to current July 2026 design leaders — prioritizing newly hired / transitioning leaders who are actively shaping orgs",
+    "contacts": [
+      {
+        "name": "Loredana Crisan",
+        "title": "Chief Design Officer",
+        "company": "Figma",
+        "linkedin": "https://www.linkedin.com/in/loredanacrisan",
+        "connection_sent": null,
+        "connection_accepted": null,
+        "follow_up_sent": null,
+        "response_received": null,
         "status": "ready_to_send",
-        "notes": "PLG expert, 10+ years product design leadership",
-        "priority": "medium"
+        "notes": "New CDO at Figma since Sep 2025 — still building out the design org. Previously VP at Meta/Instagram. First CDO hire signals design leadership expansion. Strong AI background. Ideal timing.",
+        "priority": "very_high"
+      },
+      {
+        "name": "Ari Liusaari",
+        "title": "VP, Head of Design",
+        "company": "Miro",
+        "linkedin": "https://www.linkedin.com/in/ariliusaari",
+        "connection_sent": null,
+        "connection_accepted": null,
+        "follow_up_sent": null,
+        "response_received": null,
+        "status": "ready_to_send",
+        "notes": "Brand new at Miro since Jan 2026 — actively building design org from scratch. Previously VP Design & Brand at Personio, Sr Director at Spotify. Actively building out the team — highest value outreach timing.",
+        "priority": "very_high"
+      },
+      {
+        "name": "Jaime Mariko McFarland",
+        "title": "VP, Head of Design",
+        "company": "Airtable",
+        "linkedin": "https://www.linkedin.com/in/jaime-mariko-mcfarland-32780b44",
+        "connection_sent": null,
+        "connection_accepted": null,
+        "follow_up_sent": null,
+        "response_received": null,
+        "status": "ready_to_send",
+        "notes": "Head of Design at Airtable, reports to CEO, leading AI-native platform transformation. Actively speaking about design-led AI transformation — literally the audience for Ryan's positioning. Hook: her CPO Summit talk on 'breaking norms to accelerate AI transformation'.",
+        "priority": "very_high"
+      },
+      {
+        "name": "Christina (CJ) Jones",
+        "title": "Head of Design, Generative AI",
+        "company": "Canva",
+        "linkedin": "https://au.linkedin.com/in/chrisjonesish",
+        "connection_sent": null,
+        "connection_accepted": null,
+        "follow_up_sent": null,
+        "response_received": null,
+        "status": "ready_to_send",
+        "notes": "Head of GenAI Design at Canva — leading AI-integrated design for 200M+ users. Replaces Andrew Green (departed). Previously at Grab, Allen Institute for AI. Strong AI-design ops alignment.",
+        "priority": "high"
+      },
+      {
+        "name": "Randy Hunt",
+        "title": "Head of Design",
+        "company": "Notion",
+        "linkedin": "https://www.linkedin.com/in/randyjhunt",
+        "connection_sent": null,
+        "connection_accepted": null,
+        "follow_up_sent": null,
+        "response_received": null,
+        "status": "ready_to_send",
+        "notes": "Still Head of Design at Notion. Fresh hook available: reference his 'Kill the Org Chart' talk at UXDX USA (May 2026) on skill-based design teams. Very relevant to Ryan's AI-augmented ops positioning.",
+        "priority": "high"
       }
     ]
   }

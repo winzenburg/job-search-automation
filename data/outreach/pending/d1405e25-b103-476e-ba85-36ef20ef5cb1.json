@@ -1,0 +1,24 @@
+{
+  "id": "d1405e25-b103-476e-ba85-36ef20ef5cb1",
+  "contact_id": "61e8eae5-e075-4ef6-9ffb-ee0029f12277",
+  "company_id": "72a7652c-e5f4-48c8-b40d-caccfa874888",
+  "contact_name": "Loredana Crisan",
+  "contact_title": "Chief Design Officer",
+  "company_name": "Figma",
+  "channel": "linkedin",
+  "message": "Subject: AI + Design Operations at Figma\n\nHi Loredana Crisan,\n\nI noticed Figma is now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer.\n\nI'm Ryan Winzenburg\u201415 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).\n\nThe role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 100+-person design team into 3x output through systematic AI integration.\n\nWith post-IPO scale and a new CDO shaping the org, this is the exact moment to build AI-augmented design ops infrastructure \u2014 I architect exactly that.\n\nIf Figma is thinking about this transformation, I'd love a 15-minute conversation.\n\nPortfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=figma\n\nBest,\nRyan\n",
+  "template_used": "linkedin_cold",
+  "personalization": {
+    "hook": "now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer",
+    "angle": "With post-IPO scale and a new CDO shaping the org, this is the exact moment to build AI-augmented design ops infrastructure \u2014 I architect exactly that.",
+    "team_size": "100+",
+    "multiplier": "3"
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T15:47:25.082359",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "figma"
+  }
+}

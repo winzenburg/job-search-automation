@@ -4,17 +4,18 @@
     "slug": "figma",
     "url": "https://figma.com",
     "linkedin": "https://linkedin.com/company/figma",
-    "stage": "Public",
-    "funding": "$332M+ (IPO pending)",
+    "stage": "Public (IPO 2025)",
+    "funding": "$1.1B revenue, public",
     "designer_count_estimate": 150,
     "location": "San Francisco, CA (Remote)",
     "ai_keywords": [
       "AI design tools",
-      "auto-layout",
-      "FigJam AI"
+      "Figma Make",
+      "FigJam AI",
+      "Figma Sites"
     ],
-    "why_target": "Leading design tool, heavy AI investment, large design team",
-    "notes": "Check for Head of Design Ops or AI + Design roles",
+    "why_target": "Leading design tool, heavy AI investment, large design team. New CDO hire (Sep 2025) signals design org expansion.",
+    "notes": "New CDO Loredana Crisan hired Sep 2025 from Meta. Noah Levin promoted to VP. Figma is now public. Strong design ops opportunity.",
     "id": "72a7652c-e5f4-48c8-b40d-caccfa874888",
     "discovered_at": "2026-02-19T11:14:05.598773",
     "status": "researched"
@@ -44,17 +45,18 @@
     "slug": "canva",
     "url": "https://canva.com",
     "linkedin": "https://linkedin.com/company/canva",
-    "stage": "Series A (Unicorn)",
-    "funding": "$572M",
-    "designer_count_estimate": 200,
+    "stage": "Pre-IPO Unicorn",
+    "funding": "$2.9B total, $4B revenue",
+    "designer_count_estimate": 300,
     "location": "Sydney, Australia (Remote)",
     "ai_keywords": [
       "Magic Write",
       "AI image generation",
-      "AI design tools"
+      "AI design tools",
+      "GenAI"
     ],
-    "why_target": "Massive design team, heavy AI integration, design ops need",
-    "notes": "Large scale = need for ops infrastructure",
+    "why_target": "Massive and fast-growing design team (8,000+ employees), heavy AI investment. Andrew Green (prev contact) departed 2026. Decentralized design leadership structure now.",
+    "notes": "Andrew Green departed Canva in 2026. Now has multiple Heads of Design by product area — CJ Jones (GenAI), Jonnie Farrell (B2B), Alex Skougarevskaya (Content & Discovery). Target CJ Jones for AI angle.",
     "id": "2844a7e3-b60c-4f36-a7e5-38d900f151f2",
     "discovered_at": "2026-02-19T11:14:05.598793",
     "status": "researched"
@@ -126,15 +128,16 @@
     "linkedin": "https://linkedin.com/company/linearapp",
     "stage": "Series B",
     "funding": "$52M",
-    "designer_count_estimate": 25,
+    "designer_count_estimate": 30,
     "location": "San Francisco, CA (Remote)",
     "ai_keywords": [
       "Product management",
       "AI issue triage",
-      "workflow automation"
+      "workflow automation",
+      "coding agents"
     ],
-    "why_target": "Design-forward product tool, growing fast",
-    "notes": "Exceptional design culture, could create role",
+    "why_target": "Design-forward product tool, grew from 74 to 130 people in past year. New Head of Product Design hired June 2025.",
+    "notes": "Conor Muirhead is new Head of Product Design (since Jun 2025). Linear profitable since 2021. 145%+ NRR. Fast growth — design ops needs growing. Karri Saarinen still CEO.",
     "id": "18184793-ebcc-4ce3-be50-9de0c13c6af7",
     "discovered_at": "2026-02-19T11:14:05.598814",
     "status": "researched"
@@ -184,17 +187,18 @@
     "slug": "superhuman",
     "url": "https://superhuman.com",
     "linkedin": "https://linkedin.com/company/superhuman",
-    "stage": "Series C",
-    "funding": "$108M",
-    "designer_count_estimate": 20,
+    "stage": "Post-acquisition (rebranded from Grammarly)",
+    "funding": "$108M (original) — now part of larger entity",
+    "designer_count_estimate": 80,
     "location": "San Francisco, CA (Remote)",
     "ai_keywords": [
       "AI email",
-      "Superhuman AI",
-      "inbox zero AI"
+      "AI writing",
+      "productivity AI",
+      "Coda integration"
     ],
-    "why_target": "Design-obsessed culture, AI-first product",
-    "notes": "Smaller team but exceptional design focus",
+    "why_target": "MAJOR CHANGE: Original Superhuman email app acquired by Grammarly, which also acquired Coda, and rebranded the whole company as 'Superhuman' — now a 920-person productivity platform. Much larger design org than original target. Design ops need significantly higher.",
+    "notes": "New VP of Design Collin Whitehead (from Dropbox) hired Oct 2025. Jonas Downey leads design for Superhuman Mail product. Company is actively building unified design org across Grammarly, Coda, and Superhuman Mail. High design ops opportunity.",
     "id": "0905e54c-19bd-4b5a-bee3-530632d33595",
     "discovered_at": "2026-02-19T11:14:05.598830",
     "status": "researched"

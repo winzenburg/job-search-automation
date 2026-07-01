@@ -1,0 +1,24 @@
+{
+  "id": "c5e34144-f935-40bf-afc2-f26e0ee753e0",
+  "contact_id": "fad40f06-0147-4995-8f4b-6ea77f4107a9",
+  "company_id": "7d320ce4-fff9-4b89-be53-39732cc4d1f4",
+  "contact_name": "Jorn van Dijk",
+  "contact_title": "CPO & Co-founder",
+  "company_name": "Framer",
+  "channel": "linkedin",
+  "message": "Subject: AI + Design Operations at Framer\n\nHi Jorn van Dijk,\n\nI noticed Framer is growing from 40 to 350+ people while building AI-powered site generation \u2014 a serious design org scaling challenge.\n\nI'm Ryan Winzenburg\u201415 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).\n\nThe role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.\n\nFramer's rapid growth without a dedicated design ops function is a classic scale inflection \u2014 I build exactly this kind of infrastructure.\n\nIf Framer is thinking about this transformation, I'd love a 15-minute conversation.\n\nPortfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=framer\n\nBest,\nRyan\n",
+  "template_used": "linkedin_cold",
+  "personalization": {
+    "hook": "growing from 40 to 350+ people while building AI-powered site generation \u2014 a serious design org scaling challenge",
+    "angle": "Framer's rapid growth without a dedicated design ops function is a classic scale inflection \u2014 I build exactly this kind of infrastructure.",
+    "team_size": "20+",
+    "multiplier": "3"
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T15:47:25.083780",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "framer"
+  }
+}

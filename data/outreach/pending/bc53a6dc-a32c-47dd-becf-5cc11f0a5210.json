@@ -1,0 +1,24 @@
+{
+  "id": "bc53a6dc-a32c-47dd-becf-5cc11f0a5210",
+  "contact_id": "e4aba577-1304-479a-9835-cc3be54be4f6",
+  "company_id": "36284de9-bff4-4fd4-9177-b728febee361",
+  "contact_name": "Jaime Mariko McFarland",
+  "contact_title": "VP, Head of Design",
+  "company_name": "Airtable",
+  "channel": "linkedin",
+  "message": "Subject: AI + Design Operations at Airtable\n\nHi Jaime Mariko McFarland,\n\nI noticed Airtable is completing a bold AI-native platform transformation \u2014 shipping Superagent and refounding the company's product direction at speed.\n\nI'm Ryan Winzenburg\u201415 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).\n\nThe role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.\n\nAfter a transformation at speed, the next challenge is systematizing what worked \u2014 I build the AI ops infrastructure that makes transformation repeatable.\n\nIf Airtable is thinking about this transformation, I'd love a 15-minute conversation.\n\nPortfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=airtable\n\nBest,\nRyan\n",
+  "template_used": "linkedin_cold",
+  "personalization": {
+    "hook": "completing a bold AI-native platform transformation \u2014 shipping Superagent and refounding the company's product direction at speed",
+    "angle": "After a transformation at speed, the next challenge is systematizing what worked \u2014 I build the AI ops infrastructure that makes transformation repeatable.",
+    "team_size": "50+",
+    "multiplier": "3"
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T15:47:25.084348",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "airtable"
+  }
+}
