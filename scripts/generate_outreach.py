@@ -88,81 +88,183 @@ def generate_opportunity_angle(brief: Dict) -> str:
     return "I've built frameworks that help design teams adopt AI systematically—not just adding tools, but transforming how they work."
 
 
-def estimate_team_size(company: Dict) -> str:
-    """Estimate current design team size."""
-    count = company.get('designer_count_estimate', 20)
-    
-    if count >= 100:
-        return "100+"
-    elif count >= 50:
-        return "50+"
-    elif count >= 20:
-        return "20+"
-    else:
-        return "15+"
-
-
-def calculate_multiplier(team_size: str) -> str:
-    """Calculate output multiplier claim based on team size."""
-    # Conservative: claim 2-3x output improvement
-    return "3"
-
-
-def generate_message(contact: Dict, company: Dict, brief: Dict) -> Dict:
-    """
-    Generate personalized outreach message for one contact.
-    """
-    # Load template
-    template = load_template("linkedin_cold")
-    
-    # Get contact name (or placeholder)
-    name = contact.get('name', 'there')
+def _first_name(full_name: str) -> str:
+    """Return just the first name, handling edge cases like 'CJ' or parenthetical nicknames."""
+    name = full_name.strip()
     if name.startswith("[Research Needed]"):
-        name = contact.get('title', 'there')  # Use title if name not found
-    
-    # Generate dynamic content
-    personalization_hook = generate_personalization_hook(company, brief)
-    opportunity_angle = generate_opportunity_angle(brief)
-    team_size = estimate_team_size(company)
-    multiplier = calculate_multiplier(team_size)
-    
-    # Fill template
+        return "there"
+    # Handle "Christina (CJ) Jones" -> "CJ"
+    paren = __import__("re").search(r"\((\w+)\)", name)
+    if paren:
+        return paren.group(1)
+    return name.split()[0]
+
+
+# Rotating message templates -- varied tone, structure, and CTA so no two
+# messages feel like they came from the same mail merge.
+_TEMPLATES = [
+    # 0 -- observation-led, conversational
+    """\
+Subject: Design ops question
+
+Hi {first_name},
+
+{company_name} is {personalization_hook} -- that's a real design challenge at scale.
+
+I've spent 15 years building design operations for teams in healthcare, fintech, and telecom. The last couple years I've been focused on something most design leaders don't have bandwidth to tackle on their own: getting AI into how teams actually work, not just which tools they use.
+
+{opportunity_angle}
+
+Worth a quick call if you ever want to compare notes?
+
+Ryan
+winzenburg.com
+""",
+    # 1 -- direct, shorter
+    """\
+Subject: Quick question about design ops at {company_name}
+
+Hi {first_name},
+
+Saw that {company_name} is {personalization_hook}. Curious how you're thinking about design ops infrastructure as that scales.
+
+Background: 15 years in design operations, and recently I've gone deep on AI integration -- the workflow side specifically, not just tooling.
+
+{opportunity_angle}
+
+Happy to chat for 15 minutes if it's relevant.
+
+Ryan
+winzenburg.com
+""",
+    # 2 -- lead with the angle
+    """\
+Subject: {company_name} + design ops
+
+Hi {first_name},
+
+{company_name} is {personalization_hook}.
+
+{opportunity_angle}
+
+I've spent 15 years in design ops across healthcare, fintech, and telecom and lately I've been working specifically on the AI integration side -- how design teams actually absorb it into their day-to-day rather than just piloting tools.
+
+Open to a short conversation if this is on your radar.
+
+Ryan
+winzenburg.com
+""",
+    # 3 -- peer tone
+    """\
+Subject: AI in design operations
+
+Hi {first_name},
+
+Noticed {company_name} is {personalization_hook}. It's a problem I've been thinking about a lot.
+
+15 years in design ops, mostly in regulated industries where you have to systematize everything. Lately I've shifted focus to AI -- specifically what it takes to get a design team using it in a way that actually sticks.
+
+{opportunity_angle}
+
+If this is something you're working through, I'd love to compare notes.
+
+Ryan
+winzenburg.com
+""",
+    # 4 -- lead with Ryan's background, then hook
+    """\
+Subject: Design operations question
+
+Hi {first_name},
+
+I spent 15 years building design ops for large teams in healthcare, fintech, and telecom. The last few years I've been focused on one specific problem: how design organizations actually integrate AI into how they work, not just the tooling decisions.
+
+{company_name} is {personalization_hook}, which is exactly the kind of context where this matters most.
+
+{opportunity_angle}
+
+Worth a quick call?
+
+Ryan
+winzenburg.com
+""",
+    # 5 -- curiosity-led
+    """\
+Subject: Something I noticed about {company_name}
+
+Hi {first_name},
+
+{company_name} is {personalization_hook} -- I've been following it.
+
+I've spent 15 years building design operations systems, and lately I've been working specifically on the AI integration side: what changes in how a design team operates when AI is actually embedded in the workflow.
+
+{opportunity_angle}
+
+Would love to hear how you're thinking about it if you have 15 minutes.
+
+Ryan
+winzenburg.com
+""",
+]
+
+# Subject line variants for when a template doesn't specify its own
+_SUBJECTS = [
+    "Design ops question",
+    "Quick question about {company_name}",
+    "AI in design operations",
+    "Design operations at {company_name}",
+    "{company_name} + design ops",
+    "Something I've been thinking about",
+]
+
+
+def generate_message(contact: Dict, company: Dict, brief: Dict, index: int = 0) -> Dict:
+    """
+    Generate a personalized outreach message for one contact.
+    `index` rotates which template variant is used so messages don't all
+    look identical.
+    """
+    name = contact.get("name", "there")
+    first = _first_name(name)
+
+    hook = generate_personalization_hook(company, brief)
+    angle = generate_opportunity_angle(brief)
+    slug = company.get("slug", company.get("name", "").lower().replace(" ", "-"))
+
+    # Pick template by index, cycling through all variants
+    template = _TEMPLATES[index % len(_TEMPLATES)]
+
     message = template.format(
-        company_name=company['name'],
-        name=name,
-        personalization_hook=personalization_hook,
-        team_size=team_size,
-        multiplier=multiplier,
-        opportunity_angle=opportunity_angle,
-        company_slug=company['slug']
+        first_name=first,
+        company_name=company["name"],
+        personalization_hook=hook,
+        opportunity_angle=angle,
+        company_slug=slug,
     )
-    
-    # Create outreach record
+
     outreach = {
         "id": str(uuid.uuid4()),
-        "contact_id": contact['id'],
-        "company_id": company['id'],
-        "contact_name": contact['name'],
-        "contact_title": contact['title'],
-        "company_name": company['name'],
+        "contact_id": contact["id"],
+        "company_id": company["id"],
+        "contact_name": name,
+        "contact_title": contact["title"],
+        "company_name": company["name"],
         "channel": "linkedin",
         "message": message,
-        "template_used": "linkedin_cold",
+        "template_used": f"linkedin_cold_v{index % len(_TEMPLATES)}",
         "personalization": {
-            "hook": personalization_hook,
-            "angle": opportunity_angle,
-            "team_size": team_size,
-            "multiplier": multiplier
+            "hook": hook,
+            "angle": angle,
         },
         "status": "pending_approval",
         "generated_at": datetime.now().isoformat(),
         "utm_params": {
             "utm_source": "linkedin",
             "utm_campaign": "outreach",
-            "utm_medium": company['slug']
-        }
+            "utm_medium": slug,
+        },
     }
-    
+
     return outreach
 
 
@@ -202,7 +304,7 @@ def main():
     # Generate outreach for each contact
     generated = 0
     
-    for contact in needs_outreach:
+    for i, contact in enumerate(needs_outreach):
         try:
             # Find company
             company_name = contact.get('company_name', '')
@@ -221,13 +323,13 @@ def main():
             company = research.get('company', {})
             brief = research.get('brief', {})
             
-            # Generate message
-            outreach = generate_message(contact, company, brief)
+            # Generate message, rotating through template variants
+            outreach = generate_message(contact, company, brief, index=i)
             
             # Save to pending queue
             filepath = save_outreach(outreach)
             
-            print(f"✅ Generated: {contact['company_name']} - {contact['title']}")
+            print(f"✅ Generated: {contact['company_name']} - {contact['title']} (v{i % 6})")
             print(f"   Saved to: {filepath.name}")
             
             generated += 1

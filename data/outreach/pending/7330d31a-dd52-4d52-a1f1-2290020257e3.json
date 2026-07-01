@@ -1,0 +1,22 @@
+{
+  "id": "7330d31a-dd52-4d52-a1f1-2290020257e3",
+  "contact_id": "8deb36ca-bd26-459d-b5bc-70190be53ea8",
+  "company_id": "8be5e52c-da38-4552-a742-c2570d7e30d2",
+  "contact_name": "Tjard Reimann",
+  "contact_title": "Head of Design, Growth",
+  "company_name": "Miro",
+  "channel": "linkedin",
+  "message": "Subject: Design ops question\n\nHi Tjard,\n\nMiro is actively building out a new design org leadership structure and AI Canvas platform strategy in 2026 -- that's a real design challenge at scale.\n\nI've spent 15 years building design operations for teams in healthcare, fintech, and telecom. The last couple years I've been focused on something most design leaders don't have bandwidth to tackle on their own: getting AI into how teams actually work, not just which tools they use.\n\nA restructured design org is a window. The first 6 to 12 months are when you can establish the infrastructure that shapes how the team operates for years.\n\nWorth a quick call if you ever want to compare notes?\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v0",
+  "personalization": {
+    "hook": "actively building out a new design org leadership structure and AI Canvas platform strategy in 2026",
+    "angle": "A restructured design org is a window. The first 6 to 12 months are when you can establish the infrastructure that shapes how the team operates for years."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.481458",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "miro"
+  }
+}

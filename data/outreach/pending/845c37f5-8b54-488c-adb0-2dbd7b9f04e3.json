@@ -1,0 +1,22 @@
+{
+  "id": "845c37f5-8b54-488c-adb0-2dbd7b9f04e3",
+  "contact_id": "654e21e8-8007-4626-9bc6-d09c25875186",
+  "company_id": "2844a7e3-b60c-4f36-a7e5-38d900f151f2",
+  "contact_name": "Jonnie Farrell",
+  "contact_title": "Head of Design, Canva for Business",
+  "company_name": "Canva",
+  "channel": "linkedin",
+  "message": "Subject: Design operations question\n\nHi Jonnie,\n\nI spent 15 years building design ops for large teams in healthcare, fintech, and telecom. The last few years I've been focused on one specific problem: how design organizations actually integrate AI into how they work, not just the tooling decisions.\n\nCanva is building GenAI design experiences for 200M+ users, one of the largest AI design challenges in the industry, which is exactly the kind of context where this matters most.\n\nAt 200M users, decisions made at the ops level have real product consequences. That's the scale where AI in the workflow either accelerates you or creates drag.\n\nWorth a quick call?\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v4",
+  "personalization": {
+    "hook": "building GenAI design experiences for 200M+ users, one of the largest AI design challenges in the industry",
+    "angle": "At 200M users, decisions made at the ops level have real product consequences. That's the scale where AI in the workflow either accelerates you or creates drag."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.481168",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "canva"
+  }
+}

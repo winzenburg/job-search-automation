@@ -1,0 +1,22 @@
+{
+  "id": "b2b00ff6-1f5a-4551-8374-ce03caae42cf",
+  "contact_id": "39e9875c-922b-4d23-beda-0c2cd2bb5e3d",
+  "company_id": "72a7652c-e5f4-48c8-b40d-caccfa874888",
+  "contact_name": "Noah Levin",
+  "contact_title": "VP of Product Design",
+  "company_name": "Figma",
+  "channel": "linkedin",
+  "message": "Subject: Quick question about design ops at Figma\n\nHi Noah,\n\nSaw that Figma is now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer. Curious how you're thinking about design ops infrastructure as that scales.\n\nBackground: 15 years in design operations, and recently I've gone deep on AI integration -- the workflow side specifically, not just tooling.\n\nPost-IPO with a new CDO is the kind of inflection point where design ops either becomes a competitive advantage or a bottleneck. I've helped teams navigate that.\n\nHappy to chat for 15 minutes if it's relevant.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v1",
+  "personalization": {
+    "hook": "now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer",
+    "angle": "Post-IPO with a new CDO is the kind of inflection point where design ops either becomes a competitive advantage or a bottleneck. I've helped teams navigate that."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.480707",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "figma"
+  }
+}

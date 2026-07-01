@@ -1,0 +1,22 @@
+{
+  "id": "5d4bdf40-772f-4806-a345-3e5aae10a303",
+  "contact_id": "da1ea1a3-b40f-43a5-b9cd-6229678d0eac",
+  "company_id": "17b3c74d-476f-439e-a8d6-b9d84db24e61",
+  "contact_name": "Ryan Donahue",
+  "contact_title": "VP Product Design",
+  "company_name": "Databricks",
+  "channel": "linkedin",
+  "message": "Subject: AI in design operations\n\nHi Ryan,\n\nNoticed Databricks is scaling to 9,875 employees and $2.6B revenue while making data and AI tools simpler and more accessible. It's a problem I've been thinking about a lot.\n\n15 years in design ops, mostly in regulated industries where you have to systematize everything. Lately I've shifted focus to AI -- specifically what it takes to get a design team using it in a way that actually sticks.\n\nMaking AI simpler for end users is one thing. Making the design org itself AI-native is a different problem, and one most design ops functions haven't figured out yet.\n\nIf this is something you're working through, I'd love to compare notes.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v3",
+  "personalization": {
+    "hook": "scaling to 9,875 employees and $2.6B revenue while making data and AI tools simpler and more accessible",
+    "angle": "Making AI simpler for end users is one thing. Making the design org itself AI-native is a different problem, and one most design ops functions haven't figured out yet."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.483398",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "databricks"
+  }
+}

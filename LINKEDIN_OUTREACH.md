@@ -1,830 +1,676 @@
-# LinkedIn Outreach — Ready to Send
+# LinkedIn Outreach -- Ready to Send
 
-_Generated: 2026-07-01 | 29 messages across 1 priority tiers_
+_Generated: 2026-07-01 | 29 messages_
 
-Copy each message directly into LinkedIn. Keep under 300 characters for connection requests.
-For InMail (if you have Premium), the full message fits without character limits.
+Copy each message directly into LinkedIn.
+Connection requests: keep under 300 characters.
+InMail (Premium): no character limit, full message fits.
 
 ---
 
-## 🟡 Tier 3 — Send Next Week
-_29 messages_
-
-### Jaime Mariko McFarland — Airtable
+### Jaime Mariko McFarland -- Airtable
 **Title:** VP, Head of Design  
-**LinkedIn:**   
-**Hook:** _completing a bold AI-native platform transformation — shipping Superagent and refounding the company's product direction at speed_
+**Hook:** _shipping Superagent and refounding the product direction at real speed_
 
 ```
-Subject: AI + Design Operations at Airtable
+Subject: Design ops question
 
-Hi Jaime Mariko McFarland,
+Hi Jaime,
 
-I noticed Airtable is completing a bold AI-native platform transformation — shipping Superagent and refounding the company's product direction at speed.
+Airtable is shipping Superagent and refounding the product direction at real speed -- that's a real design challenge at scale.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+I've spent 15 years building design operations for teams in healthcare, fintech, and telecom. The last couple years I've been focused on something most design leaders don't have bandwidth to tackle on their own: getting AI into how teams actually work, not just which tools they use.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.
+After a transformation like that, the real work is making it repeatable. That's the kind of infrastructure problem I've spent my career solving.
 
-After a transformation at speed, the next challenge is systematizing what worked — I build the AI ops infrastructure that makes transformation repeatable.
+Worth a quick call if you ever want to compare notes?
 
-If Airtable is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=airtable
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Joel Lewenstein — Anthropic
+### Joel Lewenstein -- Anthropic
 **Title:** Head of Design  
-**LinkedIn:**   
-**Hook:** _launching Claude Design as a research preview — making visual exploration and design tools a top-level product category within Claude_
+**Hook:** _launching Claude Design as a research preview, making visual design tools a top-level product category_
 
 ```
-Subject: AI + Design Operations at Anthropic
+Subject: Design operations question
 
-Hi Joel Lewenstein,
+Hi Joel,
 
-I noticed Anthropic is launching Claude Design as a research preview — making visual exploration and design tools a top-level product category within Claude.
+I spent 15 years building design ops for large teams in healthcare, fintech, and telecom. The last few years I've been focused on one specific problem: how design organizations actually integrate AI into how they work, not just the tooling decisions.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+Anthropic is launching Claude Design as a research preview, making visual design tools a top-level product category, which is exactly the kind of context where this matters most.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
+A pod model works well when the team is small. The challenge as you scale is preserving that pace without the coordination overhead that usually comes with growth.
 
-Anthropic's pod model scales beautifully at small size — but as you grow, AI-augmented ops infrastructure is what lets you preserve that velocity and cross-functional depth.
+Worth a quick call?
 
-If Anthropic is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=anthropic
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Meaghan Choi — Anthropic
+### Meaghan Choi -- Anthropic
 **Title:** Head of Design, Claude Code & Cowork  
-**LinkedIn:**   
-**Hook:** _launching Claude Design as a research preview — making visual exploration and design tools a top-level product category within Claude_
+**Hook:** _launching Claude Design as a research preview, making visual design tools a top-level product category_
 
 ```
-Subject: AI + Design Operations at Anthropic
+Subject: Something I noticed about Anthropic
 
-Hi Meaghan Choi,
+Hi Meaghan,
 
-I noticed Anthropic is launching Claude Design as a research preview — making visual exploration and design tools a top-level product category within Claude.
+Anthropic is launching Claude Design as a research preview, making visual design tools a top-level product category -- I've been following it.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+I've spent 15 years building design operations systems, and lately I've been working specifically on the AI integration side: what changes in how a design team operates when AI is actually embedded in the workflow.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
+A pod model works well when the team is small. The challenge as you scale is preserving that pace without the coordination overhead that usually comes with growth.
 
-Anthropic's pod model scales beautifully at small size — but as you grow, AI-augmented ops infrastructure is what lets you preserve that velocity and cross-functional depth.
+Would love to hear how you're thinking about it if you have 15 minutes.
 
-If Anthropic is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=anthropic
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Manesh John — Asana
+### Manesh John -- Asana
 **Title:** VP of Design  
-**LinkedIn:**   
-**Hook:** _building AI Studio with agentic experiences — transforming Asana from a project management tool into an AI-native work platform_
+**Hook:** _building AI Studio with agentic experiences, turning Asana from a project management tool into something closer to an AI work platform_
 
 ```
-Subject: AI + Design Operations at Asana
+Subject: Design operations question
 
-Hi Manesh John,
+Hi Manesh,
 
-I noticed Asana is building AI Studio with agentic experiences — transforming Asana from a project management tool into an AI-native work platform.
+I spent 15 years building design ops for large teams in healthcare, fintech, and telecom. The last few years I've been focused on one specific problem: how design organizations actually integrate AI into how they work, not just the tooling decisions.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+Asana is building AI Studio with agentic experiences, turning Asana from a project management tool into something closer to an AI work platform, which is exactly the kind of context where this matters most.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.
+Shipping agentic features to enterprise customers is a different design problem than building for individual users. The ops infrastructure that supports that transition is something most teams haven't built yet.
 
-Building AI agents into a product used by global enterprises requires systematic design ops — I architect the AI-augmented workflows that let design teams ship agentic features at scale.
+Worth a quick call?
 
-If Asana is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=asana
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Matt Bango — Brex
+### Matt Bango -- Brex
 **Title:** Chief Design Officer  
-**LinkedIn:**   
 **Hook:** _doubling down on builders in 2026 with a flat structure, and actively hiring design leaders and staff design engineers_
 
 ```
-Subject: AI + Design Operations at Brex
+Subject: Something I noticed about Brex
 
-Hi Matt Bango,
+Hi Matt,
 
-I noticed Brex is doubling down on builders in 2026 with a flat structure, and actively hiring design leaders and staff design engineers.
+Brex is doubling down on builders in 2026 with a flat structure, and actively hiring design leaders and staff design engineers -- I've been following it.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+I've spent 15 years building design operations systems, and lately I've been working specifically on the AI integration side: what changes in how a design team operates when AI is actually embedded in the workflow.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.
+Flat structure works until the design org gets big enough that informal coordination breaks down. Getting AI into the workflow without creating new overhead is something I've been focused on.
 
-Matt Bango built Palantir's global design org for 5 years before Brex — he understands the difference between design at scale with ops and without it.
+Would love to hear how you're thinking about it if you have 15 minutes.
 
-If Brex is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=brex
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Jonnie Farrell — Canva
-**Title:** Head of Design, Canva for Business  
-**LinkedIn:**   
-**Hook:** _building GenAI design experiences for 200M+ users — one of the largest AI design challenges in the industry_
-
-```
-Subject: AI + Design Operations at Canva
-
-Hi Jonnie Farrell,
-
-I noticed Canva is building GenAI design experiences for 200M+ users — one of the largest AI design challenges in the industry.
-
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
-
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 100+-person design team into 3x output through systematic AI integration.
-
-Leading AI design for 200M users requires systematic ops — I build frameworks that scale AI-augmented workflows at exactly this scope.
-
-If Canva is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=canva
-
-Best,
-Ryan
-```
-
----
-
-### Christina (CJ) Jones — Canva
+### Christina (CJ) Jones -- Canva
 **Title:** Head of Design, Generative AI  
-**LinkedIn:**   
-**Hook:** _building GenAI design experiences for 200M+ users — one of the largest AI design challenges in the industry_
+**Hook:** _building GenAI design experiences for 200M+ users, one of the largest AI design challenges in the industry_
 
 ```
-Subject: AI + Design Operations at Canva
+Subject: AI in design operations
 
-Hi Christina (CJ) Jones,
+Hi CJ,
 
-I noticed Canva is building GenAI design experiences for 200M+ users — one of the largest AI design challenges in the industry.
+Noticed Canva is building GenAI design experiences for 200M+ users, one of the largest AI design challenges in the industry. It's a problem I've been thinking about a lot.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+15 years in design ops, mostly in regulated industries where you have to systematize everything. Lately I've shifted focus to AI -- specifically what it takes to get a design team using it in a way that actually sticks.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 100+-person design team into 3x output through systematic AI integration.
+At 200M users, decisions made at the ops level have real product consequences. That's the scale where AI in the workflow either accelerates you or creates drag.
 
-Leading AI design for 200M users requires systematic ops — I build frameworks that scale AI-augmented workflows at exactly this scope.
+If this is something you're working through, I'd love to compare notes.
 
-If Canva is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=canva
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Ryan Donahue — Databricks
+### Jonnie Farrell -- Canva
+**Title:** Head of Design, Canva for Business  
+**Hook:** _building GenAI design experiences for 200M+ users, one of the largest AI design challenges in the industry_
+
+```
+Subject: Design operations question
+
+Hi Jonnie,
+
+I spent 15 years building design ops for large teams in healthcare, fintech, and telecom. The last few years I've been focused on one specific problem: how design organizations actually integrate AI into how they work, not just the tooling decisions.
+
+Canva is building GenAI design experiences for 200M+ users, one of the largest AI design challenges in the industry, which is exactly the kind of context where this matters most.
+
+At 200M users, decisions made at the ops level have real product consequences. That's the scale where AI in the workflow either accelerates you or creates drag.
+
+Worth a quick call?
+
+Ryan
+winzenburg.com
+```
+
+---
+
+### Ryan Donahue -- Databricks
 **Title:** VP Product Design  
-**LinkedIn:**   
 **Hook:** _scaling to 9,875 employees and $2.6B revenue while making data and AI tools simpler and more accessible_
 
 ```
-Subject: AI + Design Operations at Databricks
+Subject: AI in design operations
 
-Hi Ryan Donahue,
+Hi Ryan,
 
-I noticed Databricks is scaling to 9,875 employees and $2.6B revenue while making data and AI tools simpler and more accessible.
+Noticed Databricks is scaling to 9,875 employees and $2.6B revenue while making data and AI tools simpler and more accessible. It's a problem I've been thinking about a lot.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+15 years in design ops, mostly in regulated industries where you have to systematize everything. Lately I've shifted focus to AI -- specifically what it takes to get a design team using it in a way that actually sticks.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 100+-person design team into 3x output through systematic AI integration.
+Making AI simpler for end users is one thing. Making the design org itself AI-native is a different problem, and one most design ops functions haven't figured out yet.
 
-Ryan Donahue's mission of making data and AI simpler requires design ops infrastructure that systematizes AI-augmented workflows across a 100-person design org.
+If this is something you're working through, I'd love to compare notes.
 
-If Databricks is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=databricks
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Ryan Sims — Duolingo
+### Ryan Sims -- Duolingo
 **Title:** Chief Design Officer  
-**LinkedIn:**   
 **Hook:** _Ryan Sims just became Duolingo's first-ever Chief Design Officer, growing design into the company's second-largest division_
 
 ```
-Subject: AI + Design Operations at Duolingo
+Subject: Quick question about design ops at Duolingo
 
-Hi Ryan Sims,
+Hi Ryan,
 
-I noticed Duolingo is Ryan Sims just became Duolingo's first-ever Chief Design Officer, growing design into the company's second-largest division.
+Saw that Duolingo is Ryan Sims just became Duolingo's first-ever Chief Design Officer, growing design into the company's second-largest division. Curious how you're thinking about design ops infrastructure as that scales.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+Background: 15 years in design operations, and recently I've gone deep on AI integration -- the workflow side specifically, not just tooling.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 100+-person design team into 3x output through systematic AI integration.
+A new CDO scaling a 130-person team is exactly the moment where ops infrastructure pays off most. The question is whether you build it before or after the scale creates problems.
 
-A new CDO scaling design to 130+ people is the textbook moment for AI-augmented design ops — I build the infrastructure that lets a new design exec move at CDO speed without org drag.
+Happy to chat for 15 minutes if it's relevant.
 
-If Duolingo is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=duolingo
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Loredana Crisan — Figma
+### Loredana Crisan -- Figma
 **Title:** Chief Design Officer  
-**LinkedIn:**   
 **Hook:** _now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer_
 
 ```
-Subject: AI + Design Operations at Figma
+Subject: Design ops question
 
-Hi Loredana Crisan,
+Hi Loredana,
 
-I noticed Figma is now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer.
+Figma is now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer -- that's a real design challenge at scale.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+I've spent 15 years building design operations for teams in healthcare, fintech, and telecom. The last couple years I've been focused on something most design leaders don't have bandwidth to tackle on their own: getting AI into how teams actually work, not just which tools they use.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 100+-person design team into 3x output through systematic AI integration.
+Post-IPO with a new CDO is the kind of inflection point where design ops either becomes a competitive advantage or a bottleneck. I've helped teams navigate that.
 
-With post-IPO scale and a new CDO shaping the org, this is the exact moment to build AI-augmented design ops infrastructure — I architect exactly that.
+Worth a quick call if you ever want to compare notes?
 
-If Figma is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=figma
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Noah Levin — Figma
+### Noah Levin -- Figma
 **Title:** VP of Product Design  
-**LinkedIn:**   
 **Hook:** _now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer_
 
 ```
-Subject: AI + Design Operations at Figma
+Subject: Quick question about design ops at Figma
 
-Hi Noah Levin,
+Hi Noah,
 
-I noticed Figma is now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer.
+Saw that Figma is now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer. Curious how you're thinking about design ops infrastructure as that scales.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+Background: 15 years in design operations, and recently I've gone deep on AI integration -- the workflow side specifically, not just tooling.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 100+-person design team into 3x output through systematic AI integration.
+Post-IPO with a new CDO is the kind of inflection point where design ops either becomes a competitive advantage or a bottleneck. I've helped teams navigate that.
 
-With post-IPO scale and a new CDO shaping the org, this is the exact moment to build AI-augmented design ops infrastructure — I architect exactly that.
+Happy to chat for 15 minutes if it's relevant.
 
-If Figma is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=figma
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Jorn van Dijk — Framer
+### Jorn van Dijk -- Framer
 **Title:** CPO & Co-founder  
-**LinkedIn:**   
-**Hook:** _growing from 40 to 350+ people while building AI-powered site generation — a serious design org scaling challenge_
+**Hook:** _growing from 40 to 350+ people while building AI-powered site generation, a real design org scaling challenge_
 
 ```
-Subject: AI + Design Operations at Framer
+Subject: Framer + design ops
 
-Hi Jorn van Dijk,
+Hi Jorn,
 
-I noticed Framer is growing from 40 to 350+ people while building AI-powered site generation — a serious design org scaling challenge.
+Framer is growing from 40 to 350+ people while building AI-powered site generation, a real design org scaling challenge.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+Fast-growing product orgs without dedicated design ops tend to hit the same wall at a certain size. It's not a resource problem, it's a systems problem.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
+I've spent 15 years in design ops across healthcare, fintech, and telecom and lately I've been working specifically on the AI integration side -- how design teams actually absorb it into their day-to-day rather than just piloting tools.
 
-Framer's rapid growth without a dedicated design ops function is a classic scale inflection — I build exactly this kind of infrastructure.
+Open to a short conversation if this is on your radar.
 
-If Framer is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=framer
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Amy Thibodeau — Gusto
-**Title:** Chief Design Officer  
-**LinkedIn:**   
-**Hook:** _Amy Thibodeau just hired a wave of senior design leaders — Head of Brand, Head of Service Design — actively building out the C-level design org_
-
-```
-Subject: AI + Design Operations at Gusto
-
-Hi Amy Thibodeau,
-
-I noticed Gusto is Amy Thibodeau just hired a wave of senior design leaders — Head of Brand, Head of Service Design — actively building out the C-level design org.
-
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
-
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.
-
-A CDO actively building out her leadership bench is the exact moment to introduce AI-augmented design ops — I architect the infrastructure that makes a new executive's vision real.
-
-If Gusto is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=gusto
-
-Best,
-Ryan
-```
-
----
-
-### Alaine MacKenzie — Gusto
+### Alaine MacKenzie -- Gusto
 **Title:** VP of Product Design, AI & Core Experiences  
-**LinkedIn:**   
-**Hook:** _Amy Thibodeau just hired a wave of senior design leaders — Head of Brand, Head of Service Design — actively building out the C-level design org_
+**Hook:** _actively building out the design leadership bench, bringing in senior leaders across brand and service design_
 
 ```
-Subject: AI + Design Operations at Gusto
+Subject: Gusto + design ops
 
-Hi Alaine MacKenzie,
+Hi Alaine,
 
-I noticed Gusto is Amy Thibodeau just hired a wave of senior design leaders — Head of Brand, Head of Service Design — actively building out the C-level design org.
+Gusto is actively building out the design leadership bench, bringing in senior leaders across brand and service design.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+Building out a leadership bench is the right instinct. The harder part is making sure the infrastructure is in place so new leaders can actually execute.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.
+I've spent 15 years in design ops across healthcare, fintech, and telecom and lately I've been working specifically on the AI integration side -- how design teams actually absorb it into their day-to-day rather than just piloting tools.
 
-A CDO actively building out her leadership bench is the exact moment to introduce AI-augmented design ops — I architect the infrastructure that makes a new executive's vision real.
+Open to a short conversation if this is on your radar.
 
-If Gusto is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=gusto
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Karri Saarinen — Linear
+### Amy Thibodeau -- Gusto
+**Title:** Chief Design Officer  
+**Hook:** _actively building out the design leadership bench, bringing in senior leaders across brand and service design_
+
+```
+Subject: Quick question about design ops at Gusto
+
+Hi Amy,
+
+Saw that Gusto is actively building out the design leadership bench, bringing in senior leaders across brand and service design. Curious how you're thinking about design ops infrastructure as that scales.
+
+Background: 15 years in design operations, and recently I've gone deep on AI integration -- the workflow side specifically, not just tooling.
+
+Building out a leadership bench is the right instinct. The harder part is making sure the infrastructure is in place so new leaders can actually execute.
+
+Happy to chat for 15 minutes if it's relevant.
+
+Ryan
+winzenburg.com
+```
+
+---
+
+### Conor Muirhead -- Linear
+**Title:** Head of Product Design  
+**Hook:** _growing from 74 to 130 people in the past year while maintaining an exceptional design craft culture_
+
+```
+Subject: AI in design operations
+
+Hi Conor,
+
+Noticed Linear is growing from 74 to 130 people in the past year while maintaining an exceptional design craft culture. It's a problem I've been thinking about a lot.
+
+15 years in design ops, mostly in regulated industries where you have to systematize everything. Lately I've shifted focus to AI -- specifically what it takes to get a design team using it in a way that actually sticks.
+
+Staying design-led at 130 people requires different systems than at 30. The question is whether you build those before or after they become urgent.
+
+If this is something you're working through, I'd love to compare notes.
+
+Ryan
+winzenburg.com
+```
+
+---
+
+### Karri Saarinen -- Linear
 **Title:** CEO & Co-founder  
-**LinkedIn:**   
 **Hook:** _growing from 74 to 130 people in the past year while maintaining an exceptional design craft culture_
 
 ```
-Subject: AI + Design Operations at Linear
+Subject: Design operations question
 
-Hi Karri Saarinen,
+Hi Karri,
 
-I noticed Linear is growing from 74 to 130 people in the past year while maintaining an exceptional design craft culture.
+I spent 15 years building design ops for large teams in healthcare, fintech, and telecom. The last few years I've been focused on one specific problem: how design organizations actually integrate AI into how they work, not just the tooling decisions.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+Linear is growing from 74 to 130 people in the past year while maintaining an exceptional design craft culture, which is exactly the kind of context where this matters most.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
+Staying design-led at 130 people requires different systems than at 30. The question is whether you build those before or after they become urgent.
 
-Linear's growth to 130 people while staying design-led is the exact moment systematic AI ops pays off — scaling craft without bureaucracy.
+Worth a quick call?
 
-If Linear is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=linear
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Conor Muirhead — Linear
-**Title:** Head of Product Design  
-**LinkedIn:**   
-**Hook:** _growing from 74 to 130 people in the past year while maintaining an exceptional design craft culture_
-
-```
-Subject: AI + Design Operations at Linear
-
-Hi Conor Muirhead,
-
-I noticed Linear is growing from 74 to 130 people in the past year while maintaining an exceptional design craft culture.
-
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
-
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
-
-Linear's growth to 130 people while staying design-led is the exact moment systematic AI ops pays off — scaling craft without bureaucracy.
-
-If Linear is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=linear
-
-Best,
-Ryan
-```
-
----
-
-### Stu Smith — Loom (Atlassian)
+### Stu Smith -- Loom (Atlassian)
 **Title:** Head of Design, Loom Core (Senior Director)  
-**LinkedIn:**   
-**Hook:** _integrating Loom into Atlassian's AI-powered Rovo platform — redesigning async collaboration for the AI era_
+**Hook:** _integrating Loom into Atlassian's Rovo platform, redesigning async collaboration for a post-acquisition context_
 
 ```
-Subject: AI + Design Operations at Loom (Atlassian)
+Subject: Loom (Atlassian) + design ops
 
-Hi Stu Smith,
+Hi Stu,
 
-I noticed Loom (Atlassian) is integrating Loom into Atlassian's AI-powered Rovo platform — redesigning async collaboration for the AI era.
+Loom (Atlassian) is integrating Loom into Atlassian's Rovo platform, redesigning async collaboration for a post-acquisition context.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+Merging a 40-person design culture into a much larger org without losing what made it good is one of the harder design ops problems there is.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
+I've spent 15 years in design ops across healthcare, fintech, and telecom and lately I've been working specifically on the AI integration side -- how design teams actually absorb it into their day-to-day rather than just piloting tools.
 
-Integrating a 40-person design culture into Atlassian's 5,000-person product org is the highest-complexity design ops challenge there is — I architect exactly this kind of systematic integration.
+Open to a short conversation if this is on your radar.
 
-If Loom (Atlassian) is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=loom
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Tjard Reimann — Miro
-**Title:** Head of Design, Growth  
-**LinkedIn:**   
-**Hook:** _actively building out a new design org leadership structure and AI Canvas platform strategy in 2026_
-
-```
-Subject: AI + Design Operations at Miro
-
-Hi Tjard Reimann,
-
-I noticed Miro is actively building out a new design org leadership structure and AI Canvas platform strategy in 2026.
-
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
-
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.
-
-A newly restructured design org is the perfect moment to build AI-augmented ops infrastructure — highest leverage, clearest ROI.
-
-If Miro is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=miro
-
-Best,
-Ryan
-```
-
----
-
-### Ari Liusaari — Miro
+### Ari Liusaari -- Miro
 **Title:** VP, Head of Design  
-**LinkedIn:**   
 **Hook:** _actively building out a new design org leadership structure and AI Canvas platform strategy in 2026_
 
 ```
-Subject: AI + Design Operations at Miro
+Subject: Something I noticed about Miro
 
-Hi Ari Liusaari,
+Hi Ari,
 
-I noticed Miro is actively building out a new design org leadership structure and AI Canvas platform strategy in 2026.
+Miro is actively building out a new design org leadership structure and AI Canvas platform strategy in 2026 -- I've been following it.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+I've spent 15 years building design operations systems, and lately I've been working specifically on the AI integration side: what changes in how a design team operates when AI is actually embedded in the workflow.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.
+A restructured design org is a window. The first 6 to 12 months are when you can establish the infrastructure that shapes how the team operates for years.
 
-A newly restructured design org is the perfect moment to build AI-augmented ops infrastructure — highest leverage, clearest ROI.
+Would love to hear how you're thinking about it if you have 15 minutes.
 
-If Miro is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=miro
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Randy Hunt — Notion
+### Tjard Reimann -- Miro
+**Title:** Head of Design, Growth  
+**Hook:** _actively building out a new design org leadership structure and AI Canvas platform strategy in 2026_
+
+```
+Subject: Design ops question
+
+Hi Tjard,
+
+Miro is actively building out a new design org leadership structure and AI Canvas platform strategy in 2026 -- that's a real design challenge at scale.
+
+I've spent 15 years building design operations for teams in healthcare, fintech, and telecom. The last couple years I've been focused on something most design leaders don't have bandwidth to tackle on their own: getting AI into how teams actually work, not just which tools they use.
+
+A restructured design org is a window. The first 6 to 12 months are when you can establish the infrastructure that shapes how the team operates for years.
+
+Worth a quick call if you ever want to compare notes?
+
+Ryan
+winzenburg.com
+```
+
+---
+
+### Randy Hunt -- Notion
 **Title:** Head of Design  
-**LinkedIn:**   
-**Hook:** _scaling Notion AI to 100M+ users while expanding into Mail, Agents, and Q&A — a massive design coordination challenge_
+**Hook:** _scaling Notion AI to 100M+ users while expanding into Mail, Agents, and Q&A at the same time_
 
 ```
-Subject: AI + Design Operations at Notion
+Subject: Notion + design ops
 
-Hi Randy Hunt,
+Hi Randy,
 
-I noticed Notion is scaling Notion AI to 100M+ users while expanding into Mail, Agents, and Q&A — a massive design coordination challenge.
+Notion is scaling Notion AI to 100M+ users while expanding into Mail, Agents, and Q&A at the same time.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+AI in the product creates new cross-functional complexity on the design side. Most teams underestimate how much that changes the ops equation.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.
+I've spent 15 years in design ops across healthcare, fintech, and telecom and lately I've been working specifically on the AI integration side -- how design teams actually absorb it into their day-to-day rather than just piloting tools.
 
-Notion's AI expansion is creating the kind of cross-functional design complexity that ops infrastructure solves — I build frameworks that scale this.
+Open to a short conversation if this is on your radar.
 
-If Notion is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=notion
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Ian Silber — OpenAI
+### Ian Silber -- OpenAI
 **Title:** Head of Product Design  
-**LinkedIn:**   
-**Hook:** _actively hiring across the design org right now — Ian Silber just returned from leave and is opening a bunch of design roles_
+**Hook:** _actively hiring across the design org right now, opening up a number of senior design roles_
 
 ```
-Subject: AI + Design Operations at OpenAI
+Subject: AI in design operations
 
-Hi Ian Silber,
+Hi Ian,
 
-I noticed OpenAI is actively hiring across the design org right now — Ian Silber just returned from leave and is opening a bunch of design roles.
+Noticed OpenAI is actively hiring across the design org right now, opening up a number of senior design roles. It's a problem I've been thinking about a lot.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+15 years in design ops, mostly in regulated industries where you have to systematize everything. Lately I've shifted focus to AI -- specifically what it takes to get a design team using it in a way that actually sticks.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.
+Designing AI tools while building an AI-native org at the same time is a unique problem. There aren't many people who've done both at once.
 
-OpenAI is designing the tools of the AI era while simultaneously figuring out how to operate as an AI-native org — systematic AI design ops is the infrastructure that makes both possible.
+If this is something you're working through, I'd love to compare notes.
 
-If OpenAI is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=openai
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Henry Modisett — Perplexity
+### Henry Modisett -- Perplexity
 **Title:** VP of Design  
-**LinkedIn:**   
-**Hook:** _just launched Comet, an AI-native browser that puts AI at the heart of the UX — redefining what a browser can be_
+**Hook:** _launching Comet, an AI-native browser that puts AI at the center of the UX rather than the periphery_
 
 ```
-Subject: AI + Design Operations at Perplexity
+Subject: Design operations question
 
-Hi Henry Modisett,
+Hi Henry,
 
-I noticed Perplexity is just launched Comet, an AI-native browser that puts AI at the heart of the UX — redefining what a browser can be.
+I spent 15 years building design ops for large teams in healthcare, fintech, and telecom. The last few years I've been focused on one specific problem: how design organizations actually integrate AI into how they work, not just the tooling decisions.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+Perplexity is launching Comet, an AI-native browser that puts AI at the center of the UX rather than the periphery, which is exactly the kind of context where this matters most.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
+A design team that ships in React has a fundamentally different design-to-production workflow. Getting AI into that pipeline requires rethinking ops from scratch.
 
-A design team that ships in React needs AI-augmented ops to systematize the design-to-code workflow — I build frameworks for exactly this kind of AI-native product environment.
+Worth a quick call?
 
-If Perplexity is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=perplexity
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Vlad Zely — Pitch
+### Vlad Zely -- Pitch
 **Title:** Head of Product Design  
-**LinkedIn:**   
 **Hook:** _building AI-powered presentation generation (Pitch Agent) with a lean, remote-first team_
 
 ```
-Subject: AI + Design Operations at Pitch
+Subject: Something I noticed about Pitch
 
-Hi Vlad Zely,
+Hi Vlad,
 
-I noticed Pitch is building AI-powered presentation generation (Pitch Agent) with a lean, remote-first team.
+Pitch is building AI-powered presentation generation (Pitch Agent) with a lean, remote-first team -- I've been following it.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+I've spent 15 years building design operations systems, and lately I've been working specifically on the AI integration side: what changes in how a design team operates when AI is actually embedded in the workflow.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
+Small teams with big design ambitions are actually where ops infrastructure matters most. There's no headcount buffer for inefficiency.
 
-A lean design team building AI product features needs systematic workflows more than anyone — I build ops that multiplies small teams.
+Would love to hear how you're thinking about it if you have 15 minutes.
 
-If Pitch is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=pitch
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Diego Zaks — Ramp
+### Diego Zaks -- Ramp
 **Title:** VP Design  
-**LinkedIn:**   
-**Hook:** _redesigning what design org structure looks like when the whole company mass-adopts AI — making every employee a designer_
+**Hook:** _rethinking what design org structure looks like when the whole company mass-adopts AI_
 
 ```
-Subject: AI + Design Operations at Ramp
+Subject: Design ops question
 
-Hi Diego Zaks,
+Hi Diego,
 
-I noticed Ramp is redesigning what design org structure looks like when the whole company mass-adopts AI — making every employee a designer.
+Ramp is rethinking what design org structure looks like when the whole company mass-adopts AI -- that's a real design challenge at scale.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+I've spent 15 years building design operations for teams in healthcare, fintech, and telecom. The last couple years I've been focused on something most design leaders don't have bandwidth to tackle on their own: getting AI into how teams actually work, not just which tools they use.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
+Making every employee a designer is an ambitious goal. The ops infrastructure that enables it is usually the part that gets skipped.
 
-Ramp's vision of making every employee a designer requires AI-augmented design ops infrastructure — I build exactly the systematic frameworks that turn that vision into operational reality.
+Worth a quick call if you ever want to compare notes?
 
-If Ramp is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=ramp
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Jamie Umpherson — Runway
+### Jamie Umpherson -- Runway
 **Title:** Chief Creative Officer  
-**LinkedIn:**   
-**Hook:** _just promoted Jamie Umpherson to Chief Creative Officer as you expand from AI video into general world models_
+**Hook:** _building AI creative tools at the intersection of art and technology_
 
 ```
-Subject: AI + Design Operations at Runway
+Subject: AI in design operations
 
-Hi Jamie Umpherson,
+Hi Jamie,
 
-I noticed Runway is just promoted Jamie Umpherson to Chief Creative Officer as you expand from AI video into general world models.
+Noticed Runway is building AI creative tools at the intersection of art and technology. It's a problem I've been thinking about a lot.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+15 years in design ops, mostly in regulated industries where you have to systematize everything. Lately I've shifted focus to AI -- specifically what it takes to get a design team using it in a way that actually sticks.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
+Artistic-first product teams and systematic design ops don't usually go together. I've spent time figuring out how to make them work without one killing the other.
 
-Runway's artist-first culture is a design ops challenge unlike any other — I build frameworks that systematize AI-augmented creative workflows while preserving the artistic sensibility.
+If this is something you're working through, I'd love to compare notes.
 
-If Runway is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=runway
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Katie Dill — Stripe
+### Katie Dill -- Stripe
 **Title:** Head of Design  
-**LinkedIn:**   
-**Hook:** _launching a new era of Stripe design — redesigning stripe.com and pushing the boundaries of what's possible in code with color, light, and form_
+**Hook:** _launching a new design direction, redesigning stripe.com and pushing what's possible in code-driven design_
 
 ```
-Subject: AI + Design Operations at Stripe
+Subject: Design ops question
 
-Hi Katie Dill,
+Hi Katie,
 
-I noticed Stripe is launching a new era of Stripe design — redesigning stripe.com and pushing the boundaries of what's possible in code with color, light, and form.
+Stripe is launching a new design direction, redesigning stripe.com and pushing what's possible in code-driven design -- that's a real design challenge at scale.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+I've spent 15 years building design operations for teams in healthcare, fintech, and telecom. The last couple years I've been focused on something most design leaders don't have bandwidth to tackle on their own: getting AI into how teams actually work, not just which tools they use.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 100+-person design team into 3x output through systematic AI integration.
+Quality at 200-plus designers is a genuine ops problem, not just a philosophy. The systems that make craft consistent at that scale take real work to build.
 
-Stripe's 'quality drives growth' philosophy at 200+ designer scale is exactly the design ops challenge I architect — systematic AI integration without losing craft excellence.
+Worth a quick call if you ever want to compare notes?
 
-If Stripe is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=stripe
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Jonas Downey — Superhuman
-**Title:** Head of Design, Superhuman Mail  
-**LinkedIn:**   
-**Hook:** _integrating three distinct design orgs — Grammarly, Superhuman Mail, and Coda — into one unified AI productivity platform_
-
-```
-Subject: AI + Design Operations at Superhuman
-
-Hi Jonas Downey,
-
-I noticed Superhuman is integrating three distinct design orgs — Grammarly, Superhuman Mail, and Coda — into one unified AI productivity platform.
-
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
-
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
-
-Three acquired design orgs coming together into one platform is the highest-stakes design ops challenge there is — systematic AI integration is what makes it coherent.
-
-If Superhuman is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=superhuman
-
-Best,
-Ryan
-```
-
----
-
-### Collin Whitehead — Superhuman
+### Collin Whitehead -- Superhuman
 **Title:** VP of Design  
-**LinkedIn:**   
-**Hook:** _integrating three distinct design orgs — Grammarly, Superhuman Mail, and Coda — into one unified AI productivity platform_
+**Hook:** _integrating three distinct design orgs from Grammarly, Superhuman Mail, and Coda into one unified product_
 
 ```
-Subject: AI + Design Operations at Superhuman
+Subject: Quick question about design ops at Superhuman
 
-Hi Collin Whitehead,
+Hi Collin,
 
-I noticed Superhuman is integrating three distinct design orgs — Grammarly, Superhuman Mail, and Coda — into one unified AI productivity platform.
+Saw that Superhuman is integrating three distinct design orgs from Grammarly, Superhuman Mail, and Coda into one unified product. Curious how you're thinking about design ops infrastructure as that scales.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+Background: 15 years in design operations, and recently I've gone deep on AI integration -- the workflow side specifically, not just tooling.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 20+-person design team into 3x output through systematic AI integration.
+Integrating multiple design orgs after acquisitions is where culture and process conflict most visibly. Getting ahead of that is a lot easier than catching up.
 
-Three acquired design orgs coming together into one platform is the highest-stakes design ops challenge there is — systematic AI integration is what makes it coherent.
+Happy to chat for 15 minutes if it's relevant.
 
-If Superhuman is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=superhuman
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
 
-### Kevin Wong — Webflow
+### Jonas Downey -- Superhuman
+**Title:** Head of Design, Superhuman Mail  
+**Hook:** _integrating three distinct design orgs from Grammarly, Superhuman Mail, and Coda into one unified product_
+
+```
+Subject: Superhuman + design ops
+
+Hi Jonas,
+
+Superhuman is integrating three distinct design orgs from Grammarly, Superhuman Mail, and Coda into one unified product.
+
+Integrating multiple design orgs after acquisitions is where culture and process conflict most visibly. Getting ahead of that is a lot easier than catching up.
+
+I've spent 15 years in design ops across healthcare, fintech, and telecom and lately I've been working specifically on the AI integration side -- how design teams actually absorb it into their day-to-day rather than just piloting tools.
+
+Open to a short conversation if this is on your radar.
+
+Ryan
+winzenburg.com
+```
+
+---
+
+### Kevin Wong -- Webflow
 **Title:** VP of Product Design  
-**LinkedIn:**   
-**Hook:** _evolving from a website builder into a multi-product AI-native platform — a significant design systems and ops challenge_
+**Hook:** _evolving from a website builder into a multi-product platform, a significant design systems challenge_
 
 ```
-Subject: AI + Design Operations at Webflow
+Subject: Quick question about design ops at Webflow
 
-Hi Kevin Wong,
+Hi Kevin,
 
-I noticed Webflow is evolving from a website builder into a multi-product AI-native platform — a significant design systems and ops challenge.
+Saw that Webflow is evolving from a website builder into a multi-product platform, a significant design systems challenge. Curious how you're thinking about design ops infrastructure as that scales.
 
-I'm Ryan Winzenburg—15 years architecting design operations for healthcare, fintech, and telecom. Now I'm focused on helping design teams integrate AI into their workflows (not just tools, but how they work).
+Background: 15 years in design operations, and recently I've gone deep on AI integration -- the workflow side specifically, not just tooling.
 
-The role I'm looking for doesn't exist yet: AI-Augmented Design Operations Leader. Someone who can transform a 50+-person design team into 3x output through systematic AI integration.
+Multi-product AI transitions are exactly when design ops either enables the team or holds it back. The window to build the right infrastructure is narrow.
 
-A multi-product AI-native platform transition is exactly when design ops infrastructure becomes critical — I've built this for complex product portfolios.
+Happy to chat for 15 minutes if it's relevant.
 
-If Webflow is thinking about this transformation, I'd love a 15-minute conversation.
-
-Portfolio: https://winzenburg.com?utm_source=linkedin&utm_campaign=outreach&utm_medium=webflow
-
-Best,
 Ryan
+winzenburg.com
 ```
 
 ---
-
-## After Sending
-
-Update `tracker.md` → Direct Company Outreach table with:
-- Contact name, company, date sent, status = Contacted
-
-Run `python3 scripts/status.py` to see pipeline overview.

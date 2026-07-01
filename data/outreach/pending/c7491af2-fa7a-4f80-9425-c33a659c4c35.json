@@ -1,0 +1,22 @@
+{
+  "id": "c7491af2-fa7a-4f80-9425-c33a659c4c35",
+  "contact_id": "3eb73e84-8106-4226-80b1-7e7c5f50d37c",
+  "company_id": "0bdb98a8-d20f-49a6-94e6-fe1b46d633be",
+  "contact_name": "Kevin Wong",
+  "contact_title": "VP of Product Design",
+  "company_name": "Webflow",
+  "channel": "linkedin",
+  "message": "Subject: Quick question about design ops at Webflow\n\nHi Kevin,\n\nSaw that Webflow is evolving from a website builder into a multi-product platform, a significant design systems challenge. Curious how you're thinking about design ops infrastructure as that scales.\n\nBackground: 15 years in design operations, and recently I've gone deep on AI integration -- the workflow side specifically, not just tooling.\n\nMulti-product AI transitions are exactly when design ops either enables the team or holds it back. The window to build the right infrastructure is narrow.\n\nHappy to chat for 15 minutes if it's relevant.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v1",
+  "personalization": {
+    "hook": "evolving from a website builder into a multi-product platform, a significant design systems challenge",
+    "angle": "Multi-product AI transitions are exactly when design ops either enables the team or holds it back. The window to build the right infrastructure is narrow."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.481622",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "webflow"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "56db484c-f735-479d-ab45-780819a90497",
+  "contact_id": "bdefef8d-8031-48e5-9197-b0a2b5d65372",
+  "company_id": "6dc5668a-3be9-4fb5-aef7-9612fd654da5",
+  "contact_name": "Meaghan Choi",
+  "contact_title": "Head of Design, Claude Code & Cowork",
+  "company_name": "Anthropic",
+  "channel": "linkedin",
+  "message": "Subject: Something I noticed about Anthropic\n\nHi Meaghan,\n\nAnthropic is launching Claude Design as a research preview, making visual design tools a top-level product category -- I've been following it.\n\nI've spent 15 years building design operations systems, and lately I've been working specifically on the AI integration side: what changes in how a design team operates when AI is actually embedded in the workflow.\n\nA pod model works well when the team is small. The challenge as you scale is preserving that pace without the coordination overhead that usually comes with growth.\n\nWould love to hear how you're thinking about it if you have 15 minutes.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v5",
+  "personalization": {
+    "hook": "launching Claude Design as a research preview, making visual design tools a top-level product category",
+    "angle": "A pod model works well when the team is small. The challenge as you scale is preserving that pace without the coordination overhead that usually comes with growth."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.482899",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "anthropic"
+  }
+}

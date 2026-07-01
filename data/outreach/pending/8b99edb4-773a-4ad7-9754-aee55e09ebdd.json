@@ -1,0 +1,22 @@
+{
+  "id": "8b99edb4-773a-4ad7-9754-aee55e09ebdd",
+  "contact_id": "17033c77-460a-4371-827a-0bcac68fc409",
+  "company_id": "950a55e3-2236-40de-8e2a-5eba257471dc",
+  "contact_name": "Ryan Sims",
+  "contact_title": "Chief Design Officer",
+  "company_name": "Duolingo",
+  "channel": "linkedin",
+  "message": "Subject: Quick question about design ops at Duolingo\n\nHi Ryan,\n\nSaw that Duolingo is Ryan Sims just became Duolingo's first-ever Chief Design Officer, growing design into the company's second-largest division. Curious how you're thinking about design ops infrastructure as that scales.\n\nBackground: 15 years in design operations, and recently I've gone deep on AI integration -- the workflow side specifically, not just tooling.\n\nA new CDO scaling a 130-person team is exactly the moment where ops infrastructure pays off most. The question is whether you build it before or after the scale creates problems.\n\nHappy to chat for 15 minutes if it's relevant.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v1",
+  "personalization": {
+    "hook": "Ryan Sims just became Duolingo's first-ever Chief Design Officer, growing design into the company's second-largest division",
+    "angle": "A new CDO scaling a 130-person team is exactly the moment where ops infrastructure pays off most. The question is whether you build it before or after the scale creates problems."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.483907",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "duolingo"
+  }
+}

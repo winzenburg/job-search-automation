@@ -1,0 +1,22 @@
+{
+  "id": "a438c838-9197-4885-978b-64de8b73d2b0",
+  "contact_id": "ba4e325f-19b5-4a57-9764-b40d58459b3f",
+  "company_id": "7627858c-0a98-44c8-9d16-37357b96eb25",
+  "contact_name": "Randy Hunt",
+  "contact_title": "Head of Design",
+  "company_name": "Notion",
+  "channel": "linkedin",
+  "message": "Subject: Notion + design ops\n\nHi Randy,\n\nNotion is scaling Notion AI to 100M+ users while expanding into Mail, Agents, and Q&A at the same time.\n\nAI in the product creates new cross-functional complexity on the design side. Most teams underestimate how much that changes the ops equation.\n\nI've spent 15 years in design ops across healthcare, fintech, and telecom and lately I've been working specifically on the AI integration side -- how design teams actually absorb it into their day-to-day rather than just piloting tools.\n\nOpen to a short conversation if this is on your radar.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v2",
+  "personalization": {
+    "hook": "scaling Notion AI to 100M+ users while expanding into Mail, Agents, and Q&A at the same time",
+    "angle": "AI in the product creates new cross-functional complexity on the design side. Most teams underestimate how much that changes the ops equation."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.480886",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "notion"
+  }
+}

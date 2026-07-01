@@ -1,0 +1,22 @@
+{
+  "id": "7fb982b6-4f4f-4460-bdd1-a541187dc8d5",
+  "contact_id": "cce60ada-ffd3-4992-b564-d7182823942b",
+  "company_id": "2844a7e3-b60c-4f36-a7e5-38d900f151f2",
+  "contact_name": "Christina (CJ) Jones",
+  "contact_title": "Head of Design, Generative AI",
+  "company_name": "Canva",
+  "channel": "linkedin",
+  "message": "Subject: AI in design operations\n\nHi CJ,\n\nNoticed Canva is building GenAI design experiences for 200M+ users, one of the largest AI design challenges in the industry. It's a problem I've been thinking about a lot.\n\n15 years in design ops, mostly in regulated industries where you have to systematize everything. Lately I've shifted focus to AI -- specifically what it takes to get a design team using it in a way that actually sticks.\n\nAt 200M users, decisions made at the ops level have real product consequences. That's the scale where AI in the workflow either accelerates you or creates drag.\n\nIf this is something you're working through, I'd love to compare notes.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v3",
+  "personalization": {
+    "hook": "building GenAI design experiences for 200M+ users, one of the largest AI design challenges in the industry",
+    "angle": "At 200M users, decisions made at the ops level have real product consequences. That's the scale where AI in the workflow either accelerates you or creates drag."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.481032",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "canva"
+  }
+}

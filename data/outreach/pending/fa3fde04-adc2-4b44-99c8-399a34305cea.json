@@ -1,0 +1,22 @@
+{
+  "id": "fa3fde04-adc2-4b44-99c8-399a34305cea",
+  "contact_id": "b5155219-63b1-4a8f-b882-a051ca9316c4",
+  "company_id": "9ddd8987-8b38-486a-b925-8b49f7b6416f",
+  "contact_name": "Katie Dill",
+  "contact_title": "Head of Design",
+  "company_name": "Stripe",
+  "channel": "linkedin",
+  "message": "Subject: Design ops question\n\nHi Katie,\n\nStripe is launching a new design direction, redesigning stripe.com and pushing what's possible in code-driven design -- that's a real design challenge at scale.\n\nI've spent 15 years building design operations for teams in healthcare, fintech, and telecom. The last couple years I've been focused on something most design leaders don't have bandwidth to tackle on their own: getting AI into how teams actually work, not just which tools they use.\n\nQuality at 200-plus designers is a genuine ops problem, not just a philosophy. The systems that make craft consistent at that scale take real work to build.\n\nWorth a quick call if you ever want to compare notes?\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v0",
+  "personalization": {
+    "hook": "launching a new design direction, redesigning stripe.com and pushing what's possible in code-driven design",
+    "angle": "Quality at 200-plus designers is a genuine ops problem, not just a philosophy. The systems that make craft consistent at that scale take real work to build."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.483039",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "stripe"
+  }
+}

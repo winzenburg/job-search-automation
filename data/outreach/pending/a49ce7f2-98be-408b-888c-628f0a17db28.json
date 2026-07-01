@@ -1,0 +1,22 @@
+{
+  "id": "a49ce7f2-98be-408b-888c-628f0a17db28",
+  "contact_id": "ff2bab41-42cd-4e47-a121-f140efdeff5c",
+  "company_id": "1747fbb0-5012-415b-9c86-4fa87e2a1af4",
+  "contact_name": "Manesh John",
+  "contact_title": "VP of Design",
+  "company_name": "Asana",
+  "channel": "linkedin",
+  "message": "Subject: Design operations question\n\nHi Manesh,\n\nI spent 15 years building design ops for large teams in healthcare, fintech, and telecom. The last few years I've been focused on one specific problem: how design organizations actually integrate AI into how they work, not just the tooling decisions.\n\nAsana is building AI Studio with agentic experiences, turning Asana from a project management tool into something closer to an AI work platform, which is exactly the kind of context where this matters most.\n\nShipping agentic features to enterprise customers is a different design problem than building for individual users. The ops infrastructure that supports that transition is something most teams haven't built yet.\n\nWorth a quick call?\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v4",
+  "personalization": {
+    "hook": "building AI Studio with agentic experiences, turning Asana from a project management tool into something closer to an AI work platform",
+    "angle": "Shipping agentic features to enterprise customers is a different design problem than building for individual users. The ops infrastructure that supports that transition is something most teams haven't built yet."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.484254",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "asana"
+  }
+}

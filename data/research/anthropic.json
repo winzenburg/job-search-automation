@@ -31,12 +31,10 @@
       "Need for systematic AI-augmented workflows"
     ],
     "opportunity_angles": [
-      "Anthropic's pod model scales beautifully at small size \u2014 but as you grow, AI-augmented ops infrastructure is what lets you preserve that velocity and cross-functional depth.",
-      "Claude Code hitting $2.5B in year one means Anthropic's design org will need to scale rapidly \u2014 systematic AI ops is what makes that scale coherent."
+      "A pod model works well when the team is small. The challenge as you scale is preserving that pace without the coordination overhead that usually comes with growth."
     ],
     "personalization_hooks": [
-      "launching Claude Design as a research preview \u2014 making visual exploration and design tools a top-level product category within Claude",
-      "operating with small AI-native pods of 3-5 people where designers push code and everyone works across functions"
+      "launching Claude Design as a research preview, making visual design tools a top-level product category"
     ],
     "outreach_strategy": "Direct LinkedIn outreach to Head of Design",
     "decision_makers_likely_titles": [

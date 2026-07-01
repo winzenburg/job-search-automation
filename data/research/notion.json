@@ -29,12 +29,10 @@
       "Need for systematic design-to-development handoff"
     ],
     "opportunity_angles": [
-      "Notion's AI expansion is creating the kind of cross-functional design complexity that ops infrastructure solves \u2014 I build frameworks that scale this.",
-      "A skill-based team model at Notion's scale is exactly where AI-augmented ops fits \u2014 systematic capability building without hierarchy bloat."
+      "AI in the product creates new cross-functional complexity on the design side. Most teams underestimate how much that changes the ops equation."
     ],
     "personalization_hooks": [
-      "scaling Notion AI to 100M+ users while expanding into Mail, Agents, and Q&A \u2014 a massive design coordination challenge",
-      "building skill-based design teams as your org grows across AI product lines"
+      "scaling Notion AI to 100M+ users while expanding into Mail, Agents, and Q&A at the same time"
     ],
     "outreach_strategy": "Direct LinkedIn outreach to VP of Design",
     "decision_makers_likely_titles": [

@@ -1,0 +1,22 @@
+{
+  "id": "f293da1e-41e5-401e-9a80-cbf69b7ae89b",
+  "contact_id": "e47e83cc-61f5-474e-8d13-e187e1e2549d",
+  "company_id": "e3ba3cf1-5b78-4974-a0b7-e5eb27170aed",
+  "contact_name": "Diego Zaks",
+  "contact_title": "VP Design",
+  "company_name": "Ramp",
+  "channel": "linkedin",
+  "message": "Subject: Design ops question\n\nHi Diego,\n\nRamp is rethinking what design org structure looks like when the whole company mass-adopts AI -- that's a real design challenge at scale.\n\nI've spent 15 years building design operations for teams in healthcare, fintech, and telecom. The last couple years I've been focused on something most design leaders don't have bandwidth to tackle on their own: getting AI into how teams actually work, not just which tools they use.\n\nMaking every employee a designer is an ambitious goal. The ops infrastructure that enables it is usually the part that gets skipped.\n\nWorth a quick call if you ever want to compare notes?\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v0",
+  "personalization": {
+    "hook": "rethinking what design org structure looks like when the whole company mass-adopts AI",
+    "angle": "Making every employee a designer is an ambitious goal. The ops infrastructure that enables it is usually the part that gets skipped."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.483786",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "ramp"
+  }
+}
