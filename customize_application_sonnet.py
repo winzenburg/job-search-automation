@@ -28,23 +28,117 @@ def load_voice_guide():
         return ""
 
 
-def fetch_job_posting_via_openclaw(url):
+def fetch_job_posting_via_openclaw(url: str) -> dict:
     """
-    Fetch job posting using OpenClaw web_fetch.
-    This function acts as a bridge to the web_fetch tool.
+    Fetch job posting content from the job URL.
+
+    Strategy (in priority order):
+    1. Ashby API  — structured JSON, richest content
+    2. Greenhouse API — structured JSON
+    3. Lever API — structured JSON
+    4. HTTP fallback — strip HTML tags from raw page
+
+    Returns a dict with 'url', 'content', and 'fetched_at'.
     """
+    import urllib.request
+    import urllib.parse
+    import re
+
     print(f"[FETCH] Retrieving job posting from: {url}")
-    
-    # In production, this would integrate with OpenClaw's web_fetch
-    # For now, return structure that Sonnet can work with
-    
-    # Call OpenClaw's web_fetch via subprocess/API
-    # Example integration point:
-    # result = web_fetch(url, extractMode="text", maxChars=5000)
-    
+    content = ""
+
+    try:
+        # ── Ashby structured fetch ──────────────────────────────────────────
+        # URL pattern: jobs.ashbyhq.com/{company}/{uuid}
+        ashby_match = re.search(r"ashbyhq\.com/([^/]+)/([0-9a-f-]{36})", url)
+        if ashby_match:
+            company_slug = ashby_match.group(1)
+            job_id = ashby_match.group(2)
+            api_url = (
+                f"https://api.ashbyhq.com/posting-api/job-board/{company_slug}"
+                f"?includeCompensation=true"
+            )
+            req = urllib.request.Request(
+                api_url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+            )
+            with urllib.request.urlopen(req, timeout=10) as r:
+                data = json.loads(r.read().decode())
+            for posting in data.get("jobPostings", []):
+                if posting.get("id") == job_id:
+                    content = posting.get("descriptionPlain", "") or posting.get("description", "")
+                    break
+
+        # ── Greenhouse structured fetch ─────────────────────────────────────
+        # URL pattern: boards.greenhouse.io/{company}/jobs/{id}
+        elif "greenhouse.io" in url:
+            gh_match = re.search(r"greenhouse\.io/([^/]+)/jobs/(\d+)", url)
+            if gh_match:
+                company_slug = gh_match.group(1)
+                job_id = gh_match.group(2)
+                api_url = f"https://boards.greenhouse.io/{company_slug}/jobs/{job_id}?content=true"
+                req = urllib.request.Request(
+                    api_url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+                )
+                with urllib.request.urlopen(req, timeout=10) as r:
+                    data = json.loads(r.read().decode())
+                content = data.get("content", "") or data.get("description", "")
+
+        # ── Lever structured fetch ──────────────────────────────────────────
+        # URL pattern: jobs.lever.co/{company}/{uuid}
+        elif "lever.co" in url:
+            lever_match = re.search(r"lever\.co/([^/]+)/([0-9a-f-]{36})", url)
+            if lever_match:
+                company_slug = lever_match.group(1)
+                job_id = lever_match.group(2)
+                api_url = f"https://api.lever.co/v0/postings/{company_slug}/{job_id}"
+                req = urllib.request.Request(
+                    api_url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+                )
+                with urllib.request.urlopen(req, timeout=10) as r:
+                    data = json.loads(r.read().decode())
+                desc = data.get("description", "") or ""
+                lists = data.get("lists", [])
+                list_text = "\n".join(
+                    f"{lst.get('text','')}: {lst.get('content','')}" for lst in lists
+                )
+                content = f"{desc}\n{list_text}".strip()
+
+    except Exception as e:
+        print(f"  ⚠️  Structured fetch failed ({e}), falling back to HTML scrape")
+
+    # ── HTML fallback ───────────────────────────────────────────────────────
+    if not content:
+        try:
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": (
+                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                        "AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
+                    ),
+                    "Accept": "text/html,application/xhtml+xml",
+                }
+            )
+            with urllib.request.urlopen(req, timeout=15) as r:
+                raw_html = r.read().decode("utf-8", errors="replace")
+
+            # Strip tags and compress whitespace
+            no_tags = re.sub(r"<[^>]+>", " ", raw_html)
+            content = re.sub(r"\s{2,}", " ", no_tags).strip()[:6000]
+
+        except Exception as e:
+            print(f"  ⚠️  HTML fallback also failed: {e}")
+            content = "(Job posting content could not be fetched — apply manually)"
+
+    # Strip HTML entities from any fetched content
+    content = re.sub(r"&[a-z]+;", " ", content)
+    content = re.sub(r"&#\d+;", " ", content)
+    content = content.strip()[:6000]
+
+    print(f"[✓] Fetched {len(content)} chars of job content")
     return {
         "url": url,
-        "content": "[Job posting content would be fetched via OpenClaw web_fetch]",
+        "content": content,
         "fetched_at": datetime.now().isoformat(),
     }
 

@@ -224,7 +224,8 @@ def search_hn_who_is_hiring() -> list[dict]:
         # Find the most recent "Ask HN: Who is hiring?" story
         search_url = (
             "https://hn.algolia.com/api/v1/search"
-            "?query=Ask+HN+Who+is+hiring&tags=ask_hn&hitsPerPage=3&numericFilters=points>10"
+            "?query=Ask+HN+Who+is+hiring&tags=ask_hn&hitsPerPage=3"
+            "&numericFilters=points%3E10"
         )
         req = urllib.request.Request(
             search_url,
@@ -363,6 +364,144 @@ def search_company_career_feeds() -> list[dict]:
 
         except Exception as e:
             print(f"  ⚠️  {company} (Ashby): {e}")
+
+    return opportunities
+
+
+def search_linkedin_guest() -> list[dict]:
+    """
+    Search LinkedIn Jobs via the public guest API (no authentication required).
+    LinkedIn's guest endpoint returns HTML job cards that we parse with regex.
+    Targets senior design leadership roles in remote positions.
+    """
+    opportunities = []
+
+    queries = [
+        ("head of design", "Remote"),
+        ("VP design", "Remote"),
+        ("design director remote", "Remote"),
+        ("design operations director", "United States"),
+    ]
+
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching LinkedIn Jobs (guest API)...")
+
+    for keywords, location in queries:
+        try:
+            encoded_kw = urllib.parse.quote(keywords)
+            encoded_loc = urllib.parse.quote(location)
+            url = (
+                "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
+                f"?keywords={encoded_kw}&location={encoded_loc}"
+                f"&f_WT=2&sortBy=DD&start=0"
+            )
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": (
+                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                        "AppleWebKit/537.36 (KHTML, like Gecko) "
+                        "Chrome/124.0.0.0 Safari/537.36"
+                    ),
+                    "Accept": "text/html,application/xhtml+xml",
+                    "Accept-Language": "en-US,en;q=0.9",
+                }
+            )
+            with urllib.request.urlopen(req, timeout=15) as response:
+                html = response.read().decode("utf-8", errors="replace")
+
+            # Extract job cards from HTML
+            # LinkedIn guest API returns <li> elements with embedded data
+            job_id_pattern = re.compile(r'data-entity-urn="[^"]*:(\d+)"')
+            title_pattern = re.compile(r'class="sr-only"[^>]*>\s*([^<]+)</span>', re.DOTALL)
+            company_pattern = re.compile(r'class="hidden-nested-link"[^>]*>\s*([^<]+)</a>', re.DOTALL)
+
+            # Simpler: extract job links and titles from anchor tags
+            link_title_pattern = re.compile(
+                r'href="(https://www\.linkedin\.com/jobs/view/[^"?]+)[^"]*"[^>]*>\s*<span[^>]*>\s*([^<]+)</span>',
+                re.DOTALL,
+            )
+
+            seen_urls: set[str] = set()
+            for match in link_title_pattern.finditer(html):
+                job_url = match.group(1).strip()
+                title = match.group(2).strip()
+                if not title or job_url in seen_urls:
+                    continue
+                seen_urls.add(job_url)
+
+                # LinkedIn URLs don't directly expose company name in the guest API
+                # We'll leave company blank and let filter work on title
+                opportunities.append({
+                    "source": "LinkedIn",
+                    "title": title,
+                    "company": "",
+                    "location": location,
+                    "salary": 0,
+                    "url": job_url,
+                    "postedDate": "",
+                    "description": title,  # title as proxy for description filtering
+                })
+
+        except Exception as e:
+            print(f"  ⚠️  LinkedIn guest ({keywords}): {e}")
+
+    return opportunities
+
+
+def search_glassdoor_rss() -> list[dict]:
+    """
+    Search Glassdoor for design leadership roles via their public RSS feeds.
+    Glassdoor maintains public RSS feeds for job searches.
+    """
+    opportunities = []
+
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Searching Glassdoor RSS...")
+    import xml.etree.ElementTree as ET
+
+    queries = [
+        ("head-of-design", "head of design"),
+        ("design-director", "design director"),
+        ("vp-design", "VP design"),
+    ]
+
+    for slug, label in queries:
+        try:
+            url = f"https://www.glassdoor.com/Job/remote-{slug}-jobs-SRCH_IL.0,6_IS11047_KO7,{7+len(slug)}.htm?format=rss"
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                    "Accept": "application/rss+xml, application/xml, text/xml",
+                }
+            )
+            with urllib.request.urlopen(req, timeout=12) as response:
+                root = ET.fromstring(response.read())
+
+            for item in root.findall(".//item"):
+                title_el = item.find("title")
+                link_el = item.find("link")
+                desc_el = item.find("description")
+
+                title_text = (title_el.text or "").strip() if title_el is not None else ""
+                company = ""
+                if " at " in title_text:
+                    parts = title_text.split(" at ", 1)
+                    title_text = parts[0].strip()
+                    company = parts[1].strip()
+
+                opportunities.append({
+                    "source": "Glassdoor",
+                    "title": title_text,
+                    "company": company,
+                    "location": "Remote",
+                    "salary": 0,
+                    "url": link_el.text if link_el is not None else "",
+                    "postedDate": "",
+                    "description": desc_el.text or "" if desc_el is not None else "",
+                })
+
+        except Exception as e:
+            print(f"  ⚠️  Glassdoor RSS ({label}): {e}")
 
     return opportunities
 
@@ -530,6 +669,7 @@ def main():
     all_opportunities.extend(search_hn_who_is_hiring())
     all_opportunities.extend(search_company_career_feeds())
     all_opportunities.extend(search_target_companies_on_himalayas())
+    all_opportunities.extend(search_linkedin_guest())
     
     print(f"\nTotal opportunities found: {len(all_opportunities)}")
     

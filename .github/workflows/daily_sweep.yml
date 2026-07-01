@@ -23,13 +23,30 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install anthropic reportlab markdown beautifulsoup4 pymupdf python-docx
+          pip install anthropic reportlab markdown beautifulsoup4 pymupdf python-docx requests lxml
 
-      - name: Run Antigravity Worker
+      - name: Run Antigravity Worker (scan + customize)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python github_daily_worker.py
+
+      - name: Run Application Engine (generate + submit)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # LinkedIn Easy Apply — add these in repo Settings > Secrets
+          LINKEDIN_EMAIL: ${{ secrets.LINKEDIN_EMAIL }}
+          LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
+        run: |
+          python3 scripts/apply_jobs.py --limit 5
+
+      - name: Commit application log back to repo
+        run: |
+          git config user.name "Antigravity Bot"
+          git config user.email "bot@antigravity"
+          git add data/applications.json APPLICATIONS.md scanner_state.json || true
+          git diff --cached --quiet || git commit -m "chore: daily sweep $(date +%Y-%m-%d)"
+          git push || true
 
       - name: Send Email Report
         uses: dawidd6/action-send-mail@v3
