@@ -81,11 +81,13 @@ jobs:
           git push || true
 
       - name: Build daily report (email + Telegram)
+        id: report
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python3 scripts/build_report.py
+          echo "today=$(date +%B\ %-d)" >> "$GITHUB_OUTPUT"
 
       - name: Send Email Report
         uses: dawidd6/action-send-mail@v3
@@ -95,7 +97,7 @@ jobs:
           secure: true
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
-          subject: "Antigravity Daily Report — $(date +%Y-%m-%d)"
+          subject: "Job search update — ${{ steps.report.outputs.today }}"
           to: ryanwinzenburg@gmail.com
           from: Antigravity Bot
           html_body: file://email_report.html
