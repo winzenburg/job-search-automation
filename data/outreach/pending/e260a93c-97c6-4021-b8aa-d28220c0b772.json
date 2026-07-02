@@ -1,0 +1,22 @@
+{
+  "id": "e260a93c-97c6-4021-b8aa-d28220c0b772",
+  "contact_id": "82ee8fdf-bc13-4be4-b0d9-b706e3d8acd9",
+  "company_id": "f9798d61-e509-40d7-801f-13a8fe9ec79c",
+  "contact_name": "Stu Smith",
+  "contact_title": "Head of Design, Loom Core (Senior Director)",
+  "company_name": "Loom (Atlassian)",
+  "channel": "linkedin",
+  "message": "Subject: Loom (Atlassian) + design ops\n\nHi Stu,\n\nLoom (Atlassian) is integrating Loom into Atlassian's Rovo platform, redesigning async collaboration for a post-acquisition context.\n\nMerging a 40-person design culture into a much larger org without losing what made it good is one of the harder design ops problems there is.\n\nI've spent 15 years in design ops across healthcare, fintech, and telecom and lately I've been working specifically on the AI integration side -- how design teams actually absorb it into their day-to-day rather than just piloting tools.\n\nOpen to a short conversation if this is on your radar.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v2",
+  "personalization": {
+    "hook": "integrating Loom into Atlassian's Rovo platform, redesigning async collaboration for a post-acquisition context",
+    "angle": "Merging a 40-person design culture into a much larger org without losing what made it good is one of the harder design ops problems there is."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.484023",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "loom"
+  }
+}

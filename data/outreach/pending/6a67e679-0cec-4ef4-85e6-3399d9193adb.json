@@ -1,0 +1,22 @@
+{
+  "id": "6a67e679-0cec-4ef4-85e6-3399d9193adb",
+  "contact_id": "7dc5b4e3-f313-4183-bf8d-ae14aaf06164",
+  "company_id": "d234ab54-e087-42ff-82a6-da404fb6015b",
+  "contact_name": "Jamie Umpherson",
+  "contact_title": "Chief Creative Officer",
+  "company_name": "Runway",
+  "channel": "linkedin",
+  "message": "Subject: AI in design operations\n\nHi Jamie,\n\nNoticed Runway is building AI creative tools at the intersection of art and technology. It's a problem I've been thinking about a lot.\n\n15 years in design ops, mostly in regulated industries where you have to systematize everything. Lately I've shifted focus to AI -- specifically what it takes to get a design team using it in a way that actually sticks.\n\nArtistic-first product teams and systematic design ops don't usually go together. I've spent time figuring out how to make them work without one killing the other.\n\nIf this is something you're working through, I'd love to compare notes.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v3",
+  "personalization": {
+    "hook": "building AI creative tools at the intersection of art and technology",
+    "angle": "Artistic-first product teams and systematic design ops don't usually go together. I've spent time figuring out how to make them work without one killing the other."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.484134",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "runway"
+  }
+}

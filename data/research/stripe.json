@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Stripe",
+    "slug": "stripe",
+    "url": "https://stripe.com",
+    "linkedin": "https://linkedin.com/company/stripe",
+    "stage": "Private ($91.5B valuation)",
+    "funding": "$9.4B total",
+    "designer_count_estimate": 200,
+    "location": "San Francisco, CA (Remote)",
+    "ai_keywords": [
+      "Stripe AI",
+      "payment intelligence",
+      "AI fraud detection"
+    ],
+    "why_target": "Legendary design culture, large org, AI-driven product expansion",
+    "notes": "Katie Dill is Head of Design (since Mar 2021). Yuliya Gorlovetsky is Head of Product Design. Stripe actively hiring designers across all levels \u2014 Design team growing.",
+    "id": "9ddd8987-8b38-486a-b925-8b49f7b6416f",
+    "discovered_at": "2026-07-01T21:04:08.582941",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Legendary design culture, large org, AI-driven product expansion",
+    "design_ops_need": "Design team at Stripe needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "mid",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "Quality at 200-plus designers is a genuine ops problem, not just a philosophy. The systems that make craft consistent at that scale take real work to build."
+    ],
+    "personalization_hooks": [
+      "launching a new design direction, redesigning stripe.com and pushing what's possible in code-driven design",
+      "growing the team across product, research, content, brand, and web"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to Head of Design",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

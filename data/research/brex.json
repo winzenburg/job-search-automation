@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Brex",
+    "slug": "brex",
+    "url": "https://brex.com",
+    "linkedin": "https://linkedin.com/company/brexhq",
+    "stage": "Private ($12.3B valuation)",
+    "funding": "$2.0B total",
+    "designer_count_estimate": 50,
+    "location": "San Francisco, CA (Remote)",
+    "ai_keywords": [
+      "spend management AI",
+      "expense automation",
+      "AI finance"
+    ],
+    "why_target": "Fintech design culture, CDO Matt Bango came from Palantir, actively hiring design leaders",
+    "notes": "Matt Bango is Chief Design Officer (since Sep 2024), previously built design org at Palantir. Hiring design leaders and staff design engineers. 1,276 employees. Previously at Palantir makes Bango relatable to Ryan's ops background.",
+    "id": "54362c2a-8b8a-457c-ae9d-38c5625d7326",
+    "discovered_at": "2026-07-01T21:04:08.582976",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Fintech design culture, CDO Matt Bango came from Palantir, actively hiring design leaders",
+    "design_ops_need": "Design team at Brex needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "mid",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "Flat structure works until the design org gets big enough that informal coordination breaks down. Getting AI into the workflow without creating new overhead is something I've been focused on."
+    ],
+    "personalization_hooks": [
+      "doubling down on builders in 2026 with a flat structure, and actively hiring design leaders and staff design engineers",
+      "building a new kind of brand team while growing the design org across a 1,276-person fintech company"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to Chief Design Officer",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "company": {
+    "name": "Duolingo",
+    "slug": "duolingo",
+    "url": "https://duolingo.com",
+    "linkedin": "https://linkedin.com/company/duolingo",
+    "stage": "Public (DUOL)",
+    "funding": "$183M pre-IPO",
+    "designer_count_estimate": 130,
+    "location": "Pittsburgh, PA / New York, NY (Remote)",
+    "ai_keywords": [
+      "Duolingo Max",
+      "AI language learning",
+      "Lily AI tutor",
+      "adaptive AI"
+    ],
+    "why_target": "Design is company's second-largest division, Ryan Sims first CDO, 105-person design org growing to 130",
+    "notes": "Ryan Sims is first-ever CDO (promoted April 2024). Mig Reyes is VP of Product Experience. Design is second-largest dept behind engineering. Actively hiring design directors. Pittsburgh + NYC remote-friendly.",
+    "id": "950a55e3-2236-40de-8e2a-5eba257471dc",
+    "discovered_at": "2026-07-01T21:04:08.582984",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Design is company's second-largest division, Ryan Sims first CDO, 105-person design org growing to 130",
+    "design_ops_need": "Design team at Duolingo needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "mid",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "A new CDO scaling a 130-person team is exactly the moment where ops infrastructure pays off most. The question is whether you build it before or after the scale creates problems."
+    ],
+    "personalization_hooks": [
+      "Ryan Sims just became Duolingo's first-ever Chief Design Officer, growing design into the company's second-largest division",
+      "hiring design directors as the design team scales from 105 to 130+ people"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to CDO Ryan Sims",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

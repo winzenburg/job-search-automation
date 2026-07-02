@@ -1,0 +1,22 @@
+{
+  "id": "83a0f8cf-7b89-4efc-8519-512095cb8fad",
+  "contact_id": "13c943d4-338c-40ee-b0f5-dbb66f484402",
+  "company_id": "54362c2a-8b8a-457c-ae9d-38c5625d7326",
+  "contact_name": "Matt Bango",
+  "contact_title": "Chief Design Officer",
+  "company_name": "Brex",
+  "channel": "linkedin",
+  "message": "Subject: Something I noticed about Brex\n\nHi Matt,\n\nBrex is doubling down on builders in 2026 with a flat structure, and actively hiring design leaders and staff design engineers -- I've been following it.\n\nI've spent 15 years building design operations systems, and lately I've been working specifically on the AI integration side: what changes in how a design team operates when AI is actually embedded in the workflow.\n\nFlat structure works until the design org gets big enough that informal coordination breaks down. Getting AI into the workflow without creating new overhead is something I've been focused on.\n\nWould love to hear how you're thinking about it if you have 15 minutes.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v5",
+  "personalization": {
+    "hook": "doubling down on builders in 2026 with a flat structure, and actively hiring design leaders and staff design engineers",
+    "angle": "Flat structure works until the design org gets big enough that informal coordination breaks down. Getting AI into the workflow without creating new overhead is something I've been focused on."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.483665",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "brex"
+  }
+}

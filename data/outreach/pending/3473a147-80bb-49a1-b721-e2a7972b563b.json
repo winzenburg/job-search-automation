@@ -1,0 +1,22 @@
+{
+  "id": "3473a147-80bb-49a1-b721-e2a7972b563b",
+  "contact_id": "2a1d4aa6-86f0-4034-bd3a-f605fd59e8c6",
+  "company_id": "67843300-0991-48b4-a3eb-905f15f113cb",
+  "contact_name": "Alaine MacKenzie",
+  "contact_title": "VP of Product Design, AI & Core Experiences",
+  "company_name": "Gusto",
+  "channel": "linkedin",
+  "message": "Subject: Gusto + design ops\n\nHi Alaine,\n\nGusto is actively building out the design leadership bench, bringing in senior leaders across brand and service design.\n\nBuilding out a leadership bench is the right instinct. The harder part is making sure the infrastructure is in place so new leaders can actually execute.\n\nI've spent 15 years in design ops across healthcare, fintech, and telecom and lately I've been working specifically on the AI integration side -- how design teams actually absorb it into their day-to-day rather than just piloting tools.\n\nOpen to a short conversation if this is on your radar.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v2",
+  "personalization": {
+    "hook": "actively building out the design leadership bench, bringing in senior leaders across brand and service design",
+    "angle": "Building out a leadership bench is the right instinct. The harder part is making sure the infrastructure is in place so new leaders can actually execute."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.483270",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "gusto"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "d35f1791-9a7b-41e1-ace8-7019683d2f14",
+  "contact_id": "e4aba577-1304-479a-9835-cc3be54be4f6",
+  "company_id": "36284de9-bff4-4fd4-9177-b728febee361",
+  "contact_name": "Jaime Mariko McFarland",
+  "contact_title": "VP, Head of Design",
+  "company_name": "Airtable",
+  "channel": "linkedin",
+  "message": "Subject: Design ops question\n\nHi Jaime,\n\nAirtable is shipping Superagent and refounding the product direction at real speed -- that's a real design challenge at scale.\n\nI've spent 15 years building design operations for teams in healthcare, fintech, and telecom. The last couple years I've been focused on something most design leaders don't have bandwidth to tackle on their own: getting AI into how teams actually work, not just which tools they use.\n\nAfter a transformation like that, the real work is making it repeatable. That's the kind of infrastructure problem I've spent my career solving.\n\nWorth a quick call if you ever want to compare notes?\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v0",
+  "personalization": {
+    "hook": "shipping Superagent and refounding the product direction at real speed",
+    "angle": "After a transformation like that, the real work is making it repeatable. That's the kind of infrastructure problem I've spent my career solving."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.482294",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "airtable"
+  }
+}

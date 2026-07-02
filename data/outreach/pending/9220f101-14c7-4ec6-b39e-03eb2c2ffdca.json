@@ -1,0 +1,22 @@
+{
+  "id": "9220f101-14c7-4ec6-b39e-03eb2c2ffdca",
+  "contact_id": "2069b4f3-1e04-4849-9c92-6317f1208f46",
+  "company_id": "f3187af2-6f79-4149-9923-8cf7b0a5d09d",
+  "contact_name": "Vlad Zely",
+  "contact_title": "Head of Product Design",
+  "company_name": "Pitch",
+  "channel": "linkedin",
+  "message": "Subject: Something I noticed about Pitch\n\nHi Vlad,\n\nPitch is building AI-powered presentation generation (Pitch Agent) with a lean, remote-first team -- I've been following it.\n\nI've spent 15 years building design operations systems, and lately I've been working specifically on the AI integration side: what changes in how a design team operates when AI is actually embedded in the workflow.\n\nSmall teams with big design ambitions are actually where ops infrastructure matters most. There's no headcount buffer for inefficiency.\n\nWould love to hear how you're thinking about it if you have 15 minutes.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v5",
+  "personalization": {
+    "hook": "building AI-powered presentation generation (Pitch Agent) with a lean, remote-first team",
+    "angle": "Small teams with big design ambitions are actually where ops infrastructure matters most. There's no headcount buffer for inefficiency."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.482157",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "pitch"
+  }
+}

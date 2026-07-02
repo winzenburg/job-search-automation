@@ -1,0 +1,22 @@
+{
+  "id": "a989b450-1fb6-4ae1-afdb-6cc48e67a4e4",
+  "contact_id": "8c1dc3f0-f766-4680-993e-5600005badab",
+  "company_id": "0905e54c-19bd-4b5a-bee3-530632d33595",
+  "contact_name": "Jonas Downey",
+  "contact_title": "Head of Design, Superhuman Mail",
+  "company_name": "Superhuman",
+  "channel": "linkedin",
+  "message": "Subject: Superhuman + design ops\n\nHi Jonas,\n\nSuperhuman is integrating three distinct design orgs from Grammarly, Superhuman Mail, and Coda into one unified product.\n\nIntegrating multiple design orgs after acquisitions is where culture and process conflict most visibly. Getting ahead of that is a lot easier than catching up.\n\nI've spent 15 years in design ops across healthcare, fintech, and telecom and lately I've been working specifically on the AI integration side -- how design teams actually absorb it into their day-to-day rather than just piloting tools.\n\nOpen to a short conversation if this is on your radar.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v2",
+  "personalization": {
+    "hook": "integrating three distinct design orgs from Grammarly, Superhuman Mail, and Coda into one unified product",
+    "angle": "Integrating multiple design orgs after acquisitions is where culture and process conflict most visibly. Getting ahead of that is a lot easier than catching up."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.482538",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "superhuman"
+  }
+}

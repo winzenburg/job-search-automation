@@ -1,0 +1,22 @@
+{
+  "id": "a9ed8741-67c1-4c91-9d46-042b6242f56f",
+  "contact_id": "b5645563-4392-40a3-841c-c22581453899",
+  "company_id": "6dc5668a-3be9-4fb5-aef7-9612fd654da5",
+  "contact_name": "Joel Lewenstein",
+  "contact_title": "Head of Design",
+  "company_name": "Anthropic",
+  "channel": "linkedin",
+  "message": "Subject: Design operations question\n\nHi Joel,\n\nI spent 15 years building design ops for large teams in healthcare, fintech, and telecom. The last few years I've been focused on one specific problem: how design organizations actually integrate AI into how they work, not just the tooling decisions.\n\nAnthropic is launching Claude Design as a research preview, making visual design tools a top-level product category, which is exactly the kind of context where this matters most.\n\nA pod model works well when the team is small. The challenge as you scale is preserving that pace without the coordination overhead that usually comes with growth.\n\nWorth a quick call?\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v4",
+  "personalization": {
+    "hook": "launching Claude Design as a research preview, making visual design tools a top-level product category",
+    "angle": "A pod model works well when the team is small. The challenge as you scale is preserving that pace without the coordination overhead that usually comes with growth."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.482779",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "anthropic"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "company": {
+    "name": "OpenAI",
+    "slug": "openai",
+    "url": "https://openai.com",
+    "linkedin": "https://linkedin.com/company/openai",
+    "stage": "Private ($300B valuation)",
+    "funding": "$195.9B total",
+    "designer_count_estimate": 80,
+    "location": "San Francisco, CA (Hybrid)",
+    "ai_keywords": [
+      "ChatGPT",
+      "GPT-4o",
+      "Sora",
+      "AI agents",
+      "OpenAI API"
+    ],
+    "why_target": "Most influential AI company, rapidly building product design org",
+    "notes": "Ian Silber is Head of Product Design (since Aug 2023). Actively hiring \u2014 posted for senior DPM to help shape how design team works. 6,000+ employees, growing fast.",
+    "id": "609cdba2-3d02-405f-bc68-27123bde6526",
+    "discovered_at": "2026-07-01T21:04:08.582894",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Most influential AI company, rapidly building product design org",
+    "design_ops_need": "Design team at OpenAI needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "leading",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "Designing AI tools while building an AI-native org at the same time is a unique problem. There aren't many people who've done both at once."
+    ],
+    "personalization_hooks": [
+      "actively hiring across the design org right now, opening up a number of senior design roles",
+      "building a People Innovation Labs team focused on the internal systems that power how OpenAI builds"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to Head of Product Design",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}

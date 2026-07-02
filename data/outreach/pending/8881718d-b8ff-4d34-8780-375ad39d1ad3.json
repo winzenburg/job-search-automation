@@ -1,0 +1,22 @@
+{
+  "id": "8881718d-b8ff-4d34-8780-375ad39d1ad3",
+  "contact_id": "a1a987d7-b122-4263-9c59-5a4b2148a46d",
+  "company_id": "4778a82f-1cc5-40aa-817c-b7ffacf1aeb4",
+  "contact_name": "Henry Modisett",
+  "contact_title": "VP of Design",
+  "company_name": "Perplexity",
+  "channel": "linkedin",
+  "message": "Subject: Design operations question\n\nHi Henry,\n\nI spent 15 years building design ops for large teams in healthcare, fintech, and telecom. The last few years I've been focused on one specific problem: how design organizations actually integrate AI into how they work, not just the tooling decisions.\n\nPerplexity is launching Comet, an AI-native browser that puts AI at the center of the UX rather than the periphery, which is exactly the kind of context where this matters most.\n\nA design team that ships in React has a fundamentally different design-to-production workflow. Getting AI into that pipeline requires rethinking ops from scratch.\n\nWorth a quick call?\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v4",
+  "personalization": {
+    "hook": "launching Comet, an AI-native browser that puts AI at the center of the UX rather than the periphery",
+    "angle": "A design team that ships in React has a fundamentally different design-to-production workflow. Getting AI into that pipeline requires rethinking ops from scratch."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.483575",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "perplexity"
+  }
+}

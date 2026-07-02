@@ -4,17 +4,18 @@
     "slug": "figma",
     "url": "https://figma.com",
     "linkedin": "https://linkedin.com/company/figma",
-    "stage": "Public",
-    "funding": "$332M+ (IPO pending)",
+    "stage": "Public (IPO 2025)",
+    "funding": "$1.1B revenue, public",
     "designer_count_estimate": 150,
     "location": "San Francisco, CA (Remote)",
     "ai_keywords": [
       "AI design tools",
-      "auto-layout",
-      "FigJam AI"
+      "Figma Make",
+      "FigJam AI",
+      "Figma Sites"
     ],
-    "why_target": "Leading design tool, heavy AI investment, large design team",
-    "notes": "Check for Head of Design Ops or AI + Design roles",
+    "why_target": "Leading design tool, heavy AI investment, large design team. New CDO hire (Sep 2025) signals design org expansion.",
+    "notes": "New CDO Loredana Crisan hired Sep 2025 from Meta. Noah Levin promoted to VP. Figma is now public. Strong design ops opportunity.",
     "id": "72a7652c-e5f4-48c8-b40d-caccfa874888",
     "discovered_at": "2026-02-19T11:14:05.598773",
     "status": "researched"
@@ -44,17 +45,18 @@
     "slug": "canva",
     "url": "https://canva.com",
     "linkedin": "https://linkedin.com/company/canva",
-    "stage": "Series A (Unicorn)",
-    "funding": "$572M",
-    "designer_count_estimate": 200,
+    "stage": "Pre-IPO Unicorn",
+    "funding": "$2.9B total, $4B revenue",
+    "designer_count_estimate": 300,
     "location": "Sydney, Australia (Remote)",
     "ai_keywords": [
       "Magic Write",
       "AI image generation",
-      "AI design tools"
+      "AI design tools",
+      "GenAI"
     ],
-    "why_target": "Massive design team, heavy AI integration, design ops need",
-    "notes": "Large scale = need for ops infrastructure",
+    "why_target": "Massive and fast-growing design team (8,000+ employees), heavy AI investment. Andrew Green (prev contact) departed 2026. Decentralized design leadership structure now.",
+    "notes": "Andrew Green departed Canva in 2026. Now has multiple Heads of Design by product area \u2014 CJ Jones (GenAI), Jonnie Farrell (B2B), Alex Skougarevskaya (Content & Discovery). Target CJ Jones for AI angle.",
     "id": "2844a7e3-b60c-4f36-a7e5-38d900f151f2",
     "discovered_at": "2026-02-19T11:14:05.598793",
     "status": "researched"
@@ -126,15 +128,16 @@
     "linkedin": "https://linkedin.com/company/linearapp",
     "stage": "Series B",
     "funding": "$52M",
-    "designer_count_estimate": 25,
+    "designer_count_estimate": 30,
     "location": "San Francisco, CA (Remote)",
     "ai_keywords": [
       "Product management",
       "AI issue triage",
-      "workflow automation"
+      "workflow automation",
+      "coding agents"
     ],
-    "why_target": "Design-forward product tool, growing fast",
-    "notes": "Exceptional design culture, could create role",
+    "why_target": "Design-forward product tool, grew from 74 to 130 people in past year. New Head of Product Design hired June 2025.",
+    "notes": "Conor Muirhead is new Head of Product Design (since Jun 2025). Linear profitable since 2021. 145%+ NRR. Fast growth \u2014 design ops needs growing. Karri Saarinen still CEO.",
     "id": "18184793-ebcc-4ce3-be50-9de0c13c6af7",
     "discovered_at": "2026-02-19T11:14:05.598814",
     "status": "researched"
@@ -184,19 +187,273 @@
     "slug": "superhuman",
     "url": "https://superhuman.com",
     "linkedin": "https://linkedin.com/company/superhuman",
-    "stage": "Series C",
-    "funding": "$108M",
-    "designer_count_estimate": 20,
+    "stage": "Post-acquisition (rebranded from Grammarly)",
+    "funding": "$108M (original) \u2014 now part of larger entity",
+    "designer_count_estimate": 80,
     "location": "San Francisco, CA (Remote)",
     "ai_keywords": [
       "AI email",
-      "Superhuman AI",
-      "inbox zero AI"
+      "AI writing",
+      "productivity AI",
+      "Coda integration"
     ],
-    "why_target": "Design-obsessed culture, AI-first product",
-    "notes": "Smaller team but exceptional design focus",
+    "why_target": "MAJOR CHANGE: Original Superhuman email app acquired by Grammarly, which also acquired Coda, and rebranded the whole company as 'Superhuman' \u2014 now a 920-person productivity platform. Much larger design org than original target. Design ops need significantly higher.",
+    "notes": "New VP of Design Collin Whitehead (from Dropbox) hired Oct 2025. Jonas Downey leads design for Superhuman Mail product. Company is actively building unified design org across Grammarly, Coda, and Superhuman Mail. High design ops opportunity.",
     "id": "0905e54c-19bd-4b5a-bee3-530632d33595",
     "discovered_at": "2026-02-19T11:14:05.598830",
+    "status": "researched"
+  },
+  {
+    "name": "OpenAI",
+    "slug": "openai",
+    "url": "https://openai.com",
+    "linkedin": "https://linkedin.com/company/openai",
+    "stage": "Private ($300B valuation)",
+    "funding": "$195.9B total",
+    "designer_count_estimate": 80,
+    "location": "San Francisco, CA (Hybrid)",
+    "ai_keywords": [
+      "ChatGPT",
+      "GPT-4o",
+      "Sora",
+      "AI agents",
+      "OpenAI API"
+    ],
+    "why_target": "Most influential AI company, rapidly building product design org",
+    "notes": "Ian Silber is Head of Product Design (since Aug 2023). Actively hiring \u2014 posted for senior DPM to help shape how design team works. 6,000+ employees, growing fast.",
+    "id": "609cdba2-3d02-405f-bc68-27123bde6526",
+    "discovered_at": "2026-07-01T21:04:08.582894",
+    "status": "researched"
+  },
+  {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "url": "https://anthropic.com",
+    "linkedin": "https://linkedin.com/company/anthropic",
+    "stage": "Private ($61B valuation)",
+    "funding": "$12B+ total",
+    "designer_count_estimate": 40,
+    "location": "San Francisco, CA (Hybrid)",
+    "ai_keywords": [
+      "Claude",
+      "Claude Code",
+      "Claude Cowork",
+      "Claude Design",
+      "AI safety"
+    ],
+    "why_target": "Top AI safety company, design is now a top-level product nav item, strong design leadership",
+    "notes": "Joel Lewenstein is Head of Design (company-wide). Meaghan Choi leads Claude Code design. Jenny Wen leads Claude Cowork. Small, elite pod-based design structure \u2014 AI ops expertise directly applicable.",
+    "id": "6dc5668a-3be9-4fb5-aef7-9612fd654da5",
+    "discovered_at": "2026-07-01T21:04:08.582933",
+    "status": "researched"
+  },
+  {
+    "name": "Stripe",
+    "slug": "stripe",
+    "url": "https://stripe.com",
+    "linkedin": "https://linkedin.com/company/stripe",
+    "stage": "Private ($91.5B valuation)",
+    "funding": "$9.4B total",
+    "designer_count_estimate": 200,
+    "location": "San Francisco, CA (Remote)",
+    "ai_keywords": [
+      "Stripe AI",
+      "payment intelligence",
+      "AI fraud detection"
+    ],
+    "why_target": "Legendary design culture, large org, AI-driven product expansion",
+    "notes": "Katie Dill is Head of Design (since Mar 2021). Yuliya Gorlovetsky is Head of Product Design. Stripe actively hiring designers across all levels \u2014 Design team growing.",
+    "id": "9ddd8987-8b38-486a-b925-8b49f7b6416f",
+    "discovered_at": "2026-07-01T21:04:08.582941",
+    "status": "researched"
+  },
+  {
+    "name": "Gusto",
+    "slug": "gusto",
+    "url": "https://gusto.com",
+    "linkedin": "https://linkedin.com/company/gustohq",
+    "stage": "Private ($9.5B valuation)",
+    "funding": "$746M total",
+    "designer_count_estimate": 60,
+    "location": "Denver, CO + San Francisco (Remote-friendly)",
+    "ai_keywords": [
+      "Gusto AI",
+      "HR automation",
+      "payroll AI",
+      "AI-native HR"
+    ],
+    "why_target": "Colorado-based priority target, C-level CDO hire, strong AI transformation push, 200k+ SMB customers",
+    "notes": "Amy Thibodeau is CDO and Head of Core Experiences \u2014 C-level design hire. Alaine MacKenzie is VP of Product Design for AI & Core. Denver office has 226 people. Salary range for design managers: $172k-$253k.",
+    "id": "67843300-0991-48b4-a3eb-905f15f113cb",
+    "discovered_at": "2026-07-01T21:04:08.582964",
+    "status": "researched"
+  },
+  {
+    "name": "Databricks",
+    "slug": "databricks",
+    "url": "https://databricks.com",
+    "linkedin": "https://linkedin.com/company/databricks",
+    "stage": "Private ($62B valuation)",
+    "funding": "$27.3B total",
+    "designer_count_estimate": 100,
+    "location": "San Francisco, CA / Denver, CO (Remote)",
+    "ai_keywords": [
+      "Mosaic AI",
+      "MLflow",
+      "Delta Lake",
+      "AI platform",
+      "data + AI"
+    ],
+    "why_target": "Colorado tier-1 target, fastest-growing enterprise AI platform, 9,875 employees, design ops at scale needed",
+    "notes": "Ryan Donahue is VP Product Design (since Jan 2020). Mission: make data and AI tools simpler and accessible. $2.6B revenue, massive scale = strong design ops need.",
+    "id": "17b3c74d-476f-439e-a8d6-b9d84db24e61",
+    "discovered_at": "2026-07-01T21:04:08.582968",
+    "status": "researched"
+  },
+  {
+    "name": "Perplexity",
+    "slug": "perplexity",
+    "url": "https://perplexity.ai",
+    "linkedin": "https://linkedin.com/company/perplexity-ai",
+    "stage": "Private ($14B valuation)",
+    "funding": "$1.7B total",
+    "designer_count_estimate": 20,
+    "location": "San Francisco, CA (Remote)",
+    "ai_keywords": [
+      "AI search",
+      "answer engine",
+      "Comet browser",
+      "AI-native UX"
+    ],
+    "why_target": "Fast-growing AI search company, VP of Design leads with curiosity + computer science background",
+    "notes": "Henry Modisett is VP of Design (since Sep 2023). Sebastian Speier just promoted to Head of Design (May 2026). Team designs in React, not Figma \u2014 AI-native workflow is core to their identity. 1,152 employees.",
+    "id": "4778a82f-1cc5-40aa-817c-b7ffacf1aeb4",
+    "discovered_at": "2026-07-01T21:04:08.582972",
+    "status": "researched"
+  },
+  {
+    "name": "Brex",
+    "slug": "brex",
+    "url": "https://brex.com",
+    "linkedin": "https://linkedin.com/company/brexhq",
+    "stage": "Private ($12.3B valuation)",
+    "funding": "$2.0B total",
+    "designer_count_estimate": 50,
+    "location": "San Francisco, CA (Remote)",
+    "ai_keywords": [
+      "spend management AI",
+      "expense automation",
+      "AI finance"
+    ],
+    "why_target": "Fintech design culture, CDO Matt Bango came from Palantir, actively hiring design leaders",
+    "notes": "Matt Bango is Chief Design Officer (since Sep 2024), previously built design org at Palantir. Hiring design leaders and staff design engineers. 1,276 employees. Previously at Palantir makes Bango relatable to Ryan's ops background.",
+    "id": "54362c2a-8b8a-457c-ae9d-38c5625d7326",
+    "discovered_at": "2026-07-01T21:04:08.582976",
+    "status": "researched"
+  },
+  {
+    "name": "Ramp",
+    "slug": "ramp",
+    "url": "https://ramp.com",
+    "linkedin": "https://linkedin.com/company/ramp",
+    "stage": "Private ($13.6B valuation)",
+    "funding": "$3.0B total",
+    "designer_count_estimate": 30,
+    "location": "New York, NY (Remote)",
+    "ai_keywords": [
+      "spend automation",
+      "AI finance",
+      "Claude Code",
+      "AI-native company"
+    ],
+    "why_target": "Most AI-installed company per their own data, VP Design actively redesigning what design org feels like post-mass AI adoption",
+    "notes": "Diego Zaks is VP Design (since Apr 2023). Ramp uses more Claude Code than Anthropic does internally. Actively building 'design infrastructure' to make every Ramp employee a designer. Extremely relevant AI ops angle.",
+    "id": "e3ba3cf1-5b78-4974-a0b7-e5eb27170aed",
+    "discovered_at": "2026-07-01T21:04:08.582980",
+    "status": "researched"
+  },
+  {
+    "name": "Duolingo",
+    "slug": "duolingo",
+    "url": "https://duolingo.com",
+    "linkedin": "https://linkedin.com/company/duolingo",
+    "stage": "Public (DUOL)",
+    "funding": "$183M pre-IPO",
+    "designer_count_estimate": 130,
+    "location": "Pittsburgh, PA / New York, NY (Remote)",
+    "ai_keywords": [
+      "Duolingo Max",
+      "AI language learning",
+      "Lily AI tutor",
+      "adaptive AI"
+    ],
+    "why_target": "Design is company's second-largest division, Ryan Sims first CDO, 105-person design org growing to 130",
+    "notes": "Ryan Sims is first-ever CDO (promoted April 2024). Mig Reyes is VP of Product Experience. Design is second-largest dept behind engineering. Actively hiring design directors. Pittsburgh + NYC remote-friendly.",
+    "id": "950a55e3-2236-40de-8e2a-5eba257471dc",
+    "discovered_at": "2026-07-01T21:04:08.582984",
+    "status": "researched"
+  },
+  {
+    "name": "Loom (Atlassian)",
+    "slug": "loom",
+    "url": "https://loom.com",
+    "linkedin": "https://linkedin.com/company/loom",
+    "stage": "Acquired by Atlassian (2023, $975M)",
+    "funding": "$203M pre-acquisition",
+    "designer_count_estimate": 40,
+    "location": "San Francisco, CA (Remote)",
+    "ai_keywords": [
+      "Loom AI",
+      "async video AI",
+      "Atlassian Rovo",
+      "AI video summaries"
+    ],
+    "why_target": "Atlassian portfolio, strong async + AI design culture, VP Design Christina Nguyen White spoke at Config 2025",
+    "notes": "Christina Nguyen White is VP of Design (carried over from Loom into Atlassian). Stu Smith is Head of Design Senior Director for Loom Core (since Sep 2025). Part of Atlassian's AI push with Rovo.",
+    "id": "f9798d61-e509-40d7-801f-13a8fe9ec79c",
+    "discovered_at": "2026-07-01T21:04:08.582988",
+    "status": "researched"
+  },
+  {
+    "name": "Runway",
+    "slug": "runway",
+    "url": "https://runwayml.com",
+    "linkedin": "https://linkedin.com/company/runwayml",
+    "stage": "Private ($4.5B valuation)",
+    "funding": "$861.5M total",
+    "designer_count_estimate": 20,
+    "location": "New York, NY (Remote)",
+    "ai_keywords": [
+      "Gen-3 Alpha",
+      "AI video generation",
+      "AI creative tools",
+      "world models"
+    ],
+    "why_target": "Frontier AI creative company, co-founder was CDO, artist-first culture that is building design tooling",
+    "notes": "Jamie Umpherson is Chief Creative Officer (since Feb 2026). Alejandro Matamala (co-founder) transitioned from CDO to Chief Innovation Officer. 227 employees, growing 52% YoY. Artistic + technical intersection.",
+    "id": "d234ab54-e087-42ff-82a6-da404fb6015b",
+    "discovered_at": "2026-07-01T21:04:08.582992",
+    "status": "researched"
+  },
+  {
+    "name": "Asana",
+    "slug": "asana",
+    "url": "https://asana.com",
+    "linkedin": "https://linkedin.com/company/asana",
+    "stage": "Public (ASAN)",
+    "funding": "$12.4B market cap",
+    "designer_count_estimate": 80,
+    "location": "San Francisco, CA (Remote)",
+    "ai_keywords": [
+      "Asana AI",
+      "Studio AI agents",
+      "AI workflows",
+      "enterprise AI"
+    ],
+    "why_target": "Enterprise work management, VP of Design since Jun 2023, building AI Studio with agents, $790M revenue",
+    "notes": "Manesh John is VP of Design (since Jun 2023), previously led 120+ person UX team at VMware. Building AI Studio with agentic experiences. Hiring Director of Product Design for core experiences. Strong design ops need at enterprise scale.",
+    "id": "1747fbb0-5012-415b-9c86-4fa87e2a1af4",
+    "discovered_at": "2026-07-01T21:04:08.582996",
     "status": "researched"
   }
 ]

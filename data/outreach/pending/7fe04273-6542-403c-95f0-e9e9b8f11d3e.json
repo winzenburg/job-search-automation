@@ -1,0 +1,22 @@
+{
+  "id": "7fe04273-6542-403c-95f0-e9e9b8f11d3e",
+  "contact_id": "fad40f06-0147-4995-8f4b-6ea77f4107a9",
+  "company_id": "7d320ce4-fff9-4b89-be53-39732cc4d1f4",
+  "contact_name": "Jorn van Dijk",
+  "contact_title": "CPO & Co-founder",
+  "company_name": "Framer",
+  "channel": "linkedin",
+  "message": "Subject: Framer + design ops\n\nHi Jorn,\n\nFramer is growing from 40 to 350+ people while building AI-powered site generation, a real design org scaling challenge.\n\nFast-growing product orgs without dedicated design ops tend to hit the same wall at a certain size. It's not a resource problem, it's a systems problem.\n\nI've spent 15 years in design ops across healthcare, fintech, and telecom and lately I've been working specifically on the AI integration side -- how design teams actually absorb it into their day-to-day rather than just piloting tools.\n\nOpen to a short conversation if this is on your radar.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v2",
+  "personalization": {
+    "hook": "growing from 40 to 350+ people while building AI-powered site generation, a real design org scaling challenge",
+    "angle": "Fast-growing product orgs without dedicated design ops tend to hit the same wall at a certain size. It's not a resource problem, it's a systems problem."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.481764",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "framer"
+  }
+}

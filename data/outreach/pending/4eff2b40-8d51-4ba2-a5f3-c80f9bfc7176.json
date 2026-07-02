@@ -1,0 +1,22 @@
+{
+  "id": "4eff2b40-8d51-4ba2-a5f3-c80f9bfc7176",
+  "contact_id": "61e8eae5-e075-4ef6-9ffb-ee0029f12277",
+  "company_id": "72a7652c-e5f4-48c8-b40d-caccfa874888",
+  "contact_name": "Loredana Crisan",
+  "contact_title": "Chief Design Officer",
+  "company_name": "Figma",
+  "channel": "linkedin",
+  "message": "Subject: Design ops question\n\nHi Loredana,\n\nFigma is now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer -- that's a real design challenge at scale.\n\nI've spent 15 years building design operations for teams in healthcare, fintech, and telecom. The last couple years I've been focused on something most design leaders don't have bandwidth to tackle on their own: getting AI into how teams actually work, not just which tools they use.\n\nPost-IPO with a new CDO is the kind of inflection point where design ops either becomes a competitive advantage or a bottleneck. I've helped teams navigate that.\n\nWorth a quick call if you ever want to compare notes?\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v0",
+  "personalization": {
+    "hook": "now public (IPO 2025) and building out a new C-level design org with a freshly hired Chief Design Officer",
+    "angle": "Post-IPO with a new CDO is the kind of inflection point where design ops either becomes a competitive advantage or a bottleneck. I've helped teams navigate that."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.480404",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "figma"
+  }
+}

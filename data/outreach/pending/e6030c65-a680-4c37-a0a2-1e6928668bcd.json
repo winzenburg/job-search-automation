@@ -1,0 +1,22 @@
+{
+  "id": "e6030c65-a680-4c37-a0a2-1e6928668bcd",
+  "contact_id": "813cc952-fd3f-49d7-9a9f-60e5be5b8fcb",
+  "company_id": "67843300-0991-48b4-a3eb-905f15f113cb",
+  "contact_name": "Amy Thibodeau",
+  "contact_title": "Chief Design Officer",
+  "company_name": "Gusto",
+  "channel": "linkedin",
+  "message": "Subject: Quick question about design ops at Gusto\n\nHi Amy,\n\nSaw that Gusto is actively building out the design leadership bench, bringing in senior leaders across brand and service design. Curious how you're thinking about design ops infrastructure as that scales.\n\nBackground: 15 years in design operations, and recently I've gone deep on AI integration -- the workflow side specifically, not just tooling.\n\nBuilding out a leadership bench is the right instinct. The harder part is making sure the infrastructure is in place so new leaders can actually execute.\n\nHappy to chat for 15 minutes if it's relevant.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v1",
+  "personalization": {
+    "hook": "actively building out the design leadership bench, bringing in senior leaders across brand and service design",
+    "angle": "Building out a leadership bench is the right instinct. The harder part is making sure the infrastructure is in place so new leaders can actually execute."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.483158",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "gusto"
+  }
+}

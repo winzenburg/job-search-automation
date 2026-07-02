@@ -1,0 +1,22 @@
+{
+  "id": "1f8d9968-b5f9-4885-bdb7-0529ea3f38b4",
+  "contact_id": "ce97fef3-ac48-44f8-b6dd-74f06772869d",
+  "company_id": "8be5e52c-da38-4552-a742-c2570d7e30d2",
+  "contact_name": "Ari Liusaari",
+  "contact_title": "VP, Head of Design",
+  "company_name": "Miro",
+  "channel": "linkedin",
+  "message": "Subject: Something I noticed about Miro\n\nHi Ari,\n\nMiro is actively building out a new design org leadership structure and AI Canvas platform strategy in 2026 -- I've been following it.\n\nI've spent 15 years building design operations systems, and lately I've been working specifically on the AI integration side: what changes in how a design team operates when AI is actually embedded in the workflow.\n\nA restructured design org is a window. The first 6 to 12 months are when you can establish the infrastructure that shapes how the team operates for years.\n\nWould love to hear how you're thinking about it if you have 15 minutes.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v5",
+  "personalization": {
+    "hook": "actively building out a new design org leadership structure and AI Canvas platform strategy in 2026",
+    "angle": "A restructured design org is a window. The first 6 to 12 months are when you can establish the infrastructure that shapes how the team operates for years."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.481331",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "miro"
+  }
+}

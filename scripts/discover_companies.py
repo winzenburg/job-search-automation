@@ -233,16 +233,176 @@ def seed_manual_companies() -> List[Dict]:
             "slug": "superhuman",
             "url": "https://superhuman.com",
             "linkedin": "https://linkedin.com/company/superhuman",
-            "stage": "Series C",
-            "funding": "$108M",
+            "stage": "Post-acquisition (rebranded from Grammarly)",
+            "funding": "$108M (original)",
+            "designer_count_estimate": 80,
+            "location": "San Francisco, CA (Remote)",
+            "ai_keywords": ["AI email", "AI writing", "productivity AI", "Coda integration"],
+            "why_target": "Rebranded Grammarly — now 920-person AI productivity platform integrating three design orgs",
+            "notes": "Collin Whitehead is VP of Design (Oct 2025). Jonas Downey leads Superhuman Mail design."
+        },
+        # --- Tier 2: AI-Native ---
+        {
+            "name": "OpenAI",
+            "slug": "openai",
+            "url": "https://openai.com",
+            "linkedin": "https://linkedin.com/company/openai",
+            "stage": "Private ($300B valuation)",
+            "funding": "$195.9B total",
+            "designer_count_estimate": 80,
+            "location": "San Francisco, CA (Hybrid)",
+            "ai_keywords": ["ChatGPT", "GPT-4o", "Sora", "AI agents", "OpenAI API"],
+            "why_target": "Most influential AI company, rapidly building product design org",
+            "notes": "Ian Silber is Head of Product Design. Actively opening design roles."
+        },
+        {
+            "name": "Anthropic",
+            "slug": "anthropic",
+            "url": "https://anthropic.com",
+            "linkedin": "https://linkedin.com/company/anthropic",
+            "stage": "Private ($61B valuation)",
+            "funding": "$12B+ total",
+            "designer_count_estimate": 40,
+            "location": "San Francisco, CA (Hybrid)",
+            "ai_keywords": ["Claude", "Claude Code", "Claude Cowork", "Claude Design", "AI safety"],
+            "why_target": "Top AI safety company, design is top-level product nav item",
+            "notes": "Joel Lewenstein is Head of Design. Meaghan Choi leads Claude Code."
+        },
+        {
+            "name": "Perplexity",
+            "slug": "perplexity",
+            "url": "https://perplexity.ai",
+            "linkedin": "https://linkedin.com/company/perplexity-ai",
+            "stage": "Private ($14B valuation)",
+            "funding": "$1.7B total",
             "designer_count_estimate": 20,
             "location": "San Francisco, CA (Remote)",
-            "ai_keywords": ["AI email", "Superhuman AI", "inbox zero AI"],
-            "why_target": "Design-obsessed culture, AI-first product",
-            "notes": "Smaller team but exceptional design focus"
-        }
+            "ai_keywords": ["AI search", "answer engine", "Comet browser", "AI-native UX"],
+            "why_target": "Fast-growing AI search, design-in-code team, VP of Design Henry Modisett",
+            "notes": "Sebastian Speier just promoted to Head of Design (May 2026)."
+        },
+        {
+            "name": "Runway",
+            "slug": "runway",
+            "url": "https://runwayml.com",
+            "linkedin": "https://linkedin.com/company/runwayml",
+            "stage": "Private ($4.5B valuation)",
+            "funding": "$861.5M total",
+            "designer_count_estimate": 20,
+            "location": "New York, NY (Remote)",
+            "ai_keywords": ["Gen-3 Alpha", "AI video generation", "AI creative tools", "world models"],
+            "why_target": "Frontier AI creative company, artist-first culture",
+            "notes": "Jamie Umpherson is CCO (Feb 2026). Alejandro Matamala co-founder + former CDO."
+        },
+        # --- Tier 3: Colorado Priority ---
+        {
+            "name": "Gusto",
+            "slug": "gusto",
+            "url": "https://gusto.com",
+            "linkedin": "https://linkedin.com/company/gustohq",
+            "stage": "Private ($9.5B valuation)",
+            "funding": "$746M total",
+            "designer_count_estimate": 60,
+            "location": "Denver, CO + San Francisco (Remote-friendly)",
+            "ai_keywords": ["Gusto AI", "HR automation", "payroll AI", "AI-native HR"],
+            "why_target": "Colorado Tier-1 priority, CDO Amy Thibodeau, Denver office 226 people",
+            "notes": "Amy Thibodeau is CDO. Alaine MacKenzie is VP of Product Design for AI & Core."
+        },
+        {
+            "name": "Databricks",
+            "slug": "databricks",
+            "url": "https://databricks.com",
+            "linkedin": "https://linkedin.com/company/databricks",
+            "stage": "Private ($62B valuation)",
+            "funding": "$27.3B total",
+            "designer_count_estimate": 100,
+            "location": "San Francisco, CA / Denver, CO (Remote)",
+            "ai_keywords": ["Mosaic AI", "MLflow", "Delta Lake", "AI platform"],
+            "why_target": "Colorado Tier-1, fastest-growing enterprise AI platform, $2.6B revenue",
+            "notes": "Ryan Donahue is VP Product Design (since Jan 2020)."
+        },
+        # --- Tier 4: Fintech/SaaS ---
+        {
+            "name": "Stripe",
+            "slug": "stripe",
+            "url": "https://stripe.com",
+            "linkedin": "https://linkedin.com/company/stripe",
+            "stage": "Private ($91.5B valuation)",
+            "funding": "$9.4B total",
+            "designer_count_estimate": 200,
+            "location": "San Francisco, CA (Remote)",
+            "ai_keywords": ["Stripe AI", "payment intelligence", "AI fraud detection"],
+            "why_target": "Legendary design culture, 200+ designers, Katie Dill Head of Design",
+            "notes": "Yuliya Gorlovetsky is Head of Product Design. Actively hiring."
+        },
+        {
+            "name": "Brex",
+            "slug": "brex",
+            "url": "https://brex.com",
+            "linkedin": "https://linkedin.com/company/brexhq",
+            "stage": "Private ($12.3B valuation)",
+            "funding": "$2.0B total",
+            "designer_count_estimate": 50,
+            "location": "San Francisco, CA (Remote)",
+            "ai_keywords": ["spend management AI", "expense automation", "AI finance"],
+            "why_target": "CDO Matt Bango (ex-Palantir), actively hiring design leaders",
+            "notes": "Matt Bango is CDO (since Sep 2024)."
+        },
+        {
+            "name": "Ramp",
+            "slug": "ramp",
+            "url": "https://ramp.com",
+            "linkedin": "https://linkedin.com/company/ramp",
+            "stage": "Private ($13.6B valuation)",
+            "funding": "$3.0B total",
+            "designer_count_estimate": 30,
+            "location": "New York, NY (Remote)",
+            "ai_keywords": ["spend automation", "AI finance", "Claude Code", "AI-native"],
+            "why_target": "Most AI-installed company, VP Design redesigning org structure for AI era",
+            "notes": "Diego Zaks is VP Design (Apr 2023). Highest AI-ops alignment company."
+        },
+        # --- Tier 5: Consumer/Prosumer ---
+        {
+            "name": "Duolingo",
+            "slug": "duolingo",
+            "url": "https://duolingo.com",
+            "linkedin": "https://linkedin.com/company/duolingo",
+            "stage": "Public (DUOL)",
+            "funding": "$183M pre-IPO",
+            "designer_count_estimate": 130,
+            "location": "Pittsburgh, PA / New York, NY (Remote)",
+            "ai_keywords": ["Duolingo Max", "AI language learning", "Lily AI tutor"],
+            "why_target": "Design is 2nd largest division, first CDO hired, scaling to 130 designers",
+            "notes": "Ryan Sims is first CDO (April 2024). Mig Reyes is VP Product Experience."
+        },
+        {
+            "name": "Loom (Atlassian)",
+            "slug": "loom",
+            "url": "https://loom.com",
+            "linkedin": "https://linkedin.com/company/loom",
+            "stage": "Acquired by Atlassian (2023, $975M)",
+            "funding": "$203M pre-acquisition",
+            "designer_count_estimate": 40,
+            "location": "San Francisco, CA (Remote)",
+            "ai_keywords": ["Loom AI", "async video AI", "Atlassian Rovo", "AI video summaries"],
+            "why_target": "Atlassian AI portfolio, strong async + AI design culture",
+            "notes": "Stu Smith is Head of Design for Loom Core (Sep 2025). Christina Nguyen White is VP Design."
+        },
+        {
+            "name": "Asana",
+            "slug": "asana",
+            "url": "https://asana.com",
+            "linkedin": "https://linkedin.com/company/asana",
+            "stage": "Public (ASAN)",
+            "funding": "$12.4B market cap",
+            "designer_count_estimate": 80,
+            "location": "San Francisco, CA (Remote)",
+            "ai_keywords": ["Asana AI", "Studio AI agents", "AI workflows", "enterprise AI"],
+            "why_target": "Enterprise work management, VP Design since Jun 2023, building AI Studio",
+            "notes": "Manesh John is VP of Design (Jun 2023). Hiring design directors."
+        },
     ]
-    
+
     return seed_companies
 
 

@@ -1,0 +1,22 @@
+{
+  "id": "5760ec66-0159-427f-bbf0-64e97371a65c",
+  "contact_id": "2d73434b-f689-419c-adce-9118d0db6142",
+  "company_id": "609cdba2-3d02-405f-bc68-27123bde6526",
+  "contact_name": "Ian Silber",
+  "contact_title": "Head of Product Design",
+  "company_name": "OpenAI",
+  "channel": "linkedin",
+  "message": "Subject: AI in design operations\n\nHi Ian,\n\nNoticed OpenAI is actively hiring across the design org right now, opening up a number of senior design roles. It's a problem I've been thinking about a lot.\n\n15 years in design ops, mostly in regulated industries where you have to systematize everything. Lately I've shifted focus to AI -- specifically what it takes to get a design team using it in a way that actually sticks.\n\nDesigning AI tools while building an AI-native org at the same time is a unique problem. There aren't many people who've done both at once.\n\nIf this is something you're working through, I'd love to compare notes.\n\nRyan\nwinzenburg.com\n",
+  "template_used": "linkedin_cold_v3",
+  "personalization": {
+    "hook": "actively hiring across the design org right now, opening up a number of senior design roles",
+    "angle": "Designing AI tools while building an AI-native org at the same time is a unique problem. There aren't many people who've done both at once."
+  },
+  "status": "pending_approval",
+  "generated_at": "2026-07-01T22:49:24.482651",
+  "utm_params": {
+    "utm_source": "linkedin",
+    "utm_campaign": "outreach",
+    "utm_medium": "openai"
+  }
+}

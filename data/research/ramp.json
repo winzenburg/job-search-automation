@@ -1,0 +1,46 @@
+{
+  "company": {
+    "name": "Ramp",
+    "slug": "ramp",
+    "url": "https://ramp.com",
+    "linkedin": "https://linkedin.com/company/ramp",
+    "stage": "Private ($13.6B valuation)",
+    "funding": "$3.0B total",
+    "designer_count_estimate": 30,
+    "location": "New York, NY (Remote)",
+    "ai_keywords": [
+      "spend automation",
+      "AI finance",
+      "Claude Code",
+      "AI-native company"
+    ],
+    "why_target": "Most AI-installed company per their own data, VP Design actively redesigning what design org feels like post-mass AI adoption",
+    "notes": "Diego Zaks is VP Design (since Apr 2023). Ramp uses more Claude Code than Anthropic does internally. Actively building 'design infrastructure' to make every Ramp employee a designer. Extremely relevant AI ops angle.",
+    "id": "e3ba3cf1-5b78-4974-a0b7-e5eb27170aed",
+    "discovered_at": "2026-07-01T21:04:08.582980",
+    "status": "researched"
+  },
+  "brief": {
+    "executive_summary": "Most AI-installed company per their own data, VP Design actively redesigning what design org feels like post-mass AI adoption",
+    "design_ops_need": "Design team at Ramp needs systematic AI-augmented ops infrastructure.",
+    "ai_transformation_stage": "leading",
+    "pain_points": [
+      "Scaling design output without proportional headcount growth",
+      "Inconsistent AI tool adoption across design team",
+      "Need for systematic AI-augmented workflows"
+    ],
+    "opportunity_angles": [
+      "Making every employee a designer is an ambitious goal. The ops infrastructure that enables it is usually the part that gets skipped."
+    ],
+    "personalization_hooks": [
+      "rethinking what design org structure looks like when the whole company mass-adopts AI"
+    ],
+    "outreach_strategy": "Direct LinkedIn outreach to VP Design \u2014 highest alignment company",
+    "decision_makers_likely_titles": [
+      "Head of Design",
+      "VP of Design",
+      "CDO",
+      "Chief Design Officer"
+    ]
+  }
+}
