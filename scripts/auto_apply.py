@@ -70,7 +70,7 @@ DAILY_LIMITS = {
 APPLICANT = {
     "name": os.getenv("APPLICANT_NAME", "Ryan Winzenburg"),
     "email": os.getenv("APPLICANT_EMAIL", "ryanwinzenburg@gmail.com"),
-    "phone": os.getenv("APPLICANT_PHONE", ""),
+    "phone": os.getenv("APPLICANT_PHONE", "303-359-3744"),
     "linkedin": os.getenv("APPLICANT_LINKEDIN", "https://www.linkedin.com/in/ryanwinzenburg"),
     "location": os.getenv("APPLICANT_LOCATION", "Denver, Colorado"),
     "website": os.getenv("APPLICANT_WEBSITE", ""),
