@@ -397,10 +397,10 @@ def submit_linkedin(
     dry_run: bool = False,
 ) -> dict:
     """Submit a LinkedIn Easy Apply application."""
-    email = os.getenv("LINKEDIN_EMAIL")
+    email = os.getenv("LINKEDIN_EMAIL") or APPLICANT["email"]
     password = os.getenv("LINKEDIN_PASSWORD")
-    if not email or not password:
-        return {"success": False, "reason": "LINKEDIN_EMAIL / LINKEDIN_PASSWORD not set"}
+    if not password:
+        return {"success": False, "reason": "LINKEDIN_PASSWORD not set"}
 
     if not check_rate_limit("LinkedIn"):
         return {"success": False, "reason": "Daily LinkedIn rate limit reached"}
