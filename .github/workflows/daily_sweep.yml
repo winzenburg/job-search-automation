@@ -1,4 +1,4 @@
-name: Antigravity Daily Job Sweep
+name: Daily Job Sweep
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
