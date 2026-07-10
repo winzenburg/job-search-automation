@@ -66,18 +66,32 @@ DAILY_LIMITS = {
     "default": 10,
 }
 
+def _env_or_default(key: str, default: str) -> str:
+    """
+    Like os.getenv(key, default), but also falls back to `default` when the
+    variable is *present but empty* -- which happens when a GitHub Actions
+    workflow injects an unset secret as an empty string rather than omitting
+    the env var entirely.
+    """
+    value = os.getenv(key, "")
+    return value if value else default
+
+
 # Applicant profile (from env, with sensible defaults)
+_NAME = _env_or_default("APPLICANT_NAME", "Ryan Winzenburg")
+_NAME_PARTS = _NAME.split() or ["Ryan", "Winzenburg"]
+
 APPLICANT = {
-    "name": os.getenv("APPLICANT_NAME", "Ryan Winzenburg"),
-    "email": os.getenv("APPLICANT_EMAIL", "ryanwinzenburg@gmail.com"),
-    "phone": os.getenv("APPLICANT_PHONE", "303-359-3744"),
-    "linkedin": os.getenv("APPLICANT_LINKEDIN", "https://www.linkedin.com/in/ryanwinzenburg"),
-    "location": os.getenv("APPLICANT_LOCATION", "Denver, Colorado"),
-    "website": os.getenv("APPLICANT_WEBSITE", ""),
-    "years_exp": os.getenv("APPLICANT_YEARS_EXP", "15+"),
-    "salary": os.getenv("APPLICANT_SALARY", "180000"),
-    "first_name": os.getenv("APPLICANT_NAME", "Ryan Winzenburg").split()[0],
-    "last_name": " ".join(os.getenv("APPLICANT_NAME", "Ryan Winzenburg").split()[1:]),
+    "name": _NAME,
+    "email": _env_or_default("APPLICANT_EMAIL", "ryanwinzenburg@gmail.com"),
+    "phone": _env_or_default("APPLICANT_PHONE", "303-359-3744"),
+    "linkedin": _env_or_default("APPLICANT_LINKEDIN", "https://www.linkedin.com/in/ryanwinzenburg"),
+    "location": _env_or_default("APPLICANT_LOCATION", "Denver, Colorado"),
+    "website": _env_or_default("APPLICANT_WEBSITE", ""),
+    "years_exp": _env_or_default("APPLICANT_YEARS_EXP", "15+"),
+    "salary": _env_or_default("APPLICANT_SALARY", "180000"),
+    "first_name": _NAME_PARTS[0],
+    "last_name": " ".join(_NAME_PARTS[1:]),
 }
 
 
