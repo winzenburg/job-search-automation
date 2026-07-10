@@ -9,6 +9,9 @@ on:
     - cron: '0 14 * * 1-5'
   workflow_dispatch: # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   run-sweep:
     runs-on: ubuntu-latest
@@ -72,13 +75,18 @@ jobs:
         run: |
           git config user.name "Antigravity Bot"
           git config user.email "bot@antigravity"
-          git add \
-            data/applications.json \
-            data/.submit_rate.json \
-            APPLICATIONS.md \
-            scanner_state.json || true
+          # `git add` treats any pathspec that matches zero files as fatal
+          # and stages nothing at all (not even the files that do exist),
+          # so only pass paths that are actually present on disk.
+          FILES_TO_ADD=""
+          for f in data/applications.json data/.submit_rate.json APPLICATIONS.md scanner_state.json; do
+            [ -e "$f" ] && FILES_TO_ADD="$FILES_TO_ADD $f"
+          done
+          if [ -n "$FILES_TO_ADD" ]; then
+            git add $FILES_TO_ADD
+          fi
           git diff --cached --quiet || git commit -m "chore: daily sweep $(date +%Y-%m-%d)"
-          git push || true
+          git push
 
       - name: Build daily report (email + Telegram)
         id: report
