@@ -1,12 +1,16 @@
 *.pyc
 __pycache__/
 .env
-scanner_state.json
 OPPORTUNITIES.md
 customized_applications/
 *.pdf
 *.docx
 .DS_Store
+
+# scanner_state.json is intentionally NOT ignored -- it's the persistent
+# dedup memory across daily runs (see job_search_scanner.py load_state /
+# save_state) and must be committed back to the repo by the workflow, or
+# every run re-discovers the same jobs with no memory of prior days.
 
 # Auto-submit engine artifacts
 data/.linkedin_session.json
