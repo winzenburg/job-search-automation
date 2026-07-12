@@ -50,6 +50,9 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 PROJECT_DIR = Path(__file__).parent.parent
+if str(PROJECT_DIR) not in sys.path:
+    sys.path.insert(0, str(PROJECT_DIR))
+
 DATA_DIR = PROJECT_DIR / "data"
 APPLICATIONS_FILE = DATA_DIR / "applications.json"
 LINKEDIN_SESSION_FILE = DATA_DIR / ".linkedin_session.json"
@@ -1050,8 +1053,12 @@ def submit(
     handler = handlers.get(platform)
     if handler is None:
         result["success"] = False
-        result["reason"] = f"Unsupported platform: {platform}"
-        print(f"  ⚠️  {result['reason']}")
+        result["manual_required"] = True
+        result["reason"] = (
+            f"No auto-submit support for '{platform}' -- this came from a job "
+            f"board listing, not a direct application link. Apply manually."
+        )
+        print(f"  \u2139\ufe0f  {result['reason']}")
         return result
 
     outcome = handler(url, resume_pdf, cover_letter_pdf, dry_run=dry_run)
@@ -1112,6 +1119,13 @@ def run_batch(limit: int = 5, dry_run: bool = False) -> None:
                 if result.get("success"):
                     a["status"] = "SUBMITTED"
                     a["submitted_at"] = result.get("submitted_at", datetime.now().isoformat())
+                elif result.get("manual_required"):
+                    # Not an error -- just no automation available for this
+                    # source (e.g. an aggregator listing, not a direct
+                    # application link). Don't retry indefinitely.
+                    a["status"] = "MANUAL_REQUIRED"
+                    a["failure_reason"] = result.get("reason", "")
+                    a["failed_at"] = datetime.now().isoformat()
                 else:
                     a["status"] = "FAILED"
                     a["failure_reason"] = result.get("reason", "")
@@ -1126,6 +1140,15 @@ def run_batch(limit: int = 5, dry_run: bool = False) -> None:
             human_delay(8.0, 20.0)
 
     print(f"\n✅ Batch complete — processed {processed} application(s)")
+
+    # Regenerate the human-readable log so it reflects the statuses this
+    # batch just wrote (apply_jobs.py only writes it right after material
+    # generation, before any submission has been attempted).
+    try:
+        from scripts.apply_jobs import rebuild_applications_md  # type: ignore[import]
+        rebuild_applications_md(applications)
+    except Exception as exc:
+        print(f"  \u26a0\ufe0f  Could not rebuild APPLICATIONS.md: {exc}")
 
 
 # ---------------------------------------------------------------------------

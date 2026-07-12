@@ -125,22 +125,36 @@ def record_application(
 # ---------------------------------------------------------------------------
 
 def rebuild_applications_md(applications: list[dict]) -> None:
+    def _status(a: dict) -> str:
+        # auto_apply.py's run_batch writes uppercase terminal statuses
+        # (SUBMITTED/FAILED/MANUAL_REQUIRED) directly onto the same
+        # records this function reads, so status is the source of truth
+        # -- the older boolean 'submitted' field is only used as a
+        # fallback for records auto_apply.py hasn't touched yet.
+        s = a.get("status", "").upper()
+        if s:
+            return s
+        return "SUBMITTED" if a.get("submitted") else "MATERIALS_READY"
+
+    submitted = [a for a in applications if _status(a) == "SUBMITTED"]
+    manual_required = [a for a in applications if _status(a) == "MANUAL_REQUIRED"]
+    failed = [a for a in applications if _status(a) == "FAILED"]
+    ready = [a for a in applications if _status(a) not in ("SUBMITTED", "MANUAL_REQUIRED", "FAILED")]
+
     lines = [
         "# Applications Log",
         "",
         f"_Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}_",
         "",
         f"**Total applications:** {len(applications)}  ",
-        f"**Submitted:** {sum(1 for a in applications if a.get('submitted'))}  ",
-        f"**Materials ready:** {sum(1 for a in applications if not a.get('submitted'))}",
+        f"**Submitted:** {len(submitted)}  ",
+        f"**Needs manual apply (no automation for this source):** {len(manual_required)}  ",
+        f"**Failed (needs review):** {len(failed)}  ",
+        f"**Materials ready, not yet attempted:** {len(ready)}",
         "",
         "---",
         "",
     ]
-
-    # Group by status
-    submitted = [a for a in applications if a.get("submitted")]
-    ready = [a for a in applications if not a.get("submitted")]
 
     if submitted:
         lines += ["## Submitted", ""]
@@ -152,6 +166,26 @@ def rebuild_applications_md(applications: list[dict]) -> None:
                 f"  Source: {a['source']} | Applied: {a['applied_at'][:10]} | "
                 f"Easy Apply: {'yes' if a['easy_apply'] else 'no'}"
             )
+            lines.append("")
+
+    if manual_required:
+        lines += ["## Needs Manual Apply", ""]
+        lines.append("_These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._")
+        lines.append("")
+        for a in sorted(manual_required, key=lambda x: x.get("applied_at", ""), reverse=True):
+            lines.append(f"- **[{a['company']}]({a['url']})** — {a['title']}  ")
+            lines.append(f"  Source: {a['source']} | Generated: {a['applied_at'][:10]}")
+            if a.get("resume_pdf"):
+                lines.append(f"  Resume: `{Path(a['resume_pdf']).name}`")
+            lines.append("")
+
+    if failed:
+        lines += ["## Failed (Needs Review)", ""]
+        lines.append("_Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._")
+        lines.append("")
+        for a in sorted(failed, key=lambda x: x.get("applied_at", ""), reverse=True):
+            lines.append(f"- **[{a['company']}]({a['url']})** — {a['title']}  ")
+            lines.append(f"  Source: {a['source']} | Reason: {a.get('failure_reason', 'unknown')}")
             lines.append("")
 
     if ready:

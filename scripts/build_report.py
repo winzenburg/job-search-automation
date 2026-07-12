@@ -50,7 +50,8 @@ def todays_applications(applications: list[dict]) -> tuple[list[dict], list[dict
     ]
     materials_ready = [
         a for a in applications
-        if a.get("status", "").upper() in ("MATERIALS_READY", "PENDING", "FAILED", "")
+        if a.get("status", "").upper() in
+        ("MATERIALS_READY", "PENDING", "FAILED", "MANUAL_REQUIRED", "")
     ]
     return submitted_today, materials_ready
 
@@ -165,8 +166,12 @@ def build_html_report(
         html += '<p class="note">These have a resume and cover letter ready but couldn\'t be auto-submitted. Worth a quick look.</p>'
         for a in materials_ready[:10]:
             status = a.get("status", "").upper()
-            css = "failed" if status == "FAILED" else "pending"
-            label = "couldn't complete the form" if status == "FAILED" else "materials ready"
+            if status == "FAILED":
+                css, label = "failed", "couldn't complete the form"
+            elif status == "MANUAL_REQUIRED":
+                css, label = "pending", "no auto-apply for this source, apply manually"
+            else:
+                css, label = "pending", "materials ready"
             html += _job_line(a, css, label)
         if len(materials_ready) > 10:
             html += f'<p class="more">...and {len(materials_ready) - 10} more in APPLICATIONS.md.</p>'
