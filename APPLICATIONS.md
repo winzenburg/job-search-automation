@@ -1,30 +1,57 @@
 # Applications Log
 
-_Last updated: 2026-07-01 21:48 UTC_
+_Last updated: 2026-07-12 04:53 UTC_
 
-**Total applications:** 0  
+**Total applications:** 5  
 **Submitted:** 0  
-**Materials ready:** 0
+**Materials ready:** 5
 
 ---
 
-_No applications yet. Run `python3 scripts/apply_jobs.py` to start._
+## Materials Ready (Pending Submission)
+
+- **[Runyon Design](https://himalayas.app/companies/runyon-design/jobs/design-strategy-director)** — Design Strategy Director  
+  Source:  | Generated: 2026-07-12 | Manual apply
+  Resume: `Resume_Runyon_Design.pdf`
+  Cover Letter: `Cover_Letter_Runyon_Design.pdf`
+
+- **[StackBlitz](https://himalayas.app/companies/stackblitz/jobs/engineering-manager-front-end-ui-ux)** — Engineering Manager - Front-End  (UI/UX)  
+  Source:  | Generated: 2026-07-12 | Manual apply
+  Resume: `Resume_StackBlitz.pdf`
+  Cover Letter: `Cover_Letter_StackBlitz.pdf`
+
+- **[Kettle](https://himalayas.app/companies/wearekettle/jobs/director-product-design)** — Director, Product Design  
+  Source:  | Generated: 2026-07-12 | Manual apply
+  Resume: `Resume_Kettle.pdf`
+  Cover Letter: `Cover_Letter_Kettle.pdf`
+
+- **[BrowserStack](https://weworkremotely.com/remote-jobs/browserstack-manager-product-design)** — Manager - Product Design  
+  Source:  | Generated: 2026-07-12 | Manual apply
+  Resume: `Resume_BrowserStack.pdf`
+  Cover Letter: `Cover_Letter_BrowserStack.pdf`
+
+- **[Hospitable](https://weworkremotely.com/remote-jobs/hospitable-staff-ui-ux-product-designer-usa-emea-remote-1)** — Staff UI/UX Product Designer (USA/EMEA - Remote)  
+  Source:  | Generated: 2026-07-12 | Manual apply
+  Resume: `Resume_Hospitable.pdf`
+  Cover Letter: `Cover_Letter_Hospitable.pdf`
 
 ---
 
-## How to Submit
+## Auto-Submit Engine
 
-### Easy Apply (LinkedIn / Indeed)
-1. Open the job URL from above
-2. Click Easy Apply / Quick Apply
-3. Upload the PDF from `customized_applications/<Company>/`
-4. Paste the cover letter text
+The pipeline auto-detects the platform (LinkedIn, Greenhouse, Lever, Ashby, Indeed)
+and submits using `scripts/auto_apply.py`.
 
-### Greenhouse / Lever / Ashby portals
+**Required GitHub Secrets** (see `SETUP_SECRETS.md` for full guide):
+
+| Secret | Purpose |
+|--------|---------|
+| `LINKEDIN_EMAIL` | LinkedIn account email |
+| `LINKEDIN_PASSWORD` | LinkedIn account password |
+| `APPLICANT_PHONE` | Phone number for ATS forms |
+| `ANTHROPIC_API_KEY` | AI resume customization |
+
+**Manual fallback** — if auto-submit is blocked:
 1. Open the job URL
-2. Upload resume PDF
-3. Paste or upload cover letter
-
-### Auto-submit (experimental)
-Set `LINKEDIN_EMAIL` + `LINKEDIN_PASSWORD` in GitHub Secrets,
-then run `python3 scripts/linkedin_easy_apply.py`.
+2. Upload the PDF from `customized_applications/<Company>/`
+3. Paste the cover letter
