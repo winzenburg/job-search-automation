@@ -93,5 +93,24 @@
     "notes": "",
     "failure_reason": "Unsupported platform: Unknown",
     "failed_at": "2026-07-12T04:54:19.394812"
+  },
+  {
+    "id": "20936581",
+    "company": "INNERGY",
+    "title": "Director of Customer Success",
+    "source": "",
+    "url": "https://remoteOK.com/remote-jobs/remote-director-of-customer-success-innergy-1134738",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-07-13T16:38:26.522704",
+    "applied_at": "2026-07-13T16:40:27.250118",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/INNERGY/Resume_INNERGY.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/INNERGY/Cover_Letter_INNERGY.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-07-13T16:40:27.379842"
   }
 ]
