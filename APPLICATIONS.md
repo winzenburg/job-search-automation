@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-07-14 15:31 UTC_
+_Last updated: 2026-07-15 15:32 UTC_
 
-**Total applications:** 11  
+**Total applications:** 14  
 **Submitted:** 0  
 **Needs manual apply (no automation for this source):** 3  
-**Failed (needs review):** 8  
+**Failed (needs review):** 11  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -29,6 +29,15 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/director-product-design-at-bubble-4424710894)** — Director, Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/director-of-product-design-avail-at-realtor-com-4429351578)** — Director of Product Design, Avail  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/director-product-design-at-fetch-4437401927)** — Director, Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/design-director-product-design-at-instrument-4432034373)** — Design Director, Product Design  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
