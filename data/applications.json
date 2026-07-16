@@ -264,5 +264,43 @@
     "notes": "",
     "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
     "failed_at": "2026-07-15T15:32:30.845509"
+  },
+  {
+    "id": "901f8b42",
+    "company": "TE Connectivity",
+    "title": "PRODUCT MANAGER III (Remote)",
+    "source": "",
+    "url": "https://weworkremotely.com/remote-jobs/te-connectivity-product-manager-iii-remote",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-07-16T15:42:18.345297",
+    "applied_at": "2026-07-16T15:44:17.063299",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/TE_Connectivity/Resume_TE_Connectivity.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/TE_Connectivity/Cover_Letter_TE_Connectivity.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-07-16T15:44:47.461414"
+  },
+  {
+    "id": "fd588757",
+    "company": "TE Connectivity",
+    "title": "Staff Mechanical Product Development Engineer- Integrated Predictive Analysis",
+    "source": "",
+    "url": "https://weworkremotely.com/remote-jobs/te-connectivity-staff-mechanical-product-development-engineer-integrated-predictive-analysis",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-07-16T15:42:18.345310",
+    "applied_at": "2026-07-16T15:44:47.320043",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/TE_Connectivity/Resume_TE_Connectivity.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/TE_Connectivity/Cover_Letter_TE_Connectivity.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-07-16T15:45:05.035745"
   }
 ]

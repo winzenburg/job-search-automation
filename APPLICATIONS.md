@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-07-15 15:32 UTC_
+_Last updated: 2026-07-16 15:45 UTC_
 
-**Total applications:** 14  
+**Total applications:** 16  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 3  
+**Needs manual apply (no automation for this source):** 5  
 **Failed (needs review):** 11  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,14 @@ _Last updated: 2026-07-15 15:32 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[TE Connectivity](https://weworkremotely.com/remote-jobs/te-connectivity-staff-mechanical-product-development-engineer-integrated-predictive-analysis)** — Staff Mechanical Product Development Engineer- Integrated Predictive Analysis  
+  Source:  | Generated: 2026-07-16
+  Resume: `Resume_TE_Connectivity.pdf`
+
+- **[TE Connectivity](https://weworkremotely.com/remote-jobs/te-connectivity-product-manager-iii-remote)** — PRODUCT MANAGER III (Remote)  
+  Source:  | Generated: 2026-07-16
+  Resume: `Resume_TE_Connectivity.pdf`
 
 - **[Canva](https://himalayas.app/companies/canva/jobs/staff-front-end-engineer-design-systems)** — Staff Front-End Engineer - Design Systems  
   Source:  | Generated: 2026-07-14
