@@ -302,5 +302,43 @@
     "notes": "",
     "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
     "failed_at": "2026-07-16T15:45:05.035745"
+  },
+  {
+    "id": "84971e37",
+    "company": "garden3d",
+    "title": "Head of Marketing & Communications",
+    "source": "",
+    "url": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-07-17T15:17:43.865318",
+    "applied_at": "2026-07-17T15:19:41.133027",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/garden3d/Resume_garden3d.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/garden3d/Cover_Letter_garden3d.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-07-17T15:20:16.209565"
+  },
+  {
+    "id": "4788b46d",
+    "company": "",
+    "title": "Head of Product Design",
+    "source": "",
+    "url": "https://www.linkedin.com/jobs/view/head-of-product-design-at-trm-labs-4441282745",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-07-17T15:17:43.865366",
+    "applied_at": "2026-07-17T15:20:16.044031",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Resume_.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Cover_Letter_.pdf",
+    "status": "FAILED",
+    "notes": "",
+    "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
+    "failed_at": "2026-07-17T15:20:31.396194"
   }
 ]

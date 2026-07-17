@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-07-16 15:45 UTC_
+_Last updated: 2026-07-17 15:20 UTC_
 
-**Total applications:** 16  
+**Total applications:** 18  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 5  
-**Failed (needs review):** 11  
+**Needs manual apply (no automation for this source):** 6  
+**Failed (needs review):** 12  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -13,6 +13,10 @@ _Last updated: 2026-07-16 15:45 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[garden3d](https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068)** — Head of Marketing & Communications  
+  Source:  | Generated: 2026-07-17
+  Resume: `Resume_garden3d.pdf`
 
 - **[TE Connectivity](https://weworkremotely.com/remote-jobs/te-connectivity-staff-mechanical-product-development-engineer-integrated-predictive-analysis)** — Staff Mechanical Product Development Engineer- Integrated Predictive Analysis  
   Source:  | Generated: 2026-07-16
@@ -37,6 +41,9 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/head-of-product-design-at-trm-labs-4441282745)** — Head of Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/director-product-design-at-bubble-4424710894)** — Director, Product Design  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
