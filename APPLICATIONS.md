@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-07-17 15:20 UTC_
+_Last updated: 2026-07-20 15:55 UTC_
 
-**Total applications:** 18  
+**Total applications:** 19  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 6  
+**Needs manual apply (no automation for this source):** 7  
 **Failed (needs review):** 12  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,10 @@ _Last updated: 2026-07-17 15:20 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[garden3d](https://weworkremotely.com/remote-jobs/garden3d-head-of-design)** — Head of Design  
+  Source:  | Generated: 2026-07-20
+  Resume: `Resume_garden3d.pdf`
 
 - **[garden3d](https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068)** — Head of Marketing & Communications  
   Source:  | Generated: 2026-07-17

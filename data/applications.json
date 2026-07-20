@@ -340,5 +340,24 @@
     "notes": "",
     "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
     "failed_at": "2026-07-17T15:20:31.396194"
+  },
+  {
+    "id": "ba2ffa70",
+    "company": "garden3d",
+    "title": "Head of Design",
+    "source": "",
+    "url": "https://weworkremotely.com/remote-jobs/garden3d-head-of-design",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-07-20T15:53:56.562235",
+    "applied_at": "2026-07-20T15:55:47.395452",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/garden3d/Resume_garden3d.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/garden3d/Cover_Letter_garden3d.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-07-20T15:55:47.546257"
   }
 ]
