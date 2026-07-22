@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-07-21 15:48 UTC_
+_Last updated: 2026-07-22 15:50 UTC_
 
-**Total applications:** 19  
+**Total applications:** 24  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 7  
+**Needs manual apply (no automation for this source):** 12  
 **Failed (needs review):** 12  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,26 @@ _Last updated: 2026-07-21 15:48 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Gusto, Inc.](https://weworkremotely.com/remote-jobs/gusto-inc-senior-staff-product-designer-finance)** — Senior Staff Product Designer, Finance  
+  Source:  | Generated: 2026-07-22
+  Resume: `Resume_Gusto,_Inc..pdf`
+
+- **[Dropbox](https://weworkremotely.com/remote-jobs/dropbox-principal-product-designer)** — Principal Product Designer  
+  Source:  | Generated: 2026-07-22
+  Resume: `Resume_Dropbox.pdf`
+
+- **[Stripe](https://weworkremotely.com/remote-jobs/stripe-engineering-manager-developer-productivity-ai)** — Engineering Manager, Developer Productivity AI  
+  Source:  | Generated: 2026-07-22
+  Resume: `Resume_Stripe.pdf`
+
+- **[Dropbox](https://weworkremotely.com/remote-jobs/dropbox-principal-product-designer-1)** — Principal Product Designer  
+  Source:  | Generated: 2026-07-22
+  Resume: `Resume_Dropbox.pdf`
+
+- **[10 Ancestry.com Operations](https://weworkremotely.com/remote-jobs/10-ancestry-com-operations-principal-design-engineer-storytelling)** — Principal Design Engineer, Storytelling  
+  Source:  | Generated: 2026-07-22
+  Resume: `Resume_10_Ancestry.com_Operations.pdf`
 
 - **[garden3d](https://weworkremotely.com/remote-jobs/garden3d-head-of-design)** — Head of Design  
   Source:  | Generated: 2026-07-20
