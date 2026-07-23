@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-07-22 15:50 UTC_
+_Last updated: 2026-07-23 16:02 UTC_
 
-**Total applications:** 24  
+**Total applications:** 28  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 12  
-**Failed (needs review):** 12  
+**Needs manual apply (no automation for this source):** 14  
+**Failed (needs review):** 14  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -13,6 +13,14 @@ _Last updated: 2026-07-22 15:50 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Stripe](https://weworkremotely.com/remote-jobs/stripe-senior-staff-product-designer-risk)** — Senior Staff Product Designer, Risk  
+  Source:  | Generated: 2026-07-23
+  Resume: `Resume_Stripe.pdf`
+
+- **[Bizee](https://remoteOK.com/remote-jobs/remote-head-of-people-bizee-1135129)** — Head of People  
+  Source:  | Generated: 2026-07-23
+  Resume: `Resume_Bizee.pdf`
 
 - **[Gusto, Inc.](https://weworkremotely.com/remote-jobs/gusto-inc-senior-staff-product-designer-finance)** — Senior Staff Product Designer, Finance  
   Source:  | Generated: 2026-07-22
@@ -65,6 +73,12 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/director-product-design-at-givebutter-4429210021)** — Director, Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/director-product-design-at-givebutter-4429194897)** — Director, Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/head-of-product-design-at-trm-labs-4441282745)** — Head of Product Design  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
