@@ -530,5 +530,43 @@
     "notes": "",
     "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
     "failed_at": "2026-07-23T16:01:47.767699"
+  },
+  {
+    "id": "ef6187c1",
+    "company": "Workiva",
+    "title": "Lead Sales Compensation Design Manager",
+    "source": "",
+    "url": "https://weworkremotely.com/remote-jobs/workiva-lead-sales-compensation-design-manager",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-07-27T16:26:24.536678",
+    "applied_at": "2026-07-27T16:28:16.912455",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Workiva/Resume_Workiva.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Workiva/Cover_Letter_Workiva.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-07-27T16:28:44.626633"
+  },
+  {
+    "id": "d5d18e84",
+    "company": "Grove Collaborative",
+    "title": "Merchandising Operations Manager",
+    "source": "",
+    "url": "https://remoteOK.com/remote-jobs/remote-merchandising-operations-manager-grove-collaborative-1135303",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-07-27T16:26:24.536721",
+    "applied_at": "2026-07-27T16:28:44.480457",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Grove_Collaborative/Resume_Grove_Collaborative.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Grove_Collaborative/Cover_Letter_Grove_Collaborative.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-07-27T16:28:56.797288"
   }
 ]

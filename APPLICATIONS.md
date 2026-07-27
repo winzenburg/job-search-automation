@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-07-23 16:02 UTC_
+_Last updated: 2026-07-27 16:29 UTC_
 
-**Total applications:** 28  
+**Total applications:** 30  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 14  
+**Needs manual apply (no automation for this source):** 16  
 **Failed (needs review):** 14  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,14 @@ _Last updated: 2026-07-23 16:02 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Grove Collaborative](https://remoteOK.com/remote-jobs/remote-merchandising-operations-manager-grove-collaborative-1135303)** — Merchandising Operations Manager  
+  Source:  | Generated: 2026-07-27
+  Resume: `Resume_Grove_Collaborative.pdf`
+
+- **[Workiva](https://weworkremotely.com/remote-jobs/workiva-lead-sales-compensation-design-manager)** — Lead Sales Compensation Design Manager  
+  Source:  | Generated: 2026-07-27
+  Resume: `Resume_Workiva.pdf`
 
 - **[Stripe](https://weworkremotely.com/remote-jobs/stripe-senior-staff-product-designer-risk)** — Senior Staff Product Designer, Risk  
   Source:  | Generated: 2026-07-23
