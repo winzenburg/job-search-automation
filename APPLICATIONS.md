@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-07-27 16:29 UTC_
+_Last updated: 2026-07-28 16:09 UTC_
 
-**Total applications:** 30  
+**Total applications:** 31  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 16  
+**Needs manual apply (no automation for this source):** 17  
 **Failed (needs review):** 14  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,10 @@ _Last updated: 2026-07-27 16:29 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Smartsheet](https://weworkremotely.com/remote-jobs/smartsheet-director-product-design-remote-eligible)** — Director, Product Design (Remote Eligible)  
+  Source:  | Generated: 2026-07-28
+  Resume: `Resume_Smartsheet.pdf`
 
 - **[Grove Collaborative](https://remoteOK.com/remote-jobs/remote-merchandising-operations-manager-grove-collaborative-1135303)** — Merchandising Operations Manager  
   Source:  | Generated: 2026-07-27
