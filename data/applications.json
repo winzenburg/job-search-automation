@@ -587,5 +587,43 @@
     "notes": "",
     "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
     "failed_at": "2026-07-28T16:09:08.810837"
+  },
+  {
+    "id": "9dee762e",
+    "company": "",
+    "title": "Director, Product Design",
+    "source": "",
+    "url": "https://www.linkedin.com/jobs/view/director-product-design-at-dropbox-4431565045",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-07-30T15:54:53.016577",
+    "applied_at": "2026-07-30T15:56:53.796992",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Resume_.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Cover_Letter_.pdf",
+    "status": "FAILED",
+    "notes": "",
+    "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
+    "failed_at": "2026-07-30T15:57:28.608923"
+  },
+  {
+    "id": "f1a01562",
+    "company": "",
+    "title": "Head of Product Design - Remote (US/CANADA)",
+    "source": "",
+    "url": "https://www.linkedin.com/jobs/view/head-of-product-design-remote-us-canada-at-luxury-presence-4441330322",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-07-30T15:54:53.016591",
+    "applied_at": "2026-07-30T15:57:25.702758",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Resume_.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Cover_Letter_.pdf",
+    "status": "FAILED",
+    "notes": "",
+    "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
+    "failed_at": "2026-07-30T15:57:43.047520"
   }
 ]

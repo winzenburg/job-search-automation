@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-07-29 15:53 UTC_
+_Last updated: 2026-07-30 15:57 UTC_
 
-**Total applications:** 31  
+**Total applications:** 33  
 **Submitted:** 0  
 **Needs manual apply (no automation for this source):** 17  
-**Failed (needs review):** 14  
+**Failed (needs review):** 16  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -85,6 +85,12 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/head-of-product-design-remote-us-canada-at-luxury-presence-4441330322)** — Head of Product Design - Remote (US/CANADA)  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/director-product-design-at-dropbox-4431565045)** — Director, Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/director-product-design-at-givebutter-4429210021)** — Director, Product Design  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
