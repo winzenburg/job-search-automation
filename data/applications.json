@@ -625,5 +625,24 @@
     "notes": "",
     "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
     "failed_at": "2026-07-30T15:57:43.047520"
+  },
+  {
+    "id": "d4279c93",
+    "company": "",
+    "title": "Principal UX/UI Product Designer",
+    "source": "",
+    "url": "https://www.linkedin.com/jobs/view/principal-ux-ui-product-designer-at-citrix-4404445839",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-03T16:30:05.361175",
+    "applied_at": "2026-08-03T16:32:03.617816",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Resume_.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Cover_Letter_.pdf",
+    "status": "FAILED",
+    "notes": "",
+    "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
+    "failed_at": "2026-08-03T16:32:06.666948"
   }
 ]

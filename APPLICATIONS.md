@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-07-31 16:05 UTC_
+_Last updated: 2026-08-03 16:32 UTC_
 
-**Total applications:** 33  
+**Total applications:** 34  
 **Submitted:** 0  
 **Needs manual apply (no automation for this source):** 17  
-**Failed (needs review):** 16  
+**Failed (needs review):** 17  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -85,6 +85,9 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/principal-ux-ui-product-designer-at-citrix-4404445839)** — Principal UX/UI Product Designer  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/head-of-product-design-remote-us-canada-at-luxury-presence-4441330322)** — Head of Product Design - Remote (US/CANADA)  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
