@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-08-03 16:32 UTC_
+_Last updated: 2026-08-04 16:18 UTC_
 
-**Total applications:** 34  
+**Total applications:** 35  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 17  
+**Needs manual apply (no automation for this source):** 18  
 **Failed (needs review):** 17  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,10 @@ _Last updated: 2026-08-03 16:32 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Ehvert Engineering a Salas O'Brien company](https://weworkremotely.com/remote-jobs/ehvert-engineering-a-salas-o-brien-company-design-project-manager-estonia)** — Design Project Manager (Estonia)  
+  Source:  | Generated: 2026-08-04
+  Resume: `Resume_Ehvert_Engineering_a_Salas_O'Brien_company.pdf`
 
 - **[Smartsheet](https://weworkremotely.com/remote-jobs/smartsheet-director-product-design-remote-eligible)** — Director, Product Design (Remote Eligible)  
   Source:  | Generated: 2026-07-28

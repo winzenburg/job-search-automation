@@ -644,5 +644,24 @@
     "notes": "",
     "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
     "failed_at": "2026-08-03T16:32:06.666948"
+  },
+  {
+    "id": "811dea4f",
+    "company": "Ehvert Engineering a Salas O'Brien company",
+    "title": "Design Project Manager (Estonia)",
+    "source": "",
+    "url": "https://weworkremotely.com/remote-jobs/ehvert-engineering-a-salas-o-brien-company-design-project-manager-estonia",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-04T16:16:16.737925",
+    "applied_at": "2026-08-04T16:18:24.107795",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Ehvert_Engineering_a_Salas_O'Brien_company/Resume_Ehvert_Engineering_a_Salas_O'Brien_company.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Ehvert_Engineering_a_Salas_O'Brien_company/Cover_Letter_Ehvert_Engineering_a_Salas_O'Brien_company.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-08-04T16:18:24.217608"
   }
 ]
