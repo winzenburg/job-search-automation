@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-08-04 16:18 UTC_
+_Last updated: 2026-08-05 16:08 UTC_
 
-**Total applications:** 35  
+**Total applications:** 40  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 18  
-**Failed (needs review):** 17  
+**Needs manual apply (no automation for this source):** 22  
+**Failed (needs review):** 18  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -13,6 +13,22 @@ _Last updated: 2026-08-04 16:18 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Dropbox](https://weworkremotely.com/remote-jobs/dropbox-director-product-design)** — Director, Product Design  
+  Source:  | Generated: 2026-08-05
+  Resume: `Resume_Dropbox.pdf`
+
+- **[WALTER](https://weworkremotely.com/remote-jobs/walter-principal-product-designer)** — Principal Product Designer  
+  Source:  | Generated: 2026-08-05
+  Resume: `Resume_WALTER.pdf`
+
+- **[WALTER](https://weworkremotely.com/remote-jobs/walter-principal-product-designer-1)** — Principal Product Designer  
+  Source:  | Generated: 2026-08-05
+  Resume: `Resume_WALTER.pdf`
+
+- **[WALTER](https://weworkremotely.com/remote-jobs/walter-senior-staff-product-designer-risk)** — Senior Staff Product Designer, Risk  
+  Source:  | Generated: 2026-08-05
+  Resume: `Resume_WALTER.pdf`
 
 - **[Ehvert Engineering a Salas O'Brien company](https://weworkremotely.com/remote-jobs/ehvert-engineering-a-salas-o-brien-company-design-project-manager-estonia)** — Design Project Manager (Estonia)  
   Source:  | Generated: 2026-08-04
@@ -89,6 +105,9 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/director-of-product-design-ai-agentic-workflows-at-mural-4446241979)** — Director of Product Design, AI &amp; Agentic Workflows  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/principal-ux-ui-product-designer-at-citrix-4404445839)** — Principal UX/UI Product Designer  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
