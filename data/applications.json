@@ -758,5 +758,43 @@
     "notes": "",
     "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
     "failed_at": "2026-08-05T16:08:21.029657"
+  },
+  {
+    "id": "c77b4ff6",
+    "company": "Performancepixel GmbH",
+    "title": "Art Director Performance Creatives (m/w/d)",
+    "source": "",
+    "url": "https://weworkremotely.com/remote-jobs/performancepixel-gmbh-art-director-performance-creatives-m-w-d",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-07T14:57:00.602970",
+    "applied_at": "2026-08-07T14:59:07.916316",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Performancepixel_GmbH/Resume_Performancepixel_GmbH.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Performancepixel_GmbH/Cover_Letter_Performancepixel_GmbH.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-08-07T14:59:42.623318"
+  },
+  {
+    "id": "99b45c0e",
+    "company": "INDG",
+    "title": "Art Director - CGI",
+    "source": "",
+    "url": "https://himalayas.app/companies/indg/jobs/art-director-cgi",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-07T14:57:00.603028",
+    "applied_at": "2026-08-07T14:59:42.388024",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/INDG/Resume_INDG.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/INDG/Cover_Letter_INDG.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-08-07T14:59:53.961600"
   }
 ]

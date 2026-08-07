@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-08-05 16:08 UTC_
+_Last updated: 2026-08-07 15:00 UTC_
 
-**Total applications:** 40  
+**Total applications:** 42  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 22  
+**Needs manual apply (no automation for this source):** 24  
 **Failed (needs review):** 18  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,14 @@ _Last updated: 2026-08-05 16:08 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[INDG](https://himalayas.app/companies/indg/jobs/art-director-cgi)** — Art Director - CGI  
+  Source:  | Generated: 2026-08-07
+  Resume: `Resume_INDG.pdf`
+
+- **[Performancepixel GmbH](https://weworkremotely.com/remote-jobs/performancepixel-gmbh-art-director-performance-creatives-m-w-d)** — Art Director Performance Creatives (m/w/d)  
+  Source:  | Generated: 2026-08-07
+  Resume: `Resume_Performancepixel_GmbH.pdf`
 
 - **[Dropbox](https://weworkremotely.com/remote-jobs/dropbox-director-product-design)** — Director, Product Design  
   Source:  | Generated: 2026-08-05
