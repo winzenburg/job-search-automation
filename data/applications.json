@@ -796,5 +796,24 @@
     "notes": "",
     "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
     "failed_at": "2026-08-07T14:59:53.961600"
+  },
+  {
+    "id": "ae3c1b11",
+    "company": "Clera",
+    "title": "Design Director",
+    "source": "",
+    "url": "https://himalayas.app/companies/clera/jobs/design-director",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-10T15:03:02.653422",
+    "applied_at": "2026-08-10T15:05:02.915031",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Clera/Resume_Clera.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Clera/Cover_Letter_Clera.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-08-10T15:05:03.072083"
   }
 ]

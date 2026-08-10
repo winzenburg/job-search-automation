@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-08-07 15:00 UTC_
+_Last updated: 2026-08-10 15:05 UTC_
 
-**Total applications:** 42  
+**Total applications:** 43  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 24  
+**Needs manual apply (no automation for this source):** 25  
 **Failed (needs review):** 18  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,10 @@ _Last updated: 2026-08-07 15:00 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Clera](https://himalayas.app/companies/clera/jobs/design-director)** — Design Director  
+  Source:  | Generated: 2026-08-10
+  Resume: `Resume_Clera.pdf`
 
 - **[INDG](https://himalayas.app/companies/indg/jobs/art-director-cgi)** — Art Director - CGI  
   Source:  | Generated: 2026-08-07
