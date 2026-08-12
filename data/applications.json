@@ -815,5 +815,24 @@
     "notes": "",
     "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
     "failed_at": "2026-08-10T15:05:03.072083"
+  },
+  {
+    "id": "c90cf4b1",
+    "company": "",
+    "title": "Design Director, Product Design &amp; AI (m/f/d)",
+    "source": "",
+    "url": "https://www.linkedin.com/jobs/view/design-director-product-design-ai-m-f-d-at-appsfactory-4450144480",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-12T15:02:39.426038",
+    "applied_at": "2026-08-12T15:04:54.554853",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Resume_.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Cover_Letter_.pdf",
+    "status": "FAILED",
+    "notes": "",
+    "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
+    "failed_at": "2026-08-12T15:04:57.215649"
   }
 ]

@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-08-11 15:04 UTC_
+_Last updated: 2026-08-12 15:05 UTC_
 
-**Total applications:** 43  
+**Total applications:** 44  
 **Submitted:** 0  
 **Needs manual apply (no automation for this source):** 25  
-**Failed (needs review):** 18  
+**Failed (needs review):** 19  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -117,6 +117,9 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/design-director-product-design-ai-m-f-d-at-appsfactory-4450144480)** — Design Director, Product Design &amp; AI (m/f/d)  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/director-of-product-design-ai-agentic-workflows-at-mural-4446241979)** — Director of Product Design, AI &amp; Agentic Workflows  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
