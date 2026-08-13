@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-08-12 15:05 UTC_
+_Last updated: 2026-08-13 14:34 UTC_
 
-**Total applications:** 44  
+**Total applications:** 46  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 25  
-**Failed (needs review):** 19  
+**Needs manual apply (no automation for this source):** 26  
+**Failed (needs review):** 20  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -13,6 +13,10 @@ _Last updated: 2026-08-12 15:05 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Webflow](https://weworkremotely.com/remote-jobs/webflow-staff-brand-designer)** — Staff Brand Designer  
+  Source:  | Generated: 2026-08-13
+  Resume: `Resume_Webflow.pdf`
 
 - **[Clera](https://himalayas.app/companies/clera/jobs/design-director)** — Design Director  
   Source:  | Generated: 2026-08-10
@@ -117,6 +121,9 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/director-product-design-at-jeppesen-foreflight-4432924709)** — Director, Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/design-director-product-design-ai-m-f-d-at-appsfactory-4450144480)** — Design Director, Product Design &amp; AI (m/f/d)  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
