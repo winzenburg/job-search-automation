@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-08-13 14:34 UTC_
+_Last updated: 2026-08-14 14:28 UTC_
 
-**Total applications:** 46  
+**Total applications:** 48  
 **Submitted:** 0  
 **Needs manual apply (no automation for this source):** 26  
-**Failed (needs review):** 20  
+**Failed (needs review):** 22  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -121,6 +121,12 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/director-product-design-at-givebutter-4454301489)** — Director, Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/director-product-design-at-givebutter-4454300511)** — Director, Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/director-product-design-at-jeppesen-foreflight-4432924709)** — Director, Product Design  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
