@@ -910,5 +910,24 @@
     "notes": "",
     "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
     "failed_at": "2026-08-14T14:28:32.568248"
+  },
+  {
+    "id": "978e3f5d",
+    "company": "",
+    "title": "Vice President, Product Design",
+    "source": "",
+    "url": "https://www.linkedin.com/jobs/view/vice-president-product-design-at-ccc-intelligent-solutions-4441926551",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-17T14:11:23.172608",
+    "applied_at": "2026-08-17T14:13:40.567844",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Resume_.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Cover_Letter_.pdf",
+    "status": "FAILED",
+    "notes": "",
+    "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
+    "failed_at": "2026-08-17T14:13:43.498933"
   }
 ]
