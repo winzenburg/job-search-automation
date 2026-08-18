@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-08-17 14:13 UTC_
+_Last updated: 2026-08-18 14:21 UTC_
 
-**Total applications:** 49  
+**Total applications:** 54  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 26  
-**Failed (needs review):** 23  
+**Needs manual apply (no automation for this source):** 27  
+**Failed (needs review):** 27  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -13,6 +13,10 @@ _Last updated: 2026-08-17 14:13 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Canonical](https://himalayas.app/companies/canonical/jobs/design-manager-visual-5827060867)** — Design Manager (Visual)  
+  Source:  | Generated: 2026-08-18
+  Resume: `Resume_Canonical.pdf`
 
 - **[Webflow](https://weworkremotely.com/remote-jobs/webflow-staff-brand-designer)** — Staff Brand Designer  
   Source:  | Generated: 2026-08-13
@@ -121,6 +125,18 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/vice-president-product-design-research-at-docusign-4445459570)** — Vice President, Product Design &amp; Research  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/vice-president-product-design-hybrid-at-crowdstrike-4441015500)** — Vice President - Product Design (Hybrid)  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/vp-product-design-informatica-at-salesforce-4415539187)** — VP, Product Design, Informatica  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/vp-product-design-informatica-at-salesforce-4415532334)** — VP, Product Design, Informatica  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/vice-president-product-design-at-ccc-intelligent-solutions-4441926551)** — Vice President, Product Design  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
