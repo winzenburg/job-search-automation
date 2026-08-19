@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-08-18 14:21 UTC_
+_Last updated: 2026-08-19 14:18 UTC_
 
-**Total applications:** 54  
+**Total applications:** 56  
 **Submitted:** 0  
 **Needs manual apply (no automation for this source):** 27  
-**Failed (needs review):** 27  
+**Failed (needs review):** 29  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -125,6 +125,12 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/vice-president-product-design-research-at-docusign-4445470343)** — Vice President, Product Design &amp; Research  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/vice-president-product-design-hybrid-at-crowdstrike-4441008742)** — Vice President - Product Design (Hybrid)  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/vice-president-product-design-research-at-docusign-4445459570)** — Vice President, Product Design &amp; Research  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
