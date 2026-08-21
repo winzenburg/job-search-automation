@@ -1100,5 +1100,24 @@
     "notes": "",
     "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
     "failed_at": "2026-08-20T14:19:34.168162"
+  },
+  {
+    "id": "029a3f43",
+    "company": "Shatterproof",
+    "title": "Vice President, Technology & Digital Strategy",
+    "source": "",
+    "url": "https://remotive.com/remote-jobs/all-others/vice-president-technology-digital-strategy-2091104",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-21T14:16:10.778045",
+    "applied_at": "2026-08-21T14:18:12.625165",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Shatterproof/Resume_Shatterproof.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Shatterproof/Cover_Letter_Shatterproof.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-08-21T14:18:12.826048"
   }
 ]

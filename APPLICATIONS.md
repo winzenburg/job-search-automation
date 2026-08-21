@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-08-20 14:19 UTC_
+_Last updated: 2026-08-21 14:18 UTC_
 
-**Total applications:** 58  
+**Total applications:** 59  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 27  
+**Needs manual apply (no automation for this source):** 28  
 **Failed (needs review):** 31  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,10 @@ _Last updated: 2026-08-20 14:19 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Shatterproof](https://remotive.com/remote-jobs/all-others/vice-president-technology-digital-strategy-2091104)** — Vice President, Technology & Digital Strategy  
+  Source:  | Generated: 2026-08-21
+  Resume: `Resume_Shatterproof.pdf`
 
 - **[Canonical](https://himalayas.app/companies/canonical/jobs/design-manager-visual-5827060867)** — Design Manager (Visual)  
   Source:  | Generated: 2026-08-18
