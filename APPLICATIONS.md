@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-08-21 14:18 UTC_
+_Last updated: 2026-08-24 14:21 UTC_
 
-**Total applications:** 59  
+**Total applications:** 61  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 28  
+**Needs manual apply (no automation for this source):** 30  
 **Failed (needs review):** 31  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,14 @@ _Last updated: 2026-08-21 14:18 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Replika](https://himalayas.app/companies/replika/jobs/brand-design-manager-remote)** — Brand Design Manager - Remote  
+  Source:  | Generated: 2026-08-24
+  Resume: `Resume_Replika.pdf`
+
+- **[MetaLab](https://himalayas.app/companies/metalab/jobs/design-director)** — Design Director  
+  Source:  | Generated: 2026-08-24
+  Resume: `Resume_MetaLab.pdf`
 
 - **[Shatterproof](https://remotive.com/remote-jobs/all-others/vice-president-technology-digital-strategy-2091104)** — Vice President, Technology & Digital Strategy  
   Source:  | Generated: 2026-08-21

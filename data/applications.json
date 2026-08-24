@@ -1119,5 +1119,43 @@
     "notes": "",
     "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
     "failed_at": "2026-08-21T14:18:12.826048"
+  },
+  {
+    "id": "4046e7a8",
+    "company": "MetaLab",
+    "title": "Design Director",
+    "source": "",
+    "url": "https://himalayas.app/companies/metalab/jobs/design-director",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-24T14:18:44.276678",
+    "applied_at": "2026-08-24T14:20:43.131539",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/MetaLab/Resume_MetaLab.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/MetaLab/Cover_Letter_MetaLab.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-08-24T14:21:15.689823"
+  },
+  {
+    "id": "6c72be77",
+    "company": "Replika",
+    "title": "Brand Design Manager - Remote",
+    "source": "",
+    "url": "https://himalayas.app/companies/replika/jobs/brand-design-manager-remote",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-24T14:18:44.276695",
+    "applied_at": "2026-08-24T14:21:15.473586",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Replika/Resume_Replika.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Replika/Cover_Letter_Replika.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-08-24T14:21:25.622578"
   }
 ]
