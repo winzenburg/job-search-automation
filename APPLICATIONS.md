@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-08-24 14:21 UTC_
+_Last updated: 2026-08-25 14:22 UTC_
 
-**Total applications:** 61  
+**Total applications:** 63  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 30  
+**Needs manual apply (no automation for this source):** 32  
 **Failed (needs review):** 31  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,14 @@ _Last updated: 2026-08-24 14:21 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/operations-program-manager-tax)** — Operations Program Manager, Tax  
+  Source:  | Generated: 2026-08-25
+  Resume: `Resume_Stripe.pdf`
+
+- **[Federato](https://himalayas.app/companies/federato/jobs/director-engineering-ai-products)** — Director, Engineering - AI Products  
+  Source:  | Generated: 2026-08-25
+  Resume: `Resume_Federato.pdf`
 
 - **[Replika](https://himalayas.app/companies/replika/jobs/brand-design-manager-remote)** — Brand Design Manager - Remote  
   Source:  | Generated: 2026-08-24

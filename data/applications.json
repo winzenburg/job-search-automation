@@ -1157,5 +1157,43 @@
     "notes": "",
     "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
     "failed_at": "2026-08-24T14:21:25.622578"
+  },
+  {
+    "id": "3d538907",
+    "company": "Federato",
+    "title": "Director, Engineering - AI Products",
+    "source": "",
+    "url": "https://himalayas.app/companies/federato/jobs/director-engineering-ai-products",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-25T14:19:48.916010",
+    "applied_at": "2026-08-25T14:21:47.461891",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Federato/Resume_Federato.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Federato/Cover_Letter_Federato.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-08-25T14:22:18.139490"
+  },
+  {
+    "id": "b28980c3",
+    "company": "Stripe",
+    "title": "Operations Program Manager, Tax",
+    "source": "",
+    "url": "https://himalayas.app/companies/stripe/jobs/operations-program-manager-tax",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-25T14:19:48.916022",
+    "applied_at": "2026-08-25T14:22:17.974257",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Stripe/Resume_Stripe.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Stripe/Cover_Letter_Stripe.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-08-25T14:22:26.689355"
   }
 ]
