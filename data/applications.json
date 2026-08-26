@@ -1195,5 +1195,24 @@
     "notes": "",
     "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
     "failed_at": "2026-08-25T14:22:26.689355"
+  },
+  {
+    "id": "f7fd21d8",
+    "company": "IxDF - Interaction Design Foundation",
+    "title": "Course Director: UX, UI, and AI",
+    "source": "",
+    "url": "https://weworkremotely.com/remote-jobs/ixdf-interaction-design-foundation-course-director-ux-ui-and-ai",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-26T14:19:08.447106",
+    "applied_at": "2026-08-26T14:21:07.512849",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/IxDF_-_Interaction_Design_Foundation/Resume_IxDF_-_Interaction_Design_Foundation.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/IxDF_-_Interaction_Design_Foundation/Cover_Letter_IxDF_-_Interaction_Design_Foundation.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-08-26T14:21:07.740371"
   }
 ]

@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-08-25 14:22 UTC_
+_Last updated: 2026-08-26 14:21 UTC_
 
-**Total applications:** 63  
+**Total applications:** 64  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 32  
+**Needs manual apply (no automation for this source):** 33  
 **Failed (needs review):** 31  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,10 @@ _Last updated: 2026-08-25 14:22 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[IxDF - Interaction Design Foundation](https://weworkremotely.com/remote-jobs/ixdf-interaction-design-foundation-course-director-ux-ui-and-ai)** — Course Director: UX, UI, and AI  
+  Source:  | Generated: 2026-08-26
+  Resume: `Resume_IxDF_-_Interaction_Design_Foundation.pdf`
 
 - **[Stripe](https://himalayas.app/companies/stripe/jobs/operations-program-manager-tax)** — Operations Program Manager, Tax  
   Source:  | Generated: 2026-08-25
