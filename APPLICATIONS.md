@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-08-26 14:21 UTC_
+_Last updated: 2026-08-27 17:52 UTC_
 
-**Total applications:** 64  
+**Total applications:** 66  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 33  
-**Failed (needs review):** 31  
+**Needs manual apply (no automation for this source):** 34  
+**Failed (needs review):** 32  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -13,6 +13,10 @@ _Last updated: 2026-08-26 14:21 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Webflow](https://himalayas.app/companies/webflow/jobs/staff-software-engineer-developer-productivity)** — Staff Software Engineer, Developer Productivity  
+  Source:  | Generated: 2026-08-27
+  Resume: `Resume_Webflow.pdf`
 
 - **[IxDF - Interaction Design Foundation](https://weworkremotely.com/remote-jobs/ixdf-interaction-design-foundation-course-director-ux-ui-and-ai)** — Course Director: UX, UI, and AI  
   Source:  | Generated: 2026-08-26
@@ -149,6 +153,9 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/head-of-product-design-remote-us-canada-at-luxury-presence-4457123884)** — Head of Product Design - Remote (US/CANADA)  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/director-product-design-at-givebutter-4454310285)** — Director, Product Design  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
