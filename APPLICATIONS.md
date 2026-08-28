@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-08-27 17:52 UTC_
+_Last updated: 2026-08-28 18:07 UTC_
 
-**Total applications:** 66  
+**Total applications:** 68  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 34  
-**Failed (needs review):** 32  
+**Needs manual apply (no automation for this source):** 35  
+**Failed (needs review):** 33  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -13,6 +13,10 @@ _Last updated: 2026-08-27 17:52 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/program-manager-intake-portfolio-management-4156649389)** — Program Manager, Intake & Portfolio Management  
+  Source:  | Generated: 2026-08-28
+  Resume: `Resume_Stripe.pdf`
 
 - **[Webflow](https://himalayas.app/companies/webflow/jobs/staff-software-engineer-developer-productivity)** — Staff Software Engineer, Developer Productivity  
   Source:  | Generated: 2026-08-27
@@ -153,6 +157,9 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/head-of-product-design-at-thatch-4457273460)** — Head of Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/head-of-product-design-remote-us-canada-at-luxury-presence-4457123884)** — Head of Product Design - Remote (US/CANADA)  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)

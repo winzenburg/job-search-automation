@@ -1252,5 +1252,43 @@
     "notes": "",
     "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
     "failed_at": "2026-08-27T17:51:56.674370"
+  },
+  {
+    "id": "4a9f78d5",
+    "company": "Stripe",
+    "title": "Program Manager, Intake & Portfolio Management",
+    "source": "",
+    "url": "https://himalayas.app/companies/stripe/jobs/program-manager-intake-portfolio-management-4156649389",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-28T18:04:25.043419",
+    "applied_at": "2026-08-28T18:06:27.205012",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Stripe/Resume_Stripe.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Stripe/Cover_Letter_Stripe.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-08-28T18:07:00.894403"
+  },
+  {
+    "id": "f9f2df8d",
+    "company": "",
+    "title": "Head of Product Design",
+    "source": "",
+    "url": "https://www.linkedin.com/jobs/view/head-of-product-design-at-thatch-4457273460",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-08-28T18:04:25.043430",
+    "applied_at": "2026-08-28T18:07:00.728386",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Resume_.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Cover_Letter_.pdf",
+    "status": "FAILED",
+    "notes": "",
+    "failure_reason": "LinkedIn login failed (CAPTCHA or wrong credentials)",
+    "failed_at": "2026-08-28T18:07:12.423275"
   }
 ]
