@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-08-28 18:07 UTC_
+_Last updated: 2026-08-31 14:23 UTC_
 
-**Total applications:** 68  
+**Total applications:** 73  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 35  
+**Needs manual apply (no automation for this source):** 40  
 **Failed (needs review):** 33  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,26 @@ _Last updated: 2026-08-28 18:07 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/risk-strategist-onboarding-and-compliance-2565166004)** — Risk Strategist, Onboarding and Compliance  
+  Source:  | Generated: 2026-08-31
+  Resume: `Resume_Stripe.pdf`
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/staff-product-manager-link-consumer-product-1891752618)** — Staff Product Manager, Link Consumer Product  
+  Source:  | Generated: 2026-08-31
+  Resume: `Resume_Stripe.pdf`
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/program-manager-performance-and-talent-planning-5334182174)** — Program Manager, Performance and Talent Planning  
+  Source:  | Generated: 2026-08-31
+  Resume: `Resume_Stripe.pdf`
+
+- **[Doppel](https://himalayas.app/companies/doppel/jobs/digital-web-experience-manager)** — Digital Web Experience Manager  
+  Source:  | Generated: 2026-08-31
+  Resume: `Resume_Doppel.pdf`
+
+- **[Pammys](https://himalayas.app/companies/pammys/jobs/head-of-graphic-design-m-w-d)** — Head of Graphic Design (m/w/d)  
+  Source:  | Generated: 2026-08-31
+  Resume: `Resume_Pammys.pdf`
 
 - **[Stripe](https://himalayas.app/companies/stripe/jobs/program-manager-intake-portfolio-management-4156649389)** — Program Manager, Intake & Portfolio Management  
   Source:  | Generated: 2026-08-28
