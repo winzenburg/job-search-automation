@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-08-31 14:23 UTC_
+_Last updated: 2026-09-01 14:22 UTC_
 
-**Total applications:** 73  
+**Total applications:** 77  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 40  
-**Failed (needs review):** 33  
+**Needs manual apply (no automation for this source):** 43  
+**Failed (needs review):** 34  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -13,6 +13,18 @@ _Last updated: 2026-08-31 14:23 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Webflow](https://himalayas.app/companies/webflow/jobs/staff-data-engineer)** — Staff Data Engineer  
+  Source:  | Generated: 2026-09-01
+  Resume: `Resume_Webflow.pdf`
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/sales-excellence-manager-global-sales-vendors-7491606541)** — Sales Excellence Manager, Global Sales Vendors  
+  Source:  | Generated: 2026-09-01
+  Resume: `Resume_Stripe.pdf`
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/product-manager-identity-access-management)** — Product Manager, Identity & Access Management  
+  Source:  | Generated: 2026-09-01
+  Resume: `Resume_Stripe.pdf`
 
 - **[Stripe](https://himalayas.app/companies/stripe/jobs/risk-strategist-onboarding-and-compliance-2565166004)** — Risk Strategist, Onboarding and Compliance  
   Source:  | Generated: 2026-08-31
@@ -177,6 +189,9 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/director-of-brand-product-design-at-human-agency-4458506365)** — Director of Brand &amp; Product Design  
+  Source:  | Reason: Timeout 20000ms exceeded.
 
 - **[](https://www.linkedin.com/jobs/view/head-of-product-design-at-thatch-4457273460)** — Head of Product Design  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
