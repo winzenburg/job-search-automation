@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-09-02 14:18 UTC_
+_Last updated: 2026-09-03 14:22 UTC_
 
-**Total applications:** 77  
+**Total applications:** 80  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 43  
-**Failed (needs review):** 34  
+**Needs manual apply (no automation for this source):** 45  
+**Failed (needs review):** 35  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -13,6 +13,14 @@ _Last updated: 2026-09-02 14:18 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/senior-staff-product-designer-risk)** — Senior Staff Product Designer, Risk  
+  Source:  | Generated: 2026-09-03
+  Resume: `Resume_Stripe.pdf`
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/program-manager-performance-and-talent-planning-7867518114)** — Program Manager, Performance and Talent Planning  
+  Source:  | Generated: 2026-09-03
+  Resume: `Resume_Stripe.pdf`
 
 - **[Webflow](https://himalayas.app/companies/webflow/jobs/staff-data-engineer)** — Staff Data Engineer  
   Source:  | Generated: 2026-09-01
@@ -189,6 +197,9 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/product-designer-vice-president-at-jpmorganchase-4455599253)** — Product Designer, Vice President  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/director-of-brand-product-design-at-human-agency-4458506365)** — Director of Brand &amp; Product Design  
   Source:  | Reason: Timeout 20000ms exceeded.
