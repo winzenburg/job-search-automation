@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-09-03 14:22 UTC_
+_Last updated: 2026-09-04 14:19 UTC_
 
-**Total applications:** 80  
+**Total applications:** 83  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 45  
+**Needs manual apply (no automation for this source):** 48  
 **Failed (needs review):** 35  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,18 @@ _Last updated: 2026-09-03 14:22 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/product-manager-sail-core)** — Product Manager, Sail Core  
+  Source:  | Generated: 2026-09-04
+  Resume: `Resume_Stripe.pdf`
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/product-manager-ml-foundations-and-genai-6914723735)** — Product Manager, ML Foundations and GenAI  
+  Source:  | Generated: 2026-09-04
+  Resume: `Resume_Stripe.pdf`
+
+- **[Iovance Biotherapeutics](https://himalayas.app/companies/iovance-biotherapeutics/jobs/associate-director-digital-experience-ai-production)** — Associate Director, Digital Experience & AI Production  
+  Source:  | Generated: 2026-09-04
+  Resume: `Resume_Iovance_Biotherapeutics.pdf`
 
 - **[Stripe](https://himalayas.app/companies/stripe/jobs/senior-staff-product-designer-risk)** — Senior Staff Product Designer, Risk  
   Source:  | Generated: 2026-09-03
