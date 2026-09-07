@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-09-04 14:19 UTC_
+_Last updated: 2026-09-07 14:22 UTC_
 
-**Total applications:** 83  
+**Total applications:** 88  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 48  
-**Failed (needs review):** 35  
+**Needs manual apply (no automation for this source):** 50  
+**Failed (needs review):** 38  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -13,6 +13,14 @@ _Last updated: 2026-09-04 14:19 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Athletic Greens](https://himalayas.app/companies/athletic-greens/jobs/senior-manager-motion-designer-eu)** — Senior Manager, Motion Designer (EU)  
+  Source:  | Generated: 2026-09-07
+  Resume: `Resume_Athletic_Greens.pdf`
+
+- **[WekaIO](https://himalayas.app/companies/wekaio/jobs/director-brand-creative)** — Director, Brand & Creative  
+  Source:  | Generated: 2026-09-07
+  Resume: `Resume_WekaIO.pdf`
 
 - **[Stripe](https://himalayas.app/companies/stripe/jobs/product-manager-sail-core)** — Product Manager, Sail Core  
   Source:  | Generated: 2026-09-04
@@ -209,6 +217,15 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/vp-product-design-growth-and-revenue-cnn-at-warner-bros-discovery-4415576196)** — VP, Product Design, Growth and Revenue - CNN  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/vp-product-design-growth-and-revenue-cnn-at-warner-bros-discovery-4415573270)** — VP, Product Design, Growth and Revenue - CNN  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/vice-president-product-design-at-crowdstrike-4461412634)** — Vice President - Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/product-designer-vice-president-at-jpmorganchase-4455599253)** — Product Designer, Vice President  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
