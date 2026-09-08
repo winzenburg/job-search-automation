@@ -2,114 +2,112 @@
 
 Wheat Ridge, CO · 303.359.3744 · ryanwinzenburg@gmail.com · linkedin.com/in/rwinzenburg
 
-Product Designer
+Director-level Product Experience Leader | Enterprise B2B | Product Operating Models | AI-Enabled Delivery
 
 ## Summary
 
-Product designer with 15+ years shipping enterprise and SaaS experiences in healthcare, telecom, mapping, and financial services. Strongest at turning messy workflows into clear information architecture, interaction design, and design-system patterns that teams can implement.
+{{SUMMARY}}
+
+I make complex B2B products more usable while improving the system that produces them — the customer-facing experience, the design organization, and the operating model that ships work.
 
 ## Experience
 
-### Independent Product Design Consultant
-Wheat Ridge, CO · 2023 – Present
+### Senior UX Lead — Comcast Business
+Denver, CO · May 2023 – Present
 
-Product design, design systems, and design-operations consulting for software teams. Recent work includes interaction design, information architecture, and AI-assisted discovery-to-delivery workflows for enterprise and SaaS products.
+*Enterprise product experience and AI-enabled operating-model leadership across [VERIFY: product domain / portfolio]; lead a team of [VERIFY: N] designers and the UX capability program.*
 
-- Partner with product and engineering to turn research and workflow constraints into shippable interface and IA decisions.
-- Design and document component patterns and handoff standards so multiple surfaces stay consistent without a large dedicated systems team.
-- Build AI-assisted research and prototyping workflows that shorten discovery cycles while keeping a human quality gate before anything ships.
-- Current engagement: product and workflow consulting for a digital-archives organization (galleries, libraries, archives, museums), including how research and production teams use AI on historical collections.
+- Led the UX maturity program moving the function from Level 2 to Level 3, including a 20-skill training library and AI-assisted designer workflows adopted inside a large, skeptical enterprise. [VERIFY: team size, executive forums, one owned decision]
+- Established operating cadence with product and engineering leadership so experience work enters planning before requirements are locked. [VERIFY: named decision rights / forums]
+- Shaped experience strategy and prioritization for [VERIFY: product area / customer segment], partnering with senior stakeholders on roadmap tradeoffs. [VERIFY]
+- Built AI-assisted delivery practices that compress design and discovery cycle time while keeping a human quality gate before ship. [VERIFY: measured cycle change]
 
 ### User Experience Lead Manager — Buildout
 Greater Chicago Area (remote) · Sep 2022 – Mar 2023
 
-Led product operations and discovery for a commercial real estate SaaS platform.
-
 - Directed a cross-functional team of five and put in place workflows that improved design quality and delivery velocity.
 - Ran strategic discovery that surfaced unmet customer needs and fed roadmap prioritization.
 - Standardized operational documentation and onboarding, cutting new-teammate ramp time by about 30%.
-- Established research-through-implementation workflows so customer insight and engineering work stayed aligned.
 
 ### User Experience Principal Manager — CVS Health (Aetna)
 Denver, CO · Jan 2018 – Jul 2020
 
-Led digital experience work during the CVS–Aetna merger across core customer workflows.
-
-- Drove product operations that increased customer task completion from 50% to 90% on core digital tasks.
-- Restructured information architecture and customer workflows from competitive analysis and usability testing.
-- Reduced friction on the top 10 customer tasks during a complex service integration, improving conversion and lowering support load.
-- Aligned product, engineering, and business partners so experience changes landed on merger timelines.
+- Led digital experience work during the CVS–Aetna merger ($69B): customer task completion from 50% to 90% across core digital workflows for 39M+ users. [VERIFY: which workflow, measurement method, date range, decision authority]
+- Restructured information architecture and the top customer tasks from competitive analysis and usability testing; reduced friction during service integration.
+- Partnered with product, engineering, and business leadership so experience changes landed on merger timelines.
 
 ### Innovation Specialist Team Lead — U.S. Department of the Interior
 Denver, CO · Jul 2017 – Dec 2018
 
-Federal design fellowship for the Office of Natural Resource Revenue (ONRR).
-
-- Brought product-operations methods into federal digital modernization for ONRR.
-- Facilitated stakeholder workshops that produced a clear operational roadmap for the ONRR Innovation Team.
+- Federal design fellowship for ONRR: brought product-operations methods into digital modernization.
+- Facilitated stakeholder workshops that produced an operational roadmap for the ONRR Innovation Team.
 - Led product work on public-facing platforms, including sites supporting UN NGO programs.
-- Set content operations and governance so platforms stayed maintainable after launch.
 
 ### Director of User Experience Design — Life Time (Athlinks)
 Denver, CO · Jun 2015 – Nov 2016
 
-Built the product design and operations practice for Life Time’s Athlinks division.
-
-- Led a team of 8 and established data-informed systems that reduced development costs by about 30%.
-- Aligned stakeholders on product vision and market fit across product, engineering, and business.
+- Built the product design and operations practice; led a team of 8; data-informed systems reduced development costs by about 30%.
+- Aligned stakeholders on product vision across product, engineering, and business.
 - Directed mobile product work that improved satisfaction while cutting time and cost to deliver.
-- Stood up a growth practice that tied analytics to conversion and product decisions.
 
 ### Principal User Experience Strategist — Pitney Bowes Software
 Boulder, CO · Aug 2012 – Jun 2015
 
-Led product-systems standardization across a large digital product portfolio.
-
-- Built the design systems function, including a global pattern library used to cut redundant UI work across 300+ digital products.
+- Built the design systems function and global pattern library across 300+ digital products; development time reduced by about 50%. [VERIFY: adoption/coverage, measurement period, ownership scope]
 - Partnered with executive stakeholders to embed consistent product-development methods across distributed teams.
-- Created shared infrastructure so teams could ship more consistent product faster, with less duplication.
-- Designed and delivered training for 50+ teammates so the system would stick without a bottleneck on one person.
+- Designed and delivered training for 50+ teammates so the system did not bottleneck on one person.
 
 ### User Experience Architect — Level 3 Communications
 Broomfield, CO · Oct 2011 – Aug 2012
 
-- Led discovery and requirements for enterprise customer platforms; prototyping process reduced iteration cycles by about 30%.
-- Architected customer-facing dashboard experiences for complex enterprise workflows.
-- Established repeatable discovery-to-requirements handoff between research and engineering.
+- Led discovery and requirements for enterprise customer platforms; prototyping cut iteration cycles by about 30%.
+- Architected customer-facing dashboards for complex enterprise workflows.
 
 ### Senior User Experience Designer — AOL (MapQuest)
 Denver, CO · Jul 2010 – Oct 2011
 
-- Led customer research that informed MapQuest web and mobile product direction.
-- Partnered with product management on journey frameworks and roadmap priorities during the early mobile shift.
-- Translated research into product requirements rather than unvalidated internal assumptions.
+- Led customer research informing MapQuest web and mobile product direction during the early mobile shift.
+- Partnered with product management on journey frameworks and roadmap priorities.
 
 ### User Experience Architect — Aspenware
 Greenwood Village, CO · Dec 2008 – Jul 2010
 
-- Owned discovery through implementation for enterprise clients at a Microsoft consultancy: research, requirements, architecture, and front-end delivery (HTML, CSS, JavaScript).
-- Led content audits and gap analysis against client business outcomes.
-- Worked in Agile/Scrum with frequent context-switching across client domains.
+- Owned discovery through implementation for enterprise clients: research, requirements, architecture, and front-end delivery.
 
 ## Skills
 
-Product design · Interaction design · Information architecture · User research · Usability testing · Design systems · Design operations · Prototyping · Cross-functional product partnership · AI-assisted design workflows · Figma
+Product experience leadership · Enterprise B2B UX · Product operating models · Design systems · Design organization maturity · Cross-functional product partnership · AI-enabled delivery · Information architecture · User research · Roadmap influence
 
 ## Notes for customization (do not print on the resume)
 
-Role-family headlines:
-- product_design_ic: Product Designer
-- design_leadership: Design Leader (use the posting’s title level: Director / Head / Manager — never invent VP/CDO)
-- design_ops_systems: Design Systems & Design Operations
+### Mandate
+Lead product experience for a complex B2B business: the customer-facing product, the design organization behind it, and the operating model that gets work shipped. AI makes both the product and the organization faster and easier to run.
 
-Role-family summaries (adapt, do not paste founder language):
-- product_design_ic: Product designer with 15+ years shipping enterprise and SaaS experiences in healthcare, telecom, mapping, and financial services. Strongest at turning messy workflows into clear IA, interaction, and design-system patterns that teams can actually implement.
-- design_leadership: Design leader who has built and run product-design practices inside large organizations. I hire for craft, set the operating rhythm with product and engineering, and keep quality high while the business is changing.
-- design_ops_systems: Design operations and design-systems specialist. I have stood up pattern libraries, training, and multi-team standards so product orgs stop redrawing the same UI and can ship with a shared source of truth.
+### Constraints
+Remote-first, Denver-based. $225K+ base. Full-time only. No relocation.
 
-Bullet selection:
-- IC roles: prefer CVS task-completion, MapQuest/Level 3 research and IA, Pitney Bowes pattern library as a *contribution*, independent consulting as hands-on design — not as running a company.
-- Leadership roles: prefer Life Time team of 8, Buildout team of 5, CVS merger alignment, Pitney Bowes training 50+.
-- Ops/systems roles: prefer Pitney Bowes design systems, Life Time operating rhythm, Buildout documentation/onboarding, consulting workflow/standards bullets.
+### Resume versions — replace {{SUMMARY}} and reorder the top third
 
-Never list: Winzinvest, Casimir Systems, Foundpath, Kinlet, Camp Luxe, Cultivate, Founder, Owner, Principal Investigator, SBIR.
+**product_experience_leader** (default for Director / Head / VP Design|Experience):
+> Product experience leader for complex B2B environments. At CVS Health, took task completion from 50% to 90% for 39M+ users during the Aetna merger. At Pitney Bowes, led a design system across 300+ products that cut development time in half. At Comcast Business, leading product experience and an AI-enabled operating model for the UX function. Looking for a Director or Head mandate where experience, org, and operating model are one job.
+
+Lead order: CVS → Comcast scope → Pitney Bowes.
+
+**product_experience_ops** (Product Operations / operating-model briefs):
+> Product experience and operations leader. I improve how product teams decide and deliver — not only interface quality. Pitney Bowes design system across 300+ products; AI-augmented delivery compressing cycles from months to weeks; Comcast Business cross-functional operating cadence with product and engineering leadership.
+
+Lead order: Pitney Bowes → AI cycle compression → Comcast decision example.
+
+**ai_enterprise_workflow** (fintech, defense, regulated, public sector):
+> Enterprise product experience leader focused on turning AI into usable, governed workflows. CVS/Aetna task-completion outcomes at merger scale; AI-enabled delivery compressing product cycles; applied work on regulated decision support (Casimir) and rules-based automation with controls (Winzinvest) — range, not the job I’m applying for.
+
+Lead order: AI cycle compression → CVS → one venture line max.
+
+### Integrity
+Do not invent numbers. If a [VERIFY] field is unresolved, drop the number and keep the scope claim, or omit the bullet. Never claim P&L, budget, or people-manager headcount unless filled in as verified.
+
+### Ventures
+Not in the top third except `ai_enterprise_workflow` (one line). Never raise first in cover letters. Interview answer when asked: they give current operator practice in AI automation and complex decision workflows; they do not compete with a full-time leadership role.
+
+### Never in applications
+Foundpath as identity, Camp Luxe (interview only), “I’m a founder looking for…”, explaining why now via venture failure or runway.

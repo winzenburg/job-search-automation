@@ -34,7 +34,7 @@ TARGET_KEYWORDS = [
     "design ops",
 ]
 
-MIN_SALARY = 0
+MIN_SALARY = 225000  # Career Strategy v3: $225K+ base; unknown salary still allowed
 LOCATIONS = ["remote", "boulder", "denver", "colorado", "worldwide", "global", "us", "usa", "anywhere"]
 
 OPPORTUNITIES_FILE = Path(__file__).parent / "OPPORTUNITIES.md"

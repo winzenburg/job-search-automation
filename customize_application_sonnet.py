@@ -11,7 +11,12 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-from role_targeting import founder_leak_terms, should_apply, targeting_prompt_block
+from role_targeting import (
+    classify_role,
+    founder_leak_terms,
+    should_apply,
+    targeting_prompt_block,
+)
 
 SCRIPT_DIR = Path(__file__).parent
 VOICE_GUIDE_PATH = SCRIPT_DIR / "VOICE_GUIDE.md"
@@ -169,8 +174,8 @@ def _strip_fences(text: str) -> str:
     return stripped.strip()
 
 
-def _complete_with_leak_retry(client, system_prompt, user_prompt, max_tokens):
-    """Generate copy, then rewrite once if founder/startup language leaked."""
+def _complete_with_leak_retry(client, system_prompt, user_prompt, max_tokens, resume_version=""):
+    """Generate copy, then rewrite once if banned founder identity leaked."""
     message = client.messages.create(
         model="claude-sonnet-4-6",
         max_tokens=max_tokens,
@@ -178,17 +183,17 @@ def _complete_with_leak_retry(client, system_prompt, user_prompt, max_tokens):
         messages=[{"role": "user", "content": user_prompt}],
     )
     text = _strip_fences(_message_text(message))
-    leaks = founder_leak_terms(text)
+    leaks = founder_leak_terms(text, resume_version or "product_experience_leader")
     if not leaks:
         return text
 
-    print(f"[WARN] Founder language leaked ({', '.join(leaks)}); rewriting…")
+    print(f"[WARN] Banned language leaked ({', '.join(leaks)}); rewriting…")
     retry_prompt = (
         user_prompt
         + "\n\nThe previous draft used these banned terms: "
         + ", ".join(leaks)
         + ". Rewrite the entire document with those removed. "
-        "Do not mention founding, startups, or parallel companies."
+        "Do not lead with founder identity. Do not raise ventures first."
     )
     message = client.messages.create(
         model="claude-sonnet-4-6",
@@ -207,7 +212,7 @@ def call_sonnet_for_cover_letter(
     job_title="",
 ):
     """
-    Call Claude to generate a cover letter aimed at THIS job title.
+    Call Claude to generate a cover letter aimed at THIS Director/Head mandate.
     """
     import anthropic
 
@@ -217,37 +222,45 @@ def call_sonnet_for_cover_letter(
         return "[ERROR: API key not configured]"
 
     title = job_title or company
-    print(f"\n[SONNET] Cover letter for {company} — {title}...")
+    description = job_posting.get("content", "")
+    target = classify_role(title, description)
+    resume_version = target.resume_version if target else "product_experience_leader"
+    print(f"\n[SONNET] Cover letter for {company} — {title} ({resume_version})...")
 
     system_prompt = (
-        "You write short, specific cover letters for product design and "
-        "design-operations jobs. Follow VOICE_GUIDE and ROLE TARGETING exactly. "
-        "Output only the letter — no preamble, no markdown fences."
+        "You write short cover letters for Director / Head product-experience "
+        "roles at complex B2B companies. Follow VOICE_GUIDE and ROLE TARGETING "
+        "exactly. Output only the letter — no preamble, no markdown fences."
     )
 
     user_prompt = f"""VOICE_GUIDE:
 {voice_guide}
 
-{targeting_prompt_block(title)}
+{targeting_prompt_block(title, description)}
 
 COMPANY: {company}
 JOB TITLE: {title}
 JOB URL: {job_posting['url']}
 
 JOB POSTING:
-{job_posting['content']}
+{description}
 
-MASTER RESUME (only source of experience — do not invent employers or metrics):
+MASTER RESUME (only source of experience — do not invent employers or metrics;
+leave [VERIFY] fields out rather than inventing numbers):
 {load_master_resume()}
 
 Write a 4-paragraph cover letter for this exact role. Sentence one names the job title.
-Proof comes from employed roles. Independent consulting is at most one clause.
+Prove the mandate (product experience + design org + operating model). Do not raise ventures first.
 """
 
     try:
         client = anthropic.Anthropic(api_key=api_key)
         cover_letter = _complete_with_leak_retry(
-            client, system_prompt, user_prompt, max_tokens=1200
+            client,
+            system_prompt,
+            user_prompt,
+            max_tokens=1200,
+            resume_version=resume_version,
         )
         print("[✓] Cover letter generated")
         return cover_letter
@@ -259,7 +272,7 @@ Proof comes from employed roles. Independent consulting is at most one clause.
 
 def call_sonnet_for_resume(company, job_posting, api_key=None, job_title=""):
     """
-    Call Claude to produce a full ATS resume aimed at THIS job title.
+    Call Claude to produce a full ATS resume aimed at THIS job title / version.
     """
     import anthropic
 
@@ -269,41 +282,49 @@ def call_sonnet_for_resume(company, job_posting, api_key=None, job_title=""):
         return "[ERROR: API key not configured]"
 
     title = job_title or company
-    print(f"[SONNET] Resume for {company} — {title}...")
+    description = job_posting.get("content", "")
+    target = classify_role(title, description)
+    resume_version = target.resume_version if target else "product_experience_leader"
+    print(f"[SONNET] Resume for {company} — {title} ({resume_version})...")
 
     system_prompt = (
-        "You customize one master resume for a single job posting. "
-        "You may rewrite the headline and summary, drop irrelevant bullets, "
-        "and reorder roles. You may not add employers, invent metrics, or "
-        "describe the candidate as a founder. Output markdown resume only."
+        "You customize one master resume for a single Director/Head product-experience "
+        "posting. Keep the formal Comcast Business title. Apply the correct resume "
+        "version's top third. You may not invent metrics or inflate titles. "
+        "Drop the Notes section. Output markdown resume only."
     )
 
-    user_prompt = f"""{targeting_prompt_block(title)}
+    user_prompt = f"""{targeting_prompt_block(title, description)}
 
 COMPANY: {company}
 JOB TITLE: {title}
+RESUME VERSION: {resume_version}
 
 JOB POSTING:
-{job_posting['content']}
+{description}
 
 MASTER RESUME:
 {load_master_resume()}
 
 Produce a complete one-to-two page ATS resume:
 1. Name / contact from the master resume
-2. Headline matching this job title (not a higher title)
-3. 3–4 line summary for THIS role family
-4. Experience: keep employed roles; trim independent consulting to 2–3 role-relevant bullets; drop the customization notes section
+2. Headline calibrated to this posted title (Director/Head/VP — never invent higher)
+3. Summary from the matching resume-version block (replace {{{{SUMMARY}}}})
+4. Experience: Comcast Business first with scope line; then employed history; omit unresolved [VERIFY] numbers
 5. Skills trimmed to this posting
-6. Integrate posting keywords only where they are true
+6. Do not print the Notes for customization section
 
-Output markdown only (headings, bullets). No commentary.
+Output markdown only. No commentary.
 """
 
     try:
         client = anthropic.Anthropic(api_key=api_key)
         resume_text = _complete_with_leak_retry(
-            client, system_prompt, user_prompt, max_tokens=4096
+            client,
+            system_prompt,
+            user_prompt,
+            max_tokens=4096,
+            resume_version=resume_version,
         )
         print("[✓] Resume customized")
         return resume_text
@@ -380,8 +401,8 @@ def main():
     job_title = sys.argv[3] if len(sys.argv) > 3 else ""
 
     if job_title and not should_apply(job_title):
-        print(f"[SKIP] '{job_title}' is outside the design/UX roles we apply to.")
-        print("See ROLE_TARGETING.md")
+        print(f"[SKIP] '{job_title}' is outside Career Targeting Strategy v3.")
+        print("See CAREER_TARGETING_STRATEGY_V3.md / ROLE_TARGETING.md")
         sys.exit(0)
     
     print(f"\n{'='*70}")
@@ -440,16 +461,18 @@ def main():
 
 Materials for {company}{' — ' + job_title if job_title else ''} are ready.
 
-These were generated under the role-targeting rules:
-- Employment-led resume (no founder companies)
-- Cover letter aimed at this job title, not a higher one
-- Independent work framed as consulting, if used at all
+These were generated under Career Targeting Strategy v3:
+- Director / Head product-experience mandate (not IC, not founder-first)
+- Employment-led resume with Comcast Business title bridge
+- Resume version matched to the posting (experience / ops / AI-enterprise)
+- Ventures not raised first
 
 Files:
 - Cover letter: {cl_path.name}
 - Resume: {resume_path.name}
 
-Review before submit. If a sentence could be read as "I'll leave when a company takes off," cut it.
+Review before submit. Resolve any remaining [VERIFY] facts. If a sentence could
+be read as "I'll leave when a company takes off," cut it.
 
 ---
 Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}

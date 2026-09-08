@@ -1,57 +1,69 @@
-# Role-targeted applications (Sep 2026)
+# Role targeting — Career Strategy v3 (operational)
 
-**Decision:** Applications should look like a designer applying for the posted job — not like a founder hedging until a company works.
+**Source of truth:** `CAREER_TARGETING_STRATEGY_V3.md`  
+**Engine:** `role_targeting.py` · `templates/MASTER_RESUME.md` · `VOICE_GUIDE.md`
 
-This replaces the earlier “AI-augmented design operations architect / transformation” pitch for outbound applications. That pitch conflated founder work, consulting, design ops, PM, and executive leadership. It reads as overqualified and temporary.
+## Mandate (one narrative)
 
----
+Lead product experience for a complex B2B business: the customer-facing product, the design organization behind it, and the operating model that gets work shipped. Use AI to make both faster and easier to run.
 
-## What hiring managers were seeing
+**Differentiation:** make complex B2B products more usable while improving the system that produces them.
 
-- LinkedIn and the site lead with Founder (Winzinvest, Casimir, Foundpath, Kinlet).
-- Cover letters opened as a principal/VP-level operator offering to transform the company.
-- The daily sweep applied to anything with “staff/director/head” plus “design” somewhere in the description: data engineering, people ops, motion design, product management, brand, tax, sales.
+## Level architecture (search time)
 
-None of that matches “Principal Product Designer” or “Director, Product Design.” It confirms the fear: *they won’t stay; this is a parking place.*
+| Share | Band | Titles |
+|---:|---|---|
+| **60%** | Director | Product Design, Product Experience, UX, Experience Strategy, Product Operations |
+| **30%** | Senior Director / Head | Product Experience, Product Design, Experience Strategy |
+| **10%** | VP (selective) | Product Experience, Design — warm intro or unusually strong mandate only |
 
----
+Director is the core funnel — calibrated to company scale, never positioned as a fallback from VP.
 
-## Rules going forward
+## Hard constraints
 
-1. **Title must be a design/UX/design-ops/design-leadership job.** Description-only matches are out. See `role_targeting.py`.
-2. **Resume is employment-led.** CVS Health, Life Time, Pitney Bowes, Buildout, DOI, Level 3, MapQuest, Aspenware. Independent work is *consulting*, not founding, and it is not the headline.
-3. **Cover letter matches the altitude of the posting.** IC letters sound like a designer. Director letters sound like a design director. Nobody gets the founder biography.
-4. **Do not mention parallel companies** in application materials. Don’t volunteer them; don’t “spin” them. If they come up in an interview, talk about them as past/adjacent craft — not as the reason you’re applying.
-5. **One job family per application.** Customize from `templates/MASTER_RESUME.md` + `VOICE_GUIDE.md`. Never a generalist “I can do anything” packet.
+- Remote-first, Denver / Front Range hybrid OK. No relocation.
+- **$225K+ base** at every level.
+- Full-time employment only (fractional/advisory is a separate track).
+- Stage 1 posting score **≥ 7 / 10** before generating materials.
 
----
+## What we skip by default
 
-## Role families
+IC / pure UX/UI, design-system-only leadership, generic AI PM, program management, innovation labs without operating authority, marketing-led CX detached from product decisions, CPO at scaled product companies.
 
-| Family | Examples | You sound like |
-|---|---|---|
-| `product_design_ic` | Principal / Staff / Senior Product Designer, UX Designer | Hands-on product designer |
-| `design_leadership` | Director / Head / VP of Product Design, Design Manager | Design manager or director of a product-design team |
-| `design_ops_systems` | Design Systems Lead, Design Operations | Systems and operating-rhythm specialist |
+Exception: Principal with clear enterprise/B2B authority in the posting — rare.
 
-Out of scope (do not generate materials): PM-without-design, engineering, data, people/HR, sales, brand/motion/graphic, program/project ops, customer success.
+## Title bridge
 
----
+Keep formal title **Senior UX Lead, Comcast Business**. Add the scope line and Director-signal bullets (org scale, business scope, decision rights, executive audience, outcomes). Do not inflate the title.
 
-## Why this is not a lie
+## Resume versions
 
-You have 15+ years of employed product-design and design-ops work. That is the job. Founder work is real and it is also *more than these roles are buying.* Application materials should sell what they are buying.
+| Version key | Use when |
+|---|---|
+| `product_experience_leader` | Director / Head / VP Design or Product Experience |
+| `product_experience_ops` | Product Operations / operating-model briefs |
+| `ai_enterprise_workflow` | Fintech, defense, regulated, public sector |
 
-LinkedIn and winzenburg.com still tell the founder story. Recruiters who click through will see it. Updating the LinkedIn headline/About to match the employment-led resume is the next surface (see `LINKEDIN_OPTIMIZATION.md`). Until then, don’t send the founder site in cover letters.
+## Ventures
 
----
+Range, not risk. One line in LinkedIn About. At most one line on the AI-enterprise resume version. **Do not raise first** in cover letters or outreach. Answer when asked: operator practice in AI automation and complex decision workflows; does not compete with full-time leadership.
 
-## Engine
+## Evidence spine (verify before external use)
 
-- Classifier: `role_targeting.py`
-- Master resume: `templates/MASTER_RESUME.md`
-- Letter voice: `VOICE_GUIDE.md`
-- Generator: `customize_application_sonnet.py` (loads both + targeting block)
-- Gates: `job_search_scanner.filter_opportunities`, `scripts/apply_jobs.py`
+1. CVS / Aetna: task completion 50% → 90%, 39M+ users, $69B merger  
+2. Pitney Bowes: design system across 300+ products, ~50% development-time reduction  
+3. AI-augmented delivery: cycles ~18 months → 4–6 weeks  
 
-If a posting fails `should_apply(title)`, skip it. Do not “customize harder.”
+Unresolved facts stay marked `[VERIFY]` in the master resume — generator must not invent.
+
+## Why now (draft — put in your own words)
+
+> I've spent [X] years at Comcast Business building the UX function up a level of maturity and proving out AI-augmented delivery inside a large enterprise. The next thing I want to run is the product experience and the operating model for a whole B2B product organization. That mandate doesn't exist in my current seat, so I'm looking for the company where it does.
+
+## LinkedIn headline
+
+> Senior UX Lead, Comcast Business | Director-level product experience leadership | Enterprise B2B, product operating models, AI-enabled delivery
+
+## Recruiter / HM opening
+
+> I lead product experience in complex B2B environments: the customer-facing product, the design org, and the operating model behind it. At CVS I took task completion from 50% to 90% for 39 million users during the Aetna merger. At Pitney Bowes a design system I led cut development time in half across 300 products. Now I use AI to compress delivery from months to weeks. I'm looking for a Director or Head role where that combined mandate is real, not a design seat that executes after decisions are made.

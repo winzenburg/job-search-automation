@@ -84,7 +84,7 @@ def generate_application_materials(opp: dict, api_key: str) -> tuple[str, str] |
     del api_key  # pipeline reads ANTHROPIC_API_KEY from the environment
 
     if not should_apply(title, opp.get("description", "")):
-        print(f"  [SKIP] Title is not a design/UX role: {title}")
+        print(f"  [SKIP] Outside v3 mandate (Director/Head product experience): {title}")
         return None
 
     try:

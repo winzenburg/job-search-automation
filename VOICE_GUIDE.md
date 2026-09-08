@@ -1,113 +1,95 @@
-# Voice & Tone Guide for Role-Targeted Cover Letters
+# Voice & Tone Guide — Career Strategy v3
 
-Cover letters exist to show you can do **this job**, at **this altitude**, for **this team**. They are not a biography of everything you have ever built.
+Cover letters exist to win a **Director / Head product-experience mandate** at a complex B2B company — not to narrate a founder journey, and not to apply as an IC designer.
 
-Hiring managers for these roles are not looking for a founder. If the letter sounds like you are parking in a day job until a company takes off, it will not get a reply.
-
----
-
-## Core characteristics
-
-- Calm, specific, employed-experience-first
-- Outcome-driven without executive theater
-- Matched to the posting’s seniority (IC ≠ Director ≠ VP)
-- Short: 4 paragraphs, one page
+Full strategy: `CAREER_TARGETING_STRATEGY_V3.md`
 
 ---
 
-## The only story we tell
+## One narrative
 
-1. **I do this kind of work.** Name the job in sentence one.
-2. **Here is proof from jobs I held.** Prefer CVS Health, Pitney Bowes, Life Time, Buildout, DOI, Level 3, MapQuest.
-3. **Here is how that maps to your posting.** Two requirements, two proofs. No extra plot.
-4. **I want this seat.** Close on the team and the product, not on “what’s next for me.”
-
-Independent consulting (2023–present) is a supporting line at most — and only if it maps to a listed requirement. It is never the identity.
+You make complex B2B products more usable while improving the system that produces them: the customer-facing product, the design org, and the operating model that ships work. AI-enabled delivery is how you do it now. Product experience leadership is the durable category.
 
 ---
 
-## Openings that work
+## Open every letter this way
 
-**IC / Product Designer**
-> I’m applying for the Principal Product Designer role on [team]. I spend my time on the same problems this posting describes: [requirement 1] and [requirement 2].
+1. **Name the posted title** in sentence one.
+2. **State the mandate** in one breath (experience + org + operating model).
+3. **Proof from the evidence spine** — CVS/Aetna, Pitney Bowes, Comcast Business scope — matching the resume version.
+4. **Close on wanting THIS seat’s decision rights**, not a parking place.
 
-**Director / Head / Manager**
-> I’m applying for Director, Product Design. I have run product-design practices inside large, messy organizations — most relevant here, [CVS merger / Life Time team / Pitney Bowes systems] — and I want to do that work on [product].
+### Opening that works
 
-**Design systems / Design ops**
-> I’m applying for the Design Systems role. At Pitney Bowes I built the pattern library and training that let distributed teams share a source of truth across a large product portfolio. That’s the job I want to do here.
+> I’m applying for Director of Product Experience. I lead product experience in complex B2B environments — the customer-facing product, the design organization, and the operating model behind it — and I’m looking for a role where that combined mandate is real.
 
-## Openings that fail
+### Openings that fail
 
-- “I’ve spent 20 years bringing design-ops precision and product strategy to messy transitions…”
-- “As a founder / operator / owner…”
-- “I’m looking for a leadership platform / my next chapter / a place to apply everything I’ve built.”
-- “Your company is at an inflection point and needs transformation architecture.”
-
-Those read as overqualified and temporary.
+- Founder bio or venture pitch
+- “I’m a Principal Product Designer passionate about craft…”
+- “Your company is at an inflection point and needs transformation…”
+- Explaining “why now” through side companies or runway
 
 ---
 
-## Proof, by altitude
+## Match the level band
 
-| If the job is… | Use… | Do not use… |
+| Band | Sound like | Do not |
 |---|---|---|
-| Product Designer / Staff / Principal IC | Shipped workflows, IA, research, components, pairing with eng | Org design, P&L, “I scaled a 200-person org,” founding |
-| Design Manager / Director / Head | Team of 5–8, quality bar, product partnership, hiring/mentoring if asked | CEO/founder posture, “I’ll transform the company” |
-| Design systems / Design ops | Pattern library, governance, handoff, training, multi-team consistency | Visionary AI-ops thought leadership that isn’t in the posting |
-
-Quantify when the number is real (CVS 50%→90% task completion; Life Time ~30% lower development cost; Buildout ~30% faster ramp; Pitney Bowes 300+ products, 50+ trained). Do not invent new metrics.
+| Director (60%) | Peer to product/eng directors; owns experience direction and operating cadence | VP/CDO theater; IC craft dump |
+| Head / Senior Director (30%) | Portfolio + executive exposure; multi-team | Undersell as “senior designer” |
+| VP selective (10%) | Executive partner to CPO on experience + practice | Claim sole product P&L / pricing ownership |
 
 ---
 
-## Commitment without oversharing
+## Evidence (verify before sending)
 
-Do **not** explain the founder companies, and do **not** volunteer that you are building other products.
+- **CVS / Aetna:** task completion 50% → 90% for 39M+ users during the $69B merger. [VERIFY details before external use]
+- **Pitney Bowes:** design system across 300+ products; ~50% development-time reduction. [VERIFY]
+- **Comcast Business:** Senior UX Lead — keep formal title; scope line + maturity program (L2→L3), 20-skill library, AI-assisted workflows. Fill [VERIFY: N] before claiming headcount.
+- **AI cycle compression:** months → weeks. [VERIFY] Only with a quality-control method.
 
-Do make the letter sound like someone who wants *this* job:
-
-> I’m looking for a product team where I can stay on the craft — research, interaction, and the system that keeps quality from drifting — rather than splitting attention across a portfolio of my own.
-
-If a sentence could be read as “I’ll leave when something else works,” cut it.
-
----
-
-## Words and names that must not appear
-
-Founder, co-founder, founding, owner, my company, my companies, startup, Winzinvest, Casimir, Foundpath, Kinlet, Camp Luxe, Cultivate, Principal Investigator, SBIR, fundraising, runway, “until the company takes off.”
-
-Website (winzenburg.com) currently frames founder work. Do not send people there in the letter. LinkedIn + email is enough.
+If a number is still `[VERIFY]`, use a scope measure instead (portfolio, user population, team count, stakeholder group).
 
 ---
 
-## What to avoid
+## Why now (when asked — not unsolicited in every letter)
 
-- Opening as a leader when the job is an IC designer
-- Tool dumps (Figma, Sketch) unless the posting is tool-specific
-- Junior passion lines (“I’m extremely passionate about UX”)
-- Generic “problem solver / synergy / disrupt”
-- Letters longer than ~350 words
-- Repeating the resume bullet-for-bullet
+> I’ve spent [X] years at Comcast Business building the UX function up a level of maturity and proving out AI-augmented delivery inside a large enterprise. The next thing I want to run is the product experience and the operating model for a whole B2B product organization. That mandate doesn’t exist in my current seat, so I’m looking for the company where it does.
 
 ---
 
-## Structure (always)
+## Ventures
 
-1. **Job + fit in one breath.** Title, team/product if known, two posting requirements you actually have.
-2. **One employed story.** CVS, Pitney Bowes, Life Time, or Buildout — whichever maps hardest.
-3. **One more mapping paragraph.** A second requirement, or how you work with PM/eng. Keep independent consulting to a clause, not a saga.
-4. **Close.** Interest in this team. Availability. No “I’d love to explore how we might partner.”
+**Do not raise first.** If asked: they give current operator practice in AI automation and complex decision workflows; they do not compete with a full-time leadership role.
+
+Cover letters: omit Casimir / Winzinvest / Kinlet unless the resume version is `ai_enterprise_workflow`, and then at most one clause as range.
+
+---
+
+## Structure (4 paragraphs)
+
+1. Posted title + mandate fit  
+2. One evidence-spine story mapped to their B2B complexity  
+3. Comcast or operating-model proof that you won’t be downstream-only  
+4. Close: you want decision rights on experience and how work ships — availability Denver / remote  
 
 Sign-off: `Ryan Winzenburg`
 
 ---
 
-## Customization checklist
+## Recruiter / hiring-manager blurb (also LinkedIn)
 
-- [ ] Sentence one names the job title
-- [ ] Altitude matches the posting (IC vs manager vs ops)
-- [ ] Proof is from employed roles
-- [ ] No founder/startup names or posture
-- [ ] No overshoot (don’t write VP energy for a Senior Designer role)
-- [ ] Two posting keywords used naturally
-- [ ] 4 paragraphs, ready to paste
+> I lead product experience in complex B2B environments: the customer-facing product, the design org, and the operating model behind it. At CVS I took task completion from 50% to 90% for 39 million users during the Aetna merger. At Pitney Bowes a design system I led cut development time in half across 300 products. Now I use AI to compress delivery from months to weeks. I'm looking for a Director or Head role where that combined mandate is real, not a design seat that executes after decisions are made.
+
+---
+
+## Checklist
+
+- [ ] Sentence one names the job title  
+- [ ] Mandate = experience + org + operating model  
+- [ ] Proof from employed Director-scale outcomes  
+- [ ] Comcast title not inflated; scope made explicit  
+- [ ] No founder-first framing  
+- [ ] No unresolved `[VERIFY]` numbers left in the final letter  
+- [ ] Comp / remote constraints respected ($225K+, Denver remote-first)  

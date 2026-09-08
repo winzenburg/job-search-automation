@@ -1,10 +1,10 @@
-# Job Search Framework - AI-Augmented Design Operations Leadership
+# Job Search Framework — Product Experience Leadership (v3)
 
-**Status:** Active - Interviewing  
-**Created:** February 10, 2026  
-**Target Roles:** Head of Design Operations, VP/Director of Design, Principal Design Technologist  
-**Compensation:** $180k+ total comp  
-**Location:** Remote or Colorado  
+**Status:** Active  
+**Created:** February 10, 2026 · **Strategy:** September 2026 v3  
+**Target Roles:** Director / Head of Product Experience, Product Design, UX, Experience Strategy, Product Operations (VP selective)  
+**Compensation:** $225k+ base  
+**Location:** Remote-first, Denver / Front Range 
 
 ---
 
@@ -27,14 +27,19 @@
 
 ## Strategic Positioning
 
-**Applications (Sep 2026):** Role-first. You are a product designer / design-systems /
-design leader applying for the posted job. Proof comes from employed roles
-(CVS Health, Life Time, Pitney Bowes, Buildout, etc.). Founder companies stay
-off the resume and cover letter. Details: `ROLE_TARGETING.md`.
+**Career Targeting Strategy v3 (Sep 2026):** Director-level product experience
+leadership for complex B2B — the customer-facing product, the design org, and the
+operating model that ships work. See `CAREER_TARGETING_STRATEGY_V3.md` and
+`ROLE_TARGETING.md`.
 
-**Warm intros / long-form writing only:** Systems thinking and AI-augmented
-design ops can still show up where the audience already knows you. That is not
-how cold applications are packaged.
+- **60%** Director (Product Design / Experience / UX / Experience Strategy / Product Ops)
+- **30%** Senior Director / Head when scope matches
+- **10%** VP selective
+- Remote-first Denver · **$225K+ base** · full-time
+- IC / pure UX/UI is out of scope by default
+- Ventures = range when asked; never the lead in applications
+
+**Differentiation:** make complex B2B products more usable while improving the system that produces them.
 
 ---
 

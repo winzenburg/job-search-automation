@@ -1,40 +1,39 @@
 # Ryan's Job Search Profile
 
-**Created:** March 5, 2026 @ 9:57 AM MT  
-**Status:** Active — Recruiter pipeline activated, ready for job applications  
+**Created:** March 5, 2026 · **Updated:** September 2026 (Career Targeting Strategy v3)  
+**Status:** Active — Director-level product experience search  
 **Contact:** ryanwinzenburg@gmail.com | 303.359.3744 | https://linkedin.com/in/rwinzenburg/ | http://www.winzenburg.com
+
+**Source of truth:** `CAREER_TARGETING_STRATEGY_V3.md`
 
 ---
 
 ## WHAT RYAN IS LOOKING FOR
 
-### The Three Core Drivers (Mar 5, 2026 Clarity)
+### The mandate
 
-Ryan's job search isn't just about "principal design role"—it's about roles that hit three core elements:
+> Lead product experience for a complex B2B business: the customer-facing product, the design organization behind it, and the operating model that gets work shipped. Use AI to make both the product and the organization faster and easier to run.
 
-1. **Strategy + Systems Thinking** 
-   - Build frameworks/systems that scale beyond one product/team
-   - Shape how organizations think about design problems
-   - Move from execution to strategy
+**Differentiation:** make complex B2B products more usable while improving the system that produces them.
 
-2. **AI/Emerging Tech Focus**
-   - Work on AI-era product challenges
-   - Help organizations navigate AI-first design
-   - Explore emerging patterns and technologies
+### Level architecture (search time)
 
-3. **Leverage Multiplier**
-   - Work that scales across teams, clients, or products
-   - Not single-team execution
-   - Impact that multiplies (consulting, platforms, design systems)
+| Share | Band |
+|---:|---|
+| 60% | Director — Product Design / Product Experience / UX / Experience Strategy / Product Operations |
+| 30% | Senior Director / Head of Product Experience or Design |
+| 10% | VP Product Experience / VP Design (selective) |
 
-**This clarity matters:** Not every principal role fits. Evaluate opportunities through this lens.
+### Constraints
 
-### The Role
-- **Titles:** Principal Product Designer, Director of Design, Head of Design Systems, Design Operations Lead, UX Researcher, Creative Technologist, AI Workflow Architect, R&D Lead
-- **Level:** Principal, Staff, Director, or VP of Design
-- **Salary:** $165K+ (remote senior level)
-- **Location:** Remote preferred; Denver/Boulder area acceptable
-- **Availability:** Immediate
+- Remote-first, Denver / Front Range hybrid OK · no relocation  
+- **$225K+ base** at every level  
+- Full-time only  
+- Stage 1 score ≥ 7 before applying  
+
+### Deprioritize
+
+IC / pure UX/UI, design-system-only leadership, generic AI PM, program management, innovation labs without operating authority, marketing-led CX detached from product decisions.
 
 ### Core Professional Focus
 Ryan specializes in translating complexity into strategic systems that reduce uncertainty and drive measurable impact. He's energized by building frameworks that scale, shaping organizational design thinking, and exploring AI-era design challenges—not by executing within existing constraints.
