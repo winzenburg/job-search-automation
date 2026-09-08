@@ -14,17 +14,22 @@
 
 **Current:** "Strategic UX and Design Technologist with 15+ years of experience driving user-centered..."
 
-**Recommended:**
+**Recommended (role-targeted, Sep 2026):**
 ```
-Principal Product Designer | Design Systems Architecture | AI-Augmented Workflows | 
-Leadership & Scale | Remote-Based (Golden, CO)
+Product Designer | Design Systems | UX | Remote (Wheat Ridge / Denver, CO)
 ```
 
+For Director / Head outreach, swap the first token to match the role:
+`Director of Product Design | Design Systems | UX | Remote (Denver, CO)`
+
+Do **not** lead with Founder, Winzinvest, Casimir, Foundpath, or Kinlet in the headline.
+Recruiters for these jobs read that as flight risk.
+
 **Why:** 
-- Recruiter search: "Principal Product Designer" + "Design Systems" 
-- Immediate clarity on level (Principal = decision-maker/leader)
-- Keywords: AI, design systems, leadership, remote
-- Location signals availability
+- Recruiter search: "Product Designer" / "Design Systems" / "Director of Product Design"
+- Matches the employment-led resume in `templates/MASTER_RESUME.md`
+- Location signals Colorado / remote availability
+- Leaves founder companies off the first screen
 
 ---
 
@@ -34,40 +39,30 @@ Leadership & Scale | Remote-Based (Golden, CO)
 
 **Recommended:**
 ```
-I translate user insight into strategic product decisions that drive measurable 
-business outcomes. My work focuses on building systems, leading teams, and turning 
-complexity into clarity at scale.
-
-SPECIALIZATIONS:
-• Design Systems & Scale — Built frameworks enabling 8+ teams to ship 40% faster 
-  while maintaining consistency
-• Product Leadership — Mentored 4+ designers, shaped product roadmaps, advised on 
-  UX strategy for healthcare, fintech, and emerging tech
-• AI-Augmented Workflows — Pioneered AI-driven design processes, reducing cycle 
-  time by 30% and increasing team productivity
-• Strategic Decision-Making — Reduced time-to-insight through market validation 
-  frameworks and design research
+I design product experiences and the systems that keep them consistent —
+information architecture, interaction design, and design-system patterns
+that product and engineering teams can actually ship.
 
 BACKGROUND:
-10+ years across healthcare (Aetna), geospatial (MapQuest/AOL), telecom (Comcast, 
-Level 3), fintech (Pitney Bowes). Now building: Cultivate (SaaS ops), kinetic-ui 
-(design system), Kinlet (caregiver tech), swing trading systems.
+15+ years across healthcare (CVS Health / Aetna), fitness tech (Life Time),
+fintech (Pitney Bowes), telecom (Level 3), and mapping (AOL / MapQuest).
+Recent independent work is product-design and design-operations consulting
+for software teams — not the focus of what I'm applying for.
+
+SPECIALIZATIONS:
+• Product design for complex workflows (task completion, IA, research)
+• Design systems and multi-team consistency
+• Design operations that shorten discovery and protect quality
 
 SEEKING:
-Principal, Director, or Head of Design roles in AI, fintech, or healthtech. 
-Remote preferred, open to Boulder/Denver area.
+Product design, design systems, and design leadership roles.
+Remote preferred; open to Boulder / Denver.
 
-Thought leadership: https://winzenburg.com/articles
-Portfolio: [link your best work]
-
-Let's connect if you're hiring design leaders or building something interesting.
+Portfolio and writing: linkedin.com/in/rwinzenburg
 ```
 
-**Why:**
-- Specific metrics (40% faster, 30% improvement, mentored 4+)
-- Keywords: Design systems, AI, product leadership, mentoring
-- Clear availability signal
-- Personality + accomplishments
+Do not open About with founder companies. Hiring managers for IC and Director
+roles treat that as "temporary until a company works." See ROLE_TARGETING.md.
 
 ---
 
@@ -77,8 +72,8 @@ Let's connect if you're hiring design leaders or building something interesting.
 1. Link to: https://winzenburg.com/articles (or best 3 articles)
 2. LinkedIn Article: "4 Week Design System Framework" (high engagement)
 3. LinkedIn Article: "Why Most Design Systems Fail" (strategic insight)
-4. Portfolio case study: Your strongest work
-5. Link to: Cultivate, kinetic-ui, or Kinlet
+4. Portfolio case study: Your strongest *employed* product work
+5. Do not feature Winzinvest / Casimir / Foundpath / Kinlet on the application-facing profile
 
 **Why:** Recruiters look at featured section in first 10 seconds. These signal thought leadership + deliverables.
 

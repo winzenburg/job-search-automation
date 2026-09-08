@@ -77,11 +77,9 @@ Ryan specializes in translating complexity into strategic systems that reduce un
 - Telecommunications (Comcast, Level 3)
 - Fintech (Pitney Bowes products)
 
-**Current projects demonstrating range:**
-- Swing trading systems (market analysis, decision frameworks)
-- Cultivate (SaaS ops platform)
-- kinetic-ui (design system for fintech)
-- Kinlet (caregiver technology)
+**Current projects demonstrating range (do not lead applications with these):**
+- Independent product-design / design-ops consulting
+- Separate founder projects exist; they stay off resumes and cover letters (ROLE_TARGETING.md)
 
 **Unique combination:**
 - Strategic thinking (product, market, systems)
@@ -212,28 +210,18 @@ Ask these questions about every opportunity:
 ### When Recruiters Ask "What Are You Looking For?"
 
 **Short Pitch (30 seconds):**
-> "I'm looking for leadership roles where I can shape product strategy, build design systems that scale, and help organizations navigate AI-first product challenges. I want my work to multiply—across teams, clients, or products. Strategy + systems + AI is the combination that energizes me."
+> "I'm looking for product design, design systems, or design leadership roles where I can ship experiences and the systems behind them. Most of my career has been inside product orgs — CVS Health, Pitney Bowes, Life Time, Buildout — and that's the work I want to keep doing."
 
 **Detailed Pitch (2 minutes):**
-> "I'm a design leader focused on three things: strategy, systems thinking, and AI-era design. I don't just execute design—I shape how organizations think about design problems. I build frameworks and systems that enable teams to move faster and smarter. And I'm energized by emerging tech, especially AI. 
-> 
-> In my recent work, I've built design systems enabling 8+ teams to ship 40% faster, led design strategy for net-new products, and pioneered AI-augmented design workflows. I'm looking for a role where I can do that at a deeper level—consulting, platforms, design systems at scale, or strategy-focused design leadership at an AI-era company.
-> 
-> What's important to me: strategic influence (not just execution), systems that scale (not one-off solutions), and emerging tech (preferably AI). Remote or Denver-based."
+> "I'm a product designer and design leader. At CVS Health I worked the digital experience through the Aetna merger and moved core task completion from about 50% to 90%. At Pitney Bowes I built the design systems function for a large product portfolio. At Life Time I ran an eight-person product design practice. I'm looking for a seat where that employed experience maps to the job — not a founder story, and not a temporary stop."
 
 ### Key Talking Points
 
-1. **Strategic leverage** — "I design systems that amplify team productivity and organizational capability. Led initiatives enabling 8 teams to ship 40% faster."
-
-2. **Framework builder** — "I don't execute within existing systems—I build the systems themselves. Design systems, design ops, strategic frameworks that enable others."
-
-3. **AI/Emerging tech** — "Pioneering AI-augmented design workflows. I understand both the design and the emerging tech implications. I bring an AI-first mindset to design practice."
-
-4. **Uncertainty reduction** — "My work focuses on translating complexity into clear, scalable systems and decisions—exactly what organizations need navigating AI and high-stakes product challenges."
-
-5. **Leadership DNA** — "I mentor designers, advise product leaders, shape strategic direction, and establish organizational standards. I'm a builder of people, systems, and thinking."
-
-6. **Leverage multiplier** — "I'm interested in roles where my work scales—across teams, clients, products, or organizations. Not single-team execution. I want my frameworks to multiply."
+1. **Employed craft** — CVS, Pitney Bowes, Life Time, Buildout, DOI, Level 3, MapQuest.
+2. **Match the altitude** — IC applications sound like a designer; Director applications sound like a design director.
+3. **Design systems / ops when asked** — Pitney Bowes pattern library and training; not "I found companies."
+4. **Independent work is consulting** — One clause if relevant. Never the identity.
+5. **Do not lead with founder companies** — See `ROLE_TARGETING.md`.
 
 ---
 

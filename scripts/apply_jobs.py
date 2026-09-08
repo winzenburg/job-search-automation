@@ -76,13 +76,21 @@ def generate_application_materials(opp: dict, api_key: str) -> tuple[str, str] |
     Returns (resume_pdf_path, cover_letter_pdf_path) or None on failure.
     """
     from antigravity_pipeline import run_pipeline
+    from role_targeting import should_apply
+
     company = opp.get("company", "Unknown")
     url = opp.get("url", "")
+    title = opp.get("title", "")
+    del api_key  # pipeline reads ANTHROPIC_API_KEY from the environment
+
+    if not should_apply(title, opp.get("description", "")):
+        print(f"  [SKIP] Title is not a design/UX role: {title}")
+        return None
 
     try:
-        result = run_pipeline(company, url)
+        result = run_pipeline(company, url, title)
         if result:
-            return result  # (resume_pdf, cover_letter_pdf)
+            return result
     except Exception as e:
         print(f"  ⚠️  Pipeline failed for {company}: {e}")
     return None

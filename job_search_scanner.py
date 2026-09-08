@@ -554,42 +554,33 @@ def search_target_companies_on_himalayas() -> list[dict]:
 
 def filter_opportunities(opportunities):
     """Filter opportunities by target criteria."""
+    from role_targeting import should_apply as role_should_apply
+
     filtered = []
-    
+
     for opp in opportunities:
-        title = opp.get("title", "").lower()
-        location = opp.get("location", "").lower()
-        description = opp.get("description", "").lower()
-        
+        title = opp.get("title", "")
+        location = (opp.get("location", "") or "").lower()
+        description = opp.get("description", "") or ""
+
         salary_val = opp.get("salary", 0)
         try:
             salary = int(salary_val) if salary_val else 0
         except (ValueError, TypeError):
             salary = 0
-        
-        # Check title has correct rank (Manager, Director, VP, etc)
-        rank_match = any(rank in title for rank in TARGET_RANKS)
-        
-        # Check that it's actually a Product/Design role instead of HR or Sales
-        PRIMARY_DOMAINS = ["design", "product", "ux", "ui", "creative", "strategy", "design operations", "design ops"]
-        domain_match = any(d in title for d in PRIMARY_DOMAINS) or description.count("design") > 4
-        
-        # Check description/title has correct technical keyword using regex bounds to avoid matching 'ai' in 'email'
-        tech_match = False
-        for kw in TARGET_KEYWORDS:
-            if re.search(rf'\b{kw}\b', description) or kw in title:
-                tech_match = True
-                break
-        
-        # Check location match
+
+        # Title must be a product design / UX / design-ops / design-leadership job.
+        # Description-only matches are how Staff Data Engineer and Head of People
+        # slipped through. See ROLE_TARGETING.md.
+        if not role_should_apply(title, description):
+            continue
+
         location_match = any(loc in location for loc in LOCATIONS)
-        
-        # Check salary (if available)
         salary_match = salary >= MIN_SALARY if salary > 0 else True
-        
-        if rank_match and domain_match and tech_match and location_match and salary_match:
+
+        if location_match and salary_match:
             filtered.append(opp)
-    
+
     return filtered
 
 

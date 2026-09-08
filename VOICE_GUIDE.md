@@ -1,142 +1,113 @@
-# Voice & Tone Guide for Cover Letters
+# Voice & Tone Guide for Role-Targeted Cover Letters
 
-## Principal-Level UX/Design/Product Leadership Voice
+Cover letters exist to show you can do **this job**, at **this altitude**, for **this team**. They are not a biography of everything you have ever built.
 
-This guide ensures all customized cover letters reflect your authentic voice as a strategic design leader operating at the principal/staff/director level.
-
----
-
-## Core Characteristics
-
-✅ **Confident but not arrogant**
-✅ **Outcome-driven**
-✅ **Business-aware**
-✅ **Systems thinking**
-✅ **Calm confidence, not salesy**
+Hiring managers for these roles are not looking for a founder. If the letter sounds like you are parking in a day job until a company takes off, it will not get a reply.
 
 ---
 
-## Key Principles
+## Core characteristics
 
-### 1. Strategic and Executive-Level Tone 🎯
-
-You operate close to product leadership and business strategy. Your tone should feel closer to a **product strategist or design leader** than a hands-on designer.
-
-**Example opening:**
-> "I've spent my 20-year career bringing design ops precision and product strategy to messy transitions. From stabilizing scaling platforms to establishing cross-functional cohesion, I focus on translating user insight into strategic product decisions..."
-
-### 2. Outcome-Focused Language 📈
-
-**Avoid:** Describing tasks
-**Focus:** Results and influence
-
-❌ **Don't say:** "I designed wireframes, conducted usability testing, and collaborated with developers."
-
-✅ **Do say:** "At [Company], our portfolio had fractured across multiple initiatives. I led cross-functional teams to unify the experience, establishing design ops precision that reduced time-to-value by 42%."
-
-**Metrics matter.** Always quantify impact, but wrap it in a narrative of solving "messy transitions."
-
-### 3. Thought Leadership Voice 🧠
-
-Principals are expected to:
-- Set direction
-- Mentor designers
-- Influence product roadmaps
-- Build frameworks and systems
-
-**Example:**
-> I specialize in aligning UX strategy with product growth—establishing design frameworks, mentoring design teams, and ensuring experiences scale consistently across complex product ecosystems.
-
-### 4. Influence Over Tools
-
-**Avoid:** Tool-heavy language (Figma, Sketch, design jargon)
-**Emphasize:** Influence, strategy, systems, business impact
-
-❌ **Don't say:** "I'm proficient in Figma, Sketch, and Adobe XD."
-
-✅ **Do say:** "I've established design systems that enabled engineering teams to ship 40% faster while maintaining consistency across product ecosystems."
-
-### 5. Story-Driven Structure 📖
-
-A strong principal cover letter follows this arc:
-
-1. **Strategic Introduction** — Who you are as a UX leader
-2. **Evidence of Impact** — 1–2 major initiatives you led with business outcomes
-3. **Leadership & Influence** — Mentoring, cross-functional leadership, product strategy
-4. **Alignment with Company** — Why your approach fits their product or mission
+- Calm, specific, employed-experience-first
+- Outcome-driven without executive theater
+- Matched to the posting’s seniority (IC ≠ Director ≠ VP)
+- Short: 4 paragraphs, one page
 
 ---
 
-## What to Avoid 🚫
+## The only story we tell
 
-❌ Portfolio-style descriptions ("I worked on a mobile app redesign...")
-❌ Junior-level passion statements ("I'm extremely passionate about user experience")
-❌ Tool-heavy language
-❌ Overly long narratives (4-5 tight paragraphs, not 10)
-❌ Generic statements ("I'm a problem solver")
+1. **I do this kind of work.** Name the job in sentence one.
+2. **Here is proof from jobs I held.** Prefer CVS Health, Pitney Bowes, Life Time, Buildout, DOI, Level 3, MapQuest.
+3. **Here is how that maps to your posting.** Two requirements, two proofs. No extra plot.
+4. **I want this seat.** Close on the team and the product, not on “what’s next for me.”
 
----
-
-## What to Emphasize ✅
-
-✅ **Influence:** How you've shaped strategy, mentored teams, set direction
-✅ **Strategy:** Business alignment, product roadmaps, growth
-✅ **Systems:** Frameworks, scale, consistency, organizational impact
-✅ **Business Impact:** Metrics, outcomes, adoption, retention, revenue
+Independent consulting (2023–present) is a supporting line at most — and only if it maps to a listed requirement. It is never the identity.
 
 ---
 
-## Tone Examples
+## Openings that work
 
-### Strategic Introduction
-✅ "As a UX leader with over a decade of experience shaping complex digital products, I focus on translating user insight into strategic product decisions that drive measurable business outcomes."
+**IC / Product Designer**
+> I’m applying for the Principal Product Designer role on [team]. I spend my time on the same problems this posting describes: [requirement 1] and [requirement 2].
 
-### Impact Statement
-✅ "I led the redesign of our core dashboard, which improved user adoption by 35% and reduced customer support tickets by 22%."
+**Director / Head / Manager**
+> I’m applying for Director, Product Design. I have run product-design practices inside large, messy organizations — most relevant here, [CVS merger / Life Time team / Pitney Bowes systems] — and I want to do that work on [product].
 
-### Leadership Example
-✅ "I mentor a team of 4 designers and serve as the product strategy lead, advising the VP of Product on experience roadmaps and design direction."
+**Design systems / Design ops**
+> I’m applying for the Design Systems role. At Pitney Bowes I built the pattern library and training that let distributed teams share a source of truth across a large product portfolio. That’s the job I want to do here.
 
-### Company Alignment
-✅ "Your approach to AI-augmented workflows aligns with my belief that design's greatest leverage is in creating systems that amplify human decision-making at scale."
+## Openings that fail
 
----
+- “I’ve spent 20 years bringing design-ops precision and product strategy to messy transitions…”
+- “As a founder / operator / owner…”
+- “I’m looking for a leadership platform / my next chapter / a place to apply everything I’ve built.”
+- “Your company is at an inflection point and needs transformation architecture.”
 
-## Quick Rule of Thumb
-
-**A Principal UX cover letter should sound like it was written by someone who shapes product strategy—not just screens.**
-
----
-
-## When Customizing for Specific Companies
-
-**Research the company's:**
-- Product strategy (Is it growth-focused? B2B? B2C? Enterprise?)
-- Business model (SaaS? Fintech? Healthtech?)
-- Design challenges (Are they scaling? Simplifying? Entering new markets?)
-- Leadership values (Innovation? Rigor? Speed?)
-
-Then, align your experience to their strategic challenges.
-
-**Example alignment:**
-> At [Company], you're navigating rapid feature expansion across multiple product lines. I've led similar challenges at [Previous Org], where I established design systems and governance frameworks that enabled teams to scale from 2 to 8 product initiatives without losing consistency. This approach increased product velocity by 45% while maintaining design quality.
+Those read as overqualified and temporary.
 
 ---
 
-## Customization Checklist
+## Proof, by altitude
 
-When Sonnet customizes your cover letter, ensure:
+| If the job is… | Use… | Do not use… |
+|---|---|---|
+| Product Designer / Staff / Principal IC | Shipped workflows, IA, research, components, pairing with eng | Org design, P&L, “I scaled a 200-person org,” founding |
+| Design Manager / Director / Head | Team of 5–8, quality bar, product partnership, hiring/mentoring if asked | CEO/founder posture, “I’ll transform the company” |
+| Design systems / Design ops | Pattern library, governance, handoff, training, multi-team consistency | Visionary AI-ops thought leadership that isn’t in the posting |
 
-- [ ] Opens with strategic intro (not "I'm interested in...")
-- [ ] Includes 1-2 specific initiatives with metrics
-- [ ] Mentions leadership/mentoring/influence
-- [ ] Aligns your systems thinking with company's challenges
-- [ ] Uses confident, calm language (no hype)
-- [ ] Avoids tools, jargon, junior-level statements
-- [ ] 4-5 tight paragraphs (not longer)
-- [ ] Closes with forward-looking statement about mutual fit
+Quantify when the number is real (CVS 50%→90% task completion; Life Time ~30% lower development cost; Buildout ~30% faster ramp; Pitney Bowes 300+ products, 50+ trained). Do not invent new metrics.
 
 ---
 
-*Last Updated: March 5, 2026*
-*Used by: Resume + Cover Letter Customization Engine (Sonnet)*
+## Commitment without oversharing
+
+Do **not** explain the founder companies, and do **not** volunteer that you are building other products.
+
+Do make the letter sound like someone who wants *this* job:
+
+> I’m looking for a product team where I can stay on the craft — research, interaction, and the system that keeps quality from drifting — rather than splitting attention across a portfolio of my own.
+
+If a sentence could be read as “I’ll leave when something else works,” cut it.
+
+---
+
+## Words and names that must not appear
+
+Founder, co-founder, founding, owner, my company, my companies, startup, Winzinvest, Casimir, Foundpath, Kinlet, Camp Luxe, Cultivate, Principal Investigator, SBIR, fundraising, runway, “until the company takes off.”
+
+Website (winzenburg.com) currently frames founder work. Do not send people there in the letter. LinkedIn + email is enough.
+
+---
+
+## What to avoid
+
+- Opening as a leader when the job is an IC designer
+- Tool dumps (Figma, Sketch) unless the posting is tool-specific
+- Junior passion lines (“I’m extremely passionate about UX”)
+- Generic “problem solver / synergy / disrupt”
+- Letters longer than ~350 words
+- Repeating the resume bullet-for-bullet
+
+---
+
+## Structure (always)
+
+1. **Job + fit in one breath.** Title, team/product if known, two posting requirements you actually have.
+2. **One employed story.** CVS, Pitney Bowes, Life Time, or Buildout — whichever maps hardest.
+3. **One more mapping paragraph.** A second requirement, or how you work with PM/eng. Keep independent consulting to a clause, not a saga.
+4. **Close.** Interest in this team. Availability. No “I’d love to explore how we might partner.”
+
+Sign-off: `Ryan Winzenburg`
+
+---
+
+## Customization checklist
+
+- [ ] Sentence one names the job title
+- [ ] Altitude matches the posting (IC vs manager vs ops)
+- [ ] Proof is from employed roles
+- [ ] No founder/startup names or posture
+- [ ] No overshoot (don’t write VP energy for a Senior Designer role)
+- [ ] Two posting keywords used naturally
+- [ ] 4 paragraphs, ready to paste

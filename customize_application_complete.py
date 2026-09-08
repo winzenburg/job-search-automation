@@ -127,11 +127,10 @@ JOB POSTING CONTENT:
 {job_posting.get('content', 'Content not available')}
 
 CANDIDATE PROFILE:
-- 10+ years in UX/Product/Design across Healthcare (Aetna), Geospatial (MapQuest/AOL), Telecom (Comcast, Level 3), Fintech (Pitney Bowes)
-- Core skills: Interaction Design, Information Architecture, Prototyping, Research, Mentorship
-- Recent focus: AI-augmented design operations, design systems, product strategy
-- Leadership: Mentored teams, established frameworks, shaped product roadmaps
-- Recent projects: Swing trading systems, SaaS platforms (Cultivate), design systems (kinetic-ui), caregiver tech (Kinlet)
+- 15+ years product design / UX across Healthcare (CVS Health / Aetna), Fitness (Life Time), Fintech (Pitney Bowes), Telecom (Level 3), Mapping (AOL / MapQuest)
+- Core skills: Interaction design, information architecture, research, design systems, design operations
+- Recent independent work: product-design and design-operations consulting (not founder framing)
+- Do not mention Winzinvest, Casimir, Foundpath, Kinlet, Camp Luxe, or "founder"
 
 TASK:
 Generate a compelling, authentic principal-level cover letter that:

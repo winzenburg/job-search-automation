@@ -27,15 +27,14 @@
 
 ## Strategic Positioning
 
-**You are NOT:** Another design ops person looking for a role
+**Applications (Sep 2026):** Role-first. You are a product designer / design-systems /
+design leader applying for the posted job. Proof comes from employed roles
+(CVS Health, Life Time, Pitney Bowes, Buildout, etc.). Founder companies stay
+off the resume and cover letter. Details: `ROLE_TARGETING.md`.
 
-**You ARE:** An architect who systematizes AI integration into design operations at scale
-
-**Hedgehog Concept:**  
-"I build AI-powered frameworks that turn complex, high-stakes uncertainty into clear, actionable decisions at scale."
-
-**Key Differentiator:**  
-Most design ops leaders understand process. Few understand AI transformation. You architect the intersection.
+**Warm intros / long-form writing only:** Systems thinking and AI-augmented
+design ops can still show up where the audience already knows you. That is not
+how cold applications are packaged.
 
 ---
 
