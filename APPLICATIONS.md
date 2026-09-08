@@ -1,11 +1,11 @@
 # Applications Log
 
-_Last updated: 2026-09-07 14:22 UTC_
+_Last updated: 2026-09-08 14:22 UTC_
 
-**Total applications:** 88  
+**Total applications:** 91  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 50  
-**Failed (needs review):** 38  
+**Needs manual apply (no automation for this source):** 51  
+**Failed (needs review):** 40  
 **Materials ready, not yet attempted:** 0
 
 ---
@@ -13,6 +13,10 @@ _Last updated: 2026-09-07 14:22 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Stripe](https://himalayas.app/companies/stripe/jobs/product-manager-ml-foundations-and-genai-1372333203)** — Product Manager, ML Foundations and GenAI  
+  Source:  | Generated: 2026-09-08
+  Resume: `Resume_Stripe.pdf`
 
 - **[Athletic Greens](https://himalayas.app/companies/athletic-greens/jobs/senior-manager-motion-designer-eu)** — Senior Manager, Motion Designer (EU)  
   Source:  | Generated: 2026-09-07
@@ -217,6 +221,12 @@ _These came from a job board listing rather than a direct application link, so a
 ## Failed (Needs Review)
 
 _Auto-submit attempted these but hit an error -- check `data/failed_screenshots/` for details._
+
+- **[](https://www.linkedin.com/jobs/view/director-product-design-at-thumbtack-4463600108)** — Director, Product Design  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
+
+- **[](https://www.linkedin.com/jobs/view/director-design-product-design-ai-m-f-d-at-edenspiekermann-4463384486)** — Director Design, Product Design &amp; AI (m/f/d)  
+  Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
 
 - **[](https://www.linkedin.com/jobs/view/vp-product-design-growth-and-revenue-cnn-at-warner-bros-discovery-4415576196)** — VP, Product Design, Growth and Revenue - CNN  
   Source:  | Reason: LinkedIn login failed (CAPTCHA or wrong credentials)
