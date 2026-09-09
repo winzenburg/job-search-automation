@@ -1,10 +1,10 @@
 # Applications Log
 
-_Last updated: 2026-09-08 14:22 UTC_
+_Last updated: 2026-09-09 14:19 UTC_
 
-**Total applications:** 91  
+**Total applications:** 93  
 **Submitted:** 0  
-**Needs manual apply (no automation for this source):** 51  
+**Needs manual apply (no automation for this source):** 53  
 **Failed (needs review):** 40  
 **Materials ready, not yet attempted:** 0
 
@@ -13,6 +13,14 @@ _Last updated: 2026-09-08 14:22 UTC_
 ## Needs Manual Apply
 
 _These came from a job board listing rather than a direct application link, so auto-submit couldn't handle them. Apply manually via the link._
+
+- **[Canva](https://himalayas.app/companies/canva/jobs/senior-production-engineering-manager)** — Senior Production Engineering Manager  
+  Source:  | Generated: 2026-09-09
+  Resume: `Resume_Canva.pdf`
+
+- **[Canva](https://himalayas.app/companies/canva/jobs/principal-production-engineer-4060904403)** — Principal Production Engineer  
+  Source:  | Generated: 2026-09-09
+  Resume: `Resume_Canva.pdf`
 
 - **[Stripe](https://himalayas.app/companies/stripe/jobs/product-manager-ml-foundations-and-genai-1372333203)** — Product Manager, ML Foundations and GenAI  
   Source:  | Generated: 2026-09-08

@@ -1727,5 +1727,43 @@
     "notes": "",
     "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
     "failed_at": "2026-09-08T14:22:04.136470"
+  },
+  {
+    "id": "932054ac",
+    "company": "Canva",
+    "title": "Principal Production Engineer",
+    "source": "",
+    "url": "https://himalayas.app/companies/canva/jobs/principal-production-engineer-4060904403",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-09-09T14:16:02.656749",
+    "applied_at": "2026-09-09T14:18:12.486881",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Canva/Resume_Canva.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Canva/Cover_Letter_Canva.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-09-09T14:18:44.193250"
+  },
+  {
+    "id": "c7330406",
+    "company": "Canva",
+    "title": "Senior Production Engineering Manager",
+    "source": "",
+    "url": "https://himalayas.app/companies/canva/jobs/senior-production-engineering-manager",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-09-09T14:16:02.656768",
+    "applied_at": "2026-09-09T14:18:43.966140",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Canva/Resume_Canva.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Canva/Cover_Letter_Canva.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-09-09T14:18:54.068683"
   }
 ]
