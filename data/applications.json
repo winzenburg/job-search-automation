@@ -1765,5 +1765,43 @@
     "notes": "",
     "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
     "failed_at": "2026-09-09T14:18:54.068683"
+  },
+  {
+    "id": "2e85c08a",
+    "company": "Stripe",
+    "title": "Product Manager, ML Foundations and GenAI",
+    "source": "",
+    "url": "https://himalayas.app/companies/stripe/jobs/product-manager-ml-foundations-and-genai-2591517436",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-09-10T14:15:27.465653",
+    "applied_at": "2026-09-10T14:17:49.957910",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Stripe/Resume_Stripe.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Stripe/Cover_Letter_Stripe.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-09-10T14:18:25.290641"
+  },
+  {
+    "id": "c301526d",
+    "company": "Canva",
+    "title": "Staff Production Engineer",
+    "source": "",
+    "url": "https://himalayas.app/companies/canva/jobs/staff-production-engineer-2328286249",
+    "location": "Remote",
+    "salary": 0,
+    "discovered_at": "2026-09-10T14:15:27.465670",
+    "applied_at": "2026-09-10T14:18:25.146860",
+    "submitted": false,
+    "easy_apply": false,
+    "resume_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Canva/Resume_Canva.pdf",
+    "cover_letter_pdf": "/home/runner/work/job-search-automation/job-search-automation/customized_applications/Canva/Cover_Letter_Canva.pdf",
+    "status": "MANUAL_REQUIRED",
+    "notes": "",
+    "failure_reason": "No auto-submit support for 'Unknown' -- this came from a job board listing, not a direct application link. Apply manually.",
+    "failed_at": "2026-09-10T14:18:34.671091"
   }
 ]
