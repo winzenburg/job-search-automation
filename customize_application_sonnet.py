@@ -6,15 +6,21 @@ Uses Claude 3.5 Sonnet for intelligent cover letter + resume customization
 
 import json
 import os
+import re
 import sys
-import subprocess
 from datetime import datetime
 from pathlib import Path
-import base64
 
-# Configuration
+from role_targeting import (
+    classify_role,
+    founder_leak_terms,
+    should_apply,
+    targeting_prompt_block,
+)
+
 SCRIPT_DIR = Path(__file__).parent
 VOICE_GUIDE_PATH = SCRIPT_DIR / "VOICE_GUIDE.md"
+MASTER_RESUME_PATH = SCRIPT_DIR / "templates" / "MASTER_RESUME.md"
 OUTPUT_DIR = SCRIPT_DIR / "customized_applications"
 RECIPIENT_EMAIL = "ryanwinzenburg@gmail.com"
 
@@ -26,6 +32,14 @@ def load_voice_guide():
     else:
         print("[ERROR] Voice guide not found at", VOICE_GUIDE_PATH)
         return ""
+
+
+def load_master_resume() -> str:
+    """Employment-led resume used as the only experience source of truth."""
+    if MASTER_RESUME_PATH.exists():
+        return MASTER_RESUME_PATH.read_text()
+    print("[ERROR] Master resume not found at", MASTER_RESUME_PATH)
+    return ""
 
 
 def fetch_job_posting_via_openclaw(url: str) -> dict:
@@ -143,126 +157,178 @@ def fetch_job_posting_via_openclaw(url: str) -> dict:
     }
 
 
-def call_sonnet_for_cover_letter(company, job_posting, voice_guide, openai_api_key=None):
+def _message_text(message) -> str:
+    parts = []
+    for block in message.content:
+        text = getattr(block, "text", None)
+        if text:
+            parts.append(text)
+    return "\n".join(parts).strip()
+
+
+def _strip_fences(text: str) -> str:
+    stripped = text.strip()
+    if stripped.startswith("```"):
+        stripped = re.sub(r"^```[a-zA-Z]*\n?", "", stripped)
+        stripped = re.sub(r"\n?```$", "", stripped)
+    return stripped.strip()
+
+
+def _complete_with_leak_retry(client, system_prompt, user_prompt, max_tokens, resume_version=""):
+    """Generate copy, then rewrite once if banned founder identity leaked."""
+    message = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=max_tokens,
+        system=system_prompt,
+        messages=[{"role": "user", "content": user_prompt}],
+    )
+    text = _strip_fences(_message_text(message))
+    leaks = founder_leak_terms(text, resume_version or "product_experience_leader")
+    if not leaks:
+        return text
+
+    print(f"[WARN] Banned language leaked ({', '.join(leaks)}); rewriting…")
+    retry_prompt = (
+        user_prompt
+        + "\n\nThe previous draft used these banned terms: "
+        + ", ".join(leaks)
+        + ". Rewrite the entire document with those removed. "
+        "Do not lead with founder identity. Do not raise ventures first."
+    )
+    message = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=max_tokens,
+        system=system_prompt,
+        messages=[{"role": "user", "content": retry_prompt}],
+    )
+    return _strip_fences(_message_text(message))
+
+
+def call_sonnet_for_cover_letter(
+    company,
+    job_posting,
+    voice_guide,
+    openai_api_key=None,
+    job_title="",
+):
     """
-    Call Claude 3.5 Sonnet to generate customized cover letter.
-    Uses ANTHROPIC_API_KEY environment variable if openai_api_key not provided.
+    Call Claude to generate a cover letter aimed at THIS Director/Head mandate.
     """
     import anthropic
-    
+
     api_key = openai_api_key or os.getenv("ANTHROPIC_API_KEY")
     if not api_key:
         print("[ERROR] ANTHROPIC_API_KEY not set. Cannot call Sonnet.")
         return "[ERROR: API key not configured]"
-    
-    print(f"\n[SONNET] Customizing cover letter for {company}...")
-    
-    system_prompt = """You are an expert career advisor crafting principal-level UX/Design cover letters.
-Your goal: Generate compelling, authentic cover letters that position the candidate as a strategic design leader.
-Follow the VOICE_GUIDE exactly. No preamble—output only the letter."""
-    
+
+    title = job_title or company
+    description = job_posting.get("content", "")
+    target = classify_role(title, description)
+    resume_version = target.resume_version if target else "product_experience_leader"
+    print(f"\n[SONNET] Cover letter for {company} — {title} ({resume_version})...")
+
+    system_prompt = (
+        "You write short cover letters for Director / Head product-experience "
+        "roles at complex B2B companies. Follow VOICE_GUIDE and ROLE TARGETING "
+        "exactly. Output only the letter — no preamble, no markdown fences."
+    )
+
     user_prompt = f"""VOICE_GUIDE:
 {voice_guide}
 
+{targeting_prompt_block(title, description)}
+
 COMPANY: {company}
+JOB TITLE: {title}
 JOB URL: {job_posting['url']}
 
 JOB POSTING:
-{job_posting['content']}
+{description}
 
-CANDIDATE BACKGROUND:
-- 10+ years in UX/Design/Product across Healthcare (Aetna), Geospatial (MapQuest/AOL), Telecom (Comcast, Level 3), Fintech (Pitney Bowes)
-- Expertise: Design Systems, Design Operations, Product Management, AI-augmented workflows
-- Leadership: Mentored teams, established frameworks, shaped product roadmaps
-- Recent: Swing trading systems, SaaS platforms (Cultivate), design systems (kinetic-ui), caregiver tech (Kinlet)
+MASTER RESUME (only source of experience — do not invent employers or metrics;
+leave [VERIFY] fields out rather than inventing numbers):
+{load_master_resume()}
 
-Generate a principal-level cover letter:
-1. Strategic intro (who you are as a leader)
-2. 1-2 specific initiatives with quantified business impact
-3. Leadership, mentoring, influence
-4. Alignment with {company}'s product/mission
-5. Calm confidence, no hype
-6. 4-5 tight paragraphs
+Write a 4-paragraph cover letter for this exact role. Sentence one names the job title.
+Prove the mandate (product experience + design org + operating model). Do not raise ventures first.
+"""
 
-Output: Ready-to-submit letter (no preamble)."""
-    
     try:
         client = anthropic.Anthropic(api_key=api_key)
-        
-        message = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=1024,
-            system=system_prompt,
-            messages=[
-                {"role": "user", "content": user_prompt}
-            ]
+        cover_letter = _complete_with_leak_retry(
+            client,
+            system_prompt,
+            user_prompt,
+            max_tokens=1200,
+            resume_version=resume_version,
         )
-        
-        cover_letter = message.content[0].text
         print("[✓] Cover letter generated")
         return cover_letter
-    
+
     except Exception as e:
         print(f"[ERROR] Sonnet cover letter failed: {e}")
         return f"[Error: {str(e)}]"
 
 
-def call_sonnet_for_resume(company, job_posting, api_key=None):
+def call_sonnet_for_resume(company, job_posting, api_key=None, job_title=""):
     """
-    Call Claude 3.5 Sonnet to customize resume for the role.
+    Call Claude to produce a full ATS resume aimed at THIS job title / version.
     """
     import anthropic
-    
+
     api_key = api_key or os.getenv("ANTHROPIC_API_KEY")
     if not api_key:
         print("[ERROR] ANTHROPIC_API_KEY not set.")
         return "[ERROR: API key not configured]"
-    
-    print(f"[SONNET] Customizing resume for {company}...")
-    
-    system_prompt = """You are an expert resume advisor for principal-level design leaders.
-Customize the resume by reordering bullets, highlighting relevant achievements, and integrating job keywords.
-Maintain ATS optimization. Output only the customized sections."""
-    
-    user_prompt = f"""COMPANY: {company}
+
+    title = job_title or company
+    description = job_posting.get("content", "")
+    target = classify_role(title, description)
+    resume_version = target.resume_version if target else "product_experience_leader"
+    print(f"[SONNET] Resume for {company} — {title} ({resume_version})...")
+
+    system_prompt = (
+        "You customize one master resume for a single Director/Head product-experience "
+        "posting. Keep the formal Comcast Business title. Apply the correct resume "
+        "version's top third. You may not invent metrics or inflate titles. "
+        "Drop the Notes section. Output markdown resume only."
+    )
+
+    user_prompt = f"""{targeting_prompt_block(title, description)}
+
+COMPANY: {company}
+JOB TITLE: {title}
+RESUME VERSION: {resume_version}
 
 JOB POSTING:
-{job_posting['content']}
+{description}
 
-BASE RESUME HIGHLIGHTS:
-- 10+ years UX/Design/Product across Healthcare, Fintech, Telecom, Geospatial
-- Design Systems, Design Operations, Product Management expertise
-- Led initiatives resulting in 35-40% adoption increases, 22% support reduction
-- Mentored teams of 4+ designers through high-growth phases
-- Established design frameworks enabling 40% faster shipping
-- Recent: AI-augmented workflows, SaaS platforms, caregiver tech
+MASTER RESUME:
+{load_master_resume()}
 
-Customize the resume for this {company} role:
-1. Reorder bullets—lead with most relevant experience
-2. Front-load achievements matching job requirements
-3. Integrate keywords from job description naturally
-4. Highlight leadership, mentoring, systems thinking
-5. Preserve quantified impact
-6. Maintain ATS optimization
+Produce a complete one-to-two page ATS resume:
+1. Name / contact from the master resume
+2. Headline calibrated to this posted title (Director/Head/VP — never invent higher)
+3. Summary from the matching resume-version block (replace {{{{SUMMARY}}}})
+4. Experience: Comcast Business first with scope line; then employed history; omit unresolved [VERIFY] numbers
+5. Skills trimmed to this posting
+6. Do not print the Notes for customization section
 
-Output: Customized professional summary + 5-7 top achievements."""
-    
+Output markdown only. No commentary.
+"""
+
     try:
         client = anthropic.Anthropic(api_key=api_key)
-        
-        message = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=1024,
-            system=system_prompt,
-            messages=[
-                {"role": "user", "content": user_prompt}
-            ]
+        resume_text = _complete_with_leak_retry(
+            client,
+            system_prompt,
+            user_prompt,
+            max_tokens=4096,
+            resume_version=resume_version,
         )
-        
-        resume_text = message.content[0].text
         print("[✓] Resume customized")
         return resume_text
-    
+
     except Exception as e:
         print(f"[ERROR] Sonnet resume failed: {e}")
         return f"[Error: {str(e)}]"
@@ -323,20 +389,27 @@ def main():
     """Main workflow"""
     
     if len(sys.argv) < 3:
-        print("Usage: python3 customize_application_sonnet.py <company> <job_url>")
+        print("Usage: python3 customize_application_sonnet.py <company> <job_url> [job_title]")
         print("\nExample:")
-        print("  python3 customize_application_sonnet.py Anthropic https://boards.greenhouse.io/anthropic/jobs/...")
+        print("  python3 customize_application_sonnet.py Dropbox https://... 'Director, Product Design'")
         print("\nEnvironment:")
         print("  export ANTHROPIC_API_KEY='your-api-key'")
         sys.exit(1)
     
     company = sys.argv[1]
     job_url = sys.argv[2]
+    job_title = sys.argv[3] if len(sys.argv) > 3 else ""
+
+    if job_title and not should_apply(job_title):
+        print(f"[SKIP] '{job_title}' is outside Career Targeting Strategy v3.")
+        print("See CAREER_TARGETING_STRATEGY_V3.md / ROLE_TARGETING.md")
+        sys.exit(0)
     
     print(f"\n{'='*70}")
-    print(f"🎯 APPLICATION CUSTOMIZATION ENGINE (Sonnet)")
+    print("APPLICATION CUSTOMIZATION (role-targeted)")
     print(f"{'='*70}")
     print(f"Company:     {company}")
+    print(f"Title:       {job_title or '(from posting)'}")
     print(f"Job URL:     {job_url}")
     print(f"Timestamp:   {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
@@ -364,12 +437,16 @@ def main():
     
     # 3. Generate cover letter
     print("[3/6] Generating cover letter via Sonnet...")
-    cover_letter = call_sonnet_for_cover_letter(company, job_posting, voice_guide, api_key)
+    cover_letter = call_sonnet_for_cover_letter(
+        company, job_posting, voice_guide, api_key, job_title=job_title
+    )
     print()
     
     # 4. Customize resume
     print("[4/6] Customizing resume via Sonnet...")
-    resume_customization = call_sonnet_for_resume(company, job_posting, api_key)
+    resume_customization = call_sonnet_for_resume(
+        company, job_posting, api_key, job_title=job_title
+    )
     print()
     
     # 5. Save files
@@ -379,29 +456,23 @@ def main():
     
     # 6. Prepare email
     print("[6/6] Preparing email delivery...")
-    email_subject = f"✅ Your Customized {company} Application is Ready"
+    email_subject = f"Role-targeted application ready: {company}"
     email_body = f"""Hi Ryan,
 
-Your customized application materials for {company} are ready to review and submit.
+Materials for {company}{' — ' + job_title if job_title else ''} are ready.
 
-**Files:**
-📄 Cover Letter: {cl_path.name}
-📋 Resume Customization: {resume_path.name}
+These were generated under Career Targeting Strategy v3:
+- Director / Head product-experience mandate (not IC, not founder-first)
+- Employment-led resume with Comcast Business title bridge
+- Resume version matched to the posting (experience / ops / AI-enterprise)
+- Ventures not raised first
 
-**What Was Customized:**
-✓ Cover letter tailored to {company}'s role and mission
-✓ Resume reordered to highlight relevant experience
-✓ Keywords from job posting naturally integrated
-✓ Your principal-level voice maintained throughout
-✓ Business impact and leadership emphasized
+Files:
+- Cover letter: {cl_path.name}
+- Resume: {resume_path.name}
 
-**Next Steps:**
-1. Review both documents
-2. Make any personal edits
-3. Copy the cover letter content into the application portal (or submit as PDF)
-4. Upload the customized resume
-
-Ready to submit whenever you are.
+Review before submit. Resolve any remaining [VERIFY] facts. If a sentence could
+be read as "I'll leave when a company takes off," cut it.
 
 ---
 Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}

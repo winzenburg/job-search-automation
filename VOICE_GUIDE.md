@@ -1,142 +1,95 @@
-# Voice & Tone Guide for Cover Letters
+# Voice & Tone Guide — Career Strategy v3
 
-## Principal-Level UX/Design/Product Leadership Voice
+Cover letters exist to win a **Director / Head product-experience mandate** at a complex B2B company — not to narrate a founder journey, and not to apply as an IC designer.
 
-This guide ensures all customized cover letters reflect your authentic voice as a strategic design leader operating at the principal/staff/director level.
-
----
-
-## Core Characteristics
-
-✅ **Confident but not arrogant**
-✅ **Outcome-driven**
-✅ **Business-aware**
-✅ **Systems thinking**
-✅ **Calm confidence, not salesy**
+Full strategy: `CAREER_TARGETING_STRATEGY_V3.md`
 
 ---
 
-## Key Principles
+## One narrative
 
-### 1. Strategic and Executive-Level Tone 🎯
-
-You operate close to product leadership and business strategy. Your tone should feel closer to a **product strategist or design leader** than a hands-on designer.
-
-**Example opening:**
-> "I've spent my 20-year career bringing design ops precision and product strategy to messy transitions. From stabilizing scaling platforms to establishing cross-functional cohesion, I focus on translating user insight into strategic product decisions..."
-
-### 2. Outcome-Focused Language 📈
-
-**Avoid:** Describing tasks
-**Focus:** Results and influence
-
-❌ **Don't say:** "I designed wireframes, conducted usability testing, and collaborated with developers."
-
-✅ **Do say:** "At [Company], our portfolio had fractured across multiple initiatives. I led cross-functional teams to unify the experience, establishing design ops precision that reduced time-to-value by 42%."
-
-**Metrics matter.** Always quantify impact, but wrap it in a narrative of solving "messy transitions."
-
-### 3. Thought Leadership Voice 🧠
-
-Principals are expected to:
-- Set direction
-- Mentor designers
-- Influence product roadmaps
-- Build frameworks and systems
-
-**Example:**
-> I specialize in aligning UX strategy with product growth—establishing design frameworks, mentoring design teams, and ensuring experiences scale consistently across complex product ecosystems.
-
-### 4. Influence Over Tools
-
-**Avoid:** Tool-heavy language (Figma, Sketch, design jargon)
-**Emphasize:** Influence, strategy, systems, business impact
-
-❌ **Don't say:** "I'm proficient in Figma, Sketch, and Adobe XD."
-
-✅ **Do say:** "I've established design systems that enabled engineering teams to ship 40% faster while maintaining consistency across product ecosystems."
-
-### 5. Story-Driven Structure 📖
-
-A strong principal cover letter follows this arc:
-
-1. **Strategic Introduction** — Who you are as a UX leader
-2. **Evidence of Impact** — 1–2 major initiatives you led with business outcomes
-3. **Leadership & Influence** — Mentoring, cross-functional leadership, product strategy
-4. **Alignment with Company** — Why your approach fits their product or mission
+You make complex B2B products more usable while improving the system that produces them: the customer-facing product, the design org, and the operating model that ships work. AI-enabled delivery is how you do it now. Product experience leadership is the durable category.
 
 ---
 
-## What to Avoid 🚫
+## Open every letter this way
 
-❌ Portfolio-style descriptions ("I worked on a mobile app redesign...")
-❌ Junior-level passion statements ("I'm extremely passionate about user experience")
-❌ Tool-heavy language
-❌ Overly long narratives (4-5 tight paragraphs, not 10)
-❌ Generic statements ("I'm a problem solver")
+1. **Name the posted title** in sentence one.
+2. **State the mandate** in one breath (experience + org + operating model).
+3. **Proof from the evidence spine** — CVS/Aetna, Pitney Bowes, Comcast Business scope — matching the resume version.
+4. **Close on wanting THIS seat’s decision rights**, not a parking place.
 
----
+### Opening that works
 
-## What to Emphasize ✅
+> I’m applying for Director of Product Experience. I lead product experience in complex B2B environments — the customer-facing product, the design organization, and the operating model behind it — and I’m looking for a role where that combined mandate is real.
 
-✅ **Influence:** How you've shaped strategy, mentored teams, set direction
-✅ **Strategy:** Business alignment, product roadmaps, growth
-✅ **Systems:** Frameworks, scale, consistency, organizational impact
-✅ **Business Impact:** Metrics, outcomes, adoption, retention, revenue
+### Openings that fail
 
----
-
-## Tone Examples
-
-### Strategic Introduction
-✅ "As a UX leader with over a decade of experience shaping complex digital products, I focus on translating user insight into strategic product decisions that drive measurable business outcomes."
-
-### Impact Statement
-✅ "I led the redesign of our core dashboard, which improved user adoption by 35% and reduced customer support tickets by 22%."
-
-### Leadership Example
-✅ "I mentor a team of 4 designers and serve as the product strategy lead, advising the VP of Product on experience roadmaps and design direction."
-
-### Company Alignment
-✅ "Your approach to AI-augmented workflows aligns with my belief that design's greatest leverage is in creating systems that amplify human decision-making at scale."
+- Founder bio or venture pitch
+- “I’m a Principal Product Designer passionate about craft…”
+- “Your company is at an inflection point and needs transformation…”
+- Explaining “why now” through side companies or runway
 
 ---
 
-## Quick Rule of Thumb
+## Match the level band
 
-**A Principal UX cover letter should sound like it was written by someone who shapes product strategy—not just screens.**
-
----
-
-## When Customizing for Specific Companies
-
-**Research the company's:**
-- Product strategy (Is it growth-focused? B2B? B2C? Enterprise?)
-- Business model (SaaS? Fintech? Healthtech?)
-- Design challenges (Are they scaling? Simplifying? Entering new markets?)
-- Leadership values (Innovation? Rigor? Speed?)
-
-Then, align your experience to their strategic challenges.
-
-**Example alignment:**
-> At [Company], you're navigating rapid feature expansion across multiple product lines. I've led similar challenges at [Previous Org], where I established design systems and governance frameworks that enabled teams to scale from 2 to 8 product initiatives without losing consistency. This approach increased product velocity by 45% while maintaining design quality.
+| Band | Sound like | Do not |
+|---|---|---|
+| Director (60%) | Peer to product/eng directors; owns experience direction and operating cadence | VP/CDO theater; IC craft dump |
+| Head / Senior Director (30%) | Portfolio + executive exposure; multi-team | Undersell as “senior designer” |
+| VP selective (10%) | Executive partner to CPO on experience + practice | Claim sole product P&L / pricing ownership |
 
 ---
 
-## Customization Checklist
+## Evidence (verify before sending)
 
-When Sonnet customizes your cover letter, ensure:
+- **CVS / Aetna:** task completion 50% → 90% for 39M+ users during the $69B merger. [VERIFY details before external use]
+- **Pitney Bowes:** design system across 300+ products; ~50% development-time reduction. [VERIFY]
+- **Comcast Business:** Senior UX Lead — keep formal title; scope line + maturity program (L2→L3), 20-skill library, AI-assisted workflows. Fill [VERIFY: N] before claiming headcount.
+- **AI cycle compression:** months → weeks. [VERIFY] Only with a quality-control method.
 
-- [ ] Opens with strategic intro (not "I'm interested in...")
-- [ ] Includes 1-2 specific initiatives with metrics
-- [ ] Mentions leadership/mentoring/influence
-- [ ] Aligns your systems thinking with company's challenges
-- [ ] Uses confident, calm language (no hype)
-- [ ] Avoids tools, jargon, junior-level statements
-- [ ] 4-5 tight paragraphs (not longer)
-- [ ] Closes with forward-looking statement about mutual fit
+If a number is still `[VERIFY]`, use a scope measure instead (portfolio, user population, team count, stakeholder group).
 
 ---
 
-*Last Updated: March 5, 2026*
-*Used by: Resume + Cover Letter Customization Engine (Sonnet)*
+## Why now (when asked — not unsolicited in every letter)
+
+> I’ve spent [X] years at Comcast Business building the UX function up a level of maturity and proving out AI-augmented delivery inside a large enterprise. The next thing I want to run is the product experience and the operating model for a whole B2B product organization. That mandate doesn’t exist in my current seat, so I’m looking for the company where it does.
+
+---
+
+## Ventures
+
+**Do not raise first.** If asked: they give current operator practice in AI automation and complex decision workflows; they do not compete with a full-time leadership role.
+
+Cover letters: omit Casimir / Winzinvest / Kinlet unless the resume version is `ai_enterprise_workflow`, and then at most one clause as range.
+
+---
+
+## Structure (4 paragraphs)
+
+1. Posted title + mandate fit  
+2. One evidence-spine story mapped to their B2B complexity  
+3. Comcast or operating-model proof that you won’t be downstream-only  
+4. Close: you want decision rights on experience and how work ships — availability Denver / remote  
+
+Sign-off: `Ryan Winzenburg`
+
+---
+
+## Recruiter / hiring-manager blurb (also LinkedIn)
+
+> I lead product experience in complex B2B environments: the customer-facing product, the design org, and the operating model behind it. At CVS I took task completion from 50% to 90% for 39 million users during the Aetna merger. At Pitney Bowes a design system I led cut development time in half across 300 products. Now I use AI to compress delivery from months to weeks. I'm looking for a Director or Head role where that combined mandate is real, not a design seat that executes after decisions are made.
+
+---
+
+## Checklist
+
+- [ ] Sentence one names the job title  
+- [ ] Mandate = experience + org + operating model  
+- [ ] Proof from employed Director-scale outcomes  
+- [ ] Comcast title not inflated; scope made explicit  
+- [ ] No founder-first framing  
+- [ ] No unresolved `[VERIFY]` numbers left in the final letter  
+- [ ] Comp / remote constraints respected ($225K+, Denver remote-first)  

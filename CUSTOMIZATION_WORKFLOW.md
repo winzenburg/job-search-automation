@@ -91,28 +91,31 @@ This will:
 
 ### Cover Letter Customization
 
-Sonnet uses your **VOICE_GUIDE.md** to generate a letter that:
+Sonnet uses your **VOICE_GUIDE.md**, **templates/MASTER_RESUME.md**, and
+**role_targeting.py** so materials are aimed at the posted job:
 
-✅ Opens with strategic introduction (who you are as a leader)
-✅ Includes 1-2 specific initiatives with quantified impact
-✅ Demonstrates leadership, mentoring, influence
-✅ Aligns your systems thinking with the company's product/mission
-✅ Uses calm confidence, no hype
-✅ 4-5 tight paragraphs (not overly long)
+✅ Opens by naming the job title (not a founder bio)
+✅ Proof from employed roles (CVS, Pitney Bowes, Life Time, Buildout, …)
+✅ Matches altitude (IC vs Director vs design ops)
+✅ No founder / startup company names
+✅ 4 tight paragraphs
 
 **Sonnet gets these inputs:**
-- VOICE_GUIDE (tone, structure, what to avoid)
-- Job posting content (requirements, company mission)
-- Your background (10+ years, design systems, mentoring, AI focus)
+- VOICE_GUIDE (tone, structure, bans)
+- MASTER_RESUME (only experience source of truth)
+- Role family + targeting block from `role_targeting.classify_role`
+- Job posting content
 
 ### Resume Customization
 
-Sonnet reorders your ATS resume to:
-- Highlight experience most relevant to the job posting
-- Front-load key achievements that match job requirements
-- Integrate keywords from job description naturally
-- Preserve quantified impact statements
-- Maintain ATS optimization
+Sonnet rewrites the master resume for the posting:
+- Headline and summary match the job title’s altitude
+- Bullets selected for that family; founder companies never appear
+- Independent work stays titled as consulting, trimmed to 2–3 bullets
+- Keywords from the posting only where true
+- ATS-friendly markdown → PDF
+
+Out-of-scope titles (PM-without-design, engineering, people, brand, etc.) are skipped. See `ROLE_TARGETING.md`.
 
 ---
 

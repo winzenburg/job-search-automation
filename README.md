@@ -1,10 +1,10 @@
-# Job Search Framework - AI-Augmented Design Operations Leadership
+# Job Search Framework — Product Experience Leadership (v3)
 
-**Status:** Active - Interviewing  
-**Created:** February 10, 2026  
-**Target Roles:** Head of Design Operations, VP/Director of Design, Principal Design Technologist  
-**Compensation:** $180k+ total comp  
-**Location:** Remote or Colorado  
+**Status:** Active  
+**Created:** February 10, 2026 · **Strategy:** September 2026 v3  
+**Target Roles:** Director / Head of Product Experience, Product Design, UX, Experience Strategy, Product Operations (VP selective)  
+**Compensation:** $225k+ base  
+**Location:** Remote-first, Denver / Front Range 
 
 ---
 
@@ -27,15 +27,19 @@
 
 ## Strategic Positioning
 
-**You are NOT:** Another design ops person looking for a role
+**Career Targeting Strategy v3 (Sep 2026):** Director-level product experience
+leadership for complex B2B — the customer-facing product, the design org, and the
+operating model that ships work. See `CAREER_TARGETING_STRATEGY_V3.md` and
+`ROLE_TARGETING.md`.
 
-**You ARE:** An architect who systematizes AI integration into design operations at scale
+- **60%** Director (Product Design / Experience / UX / Experience Strategy / Product Ops)
+- **30%** Senior Director / Head when scope matches
+- **10%** VP selective
+- Remote-first Denver · **$225K+ base** · full-time
+- IC / pure UX/UI is out of scope by default
+- Ventures = range when asked; never the lead in applications
 
-**Hedgehog Concept:**  
-"I build AI-powered frameworks that turn complex, high-stakes uncertainty into clear, actionable decisions at scale."
-
-**Key Differentiator:**  
-Most design ops leaders understand process. Few understand AI transformation. You architect the intersection.
+**Differentiation:** make complex B2B products more usable while improving the system that produces them.
 
 ---
 

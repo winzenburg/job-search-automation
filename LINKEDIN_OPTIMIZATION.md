@@ -1,191 +1,78 @@
-# LinkedIn Optimization for Ryan Winzenburg
+# LinkedIn Optimization — Career Strategy v3
 
-## Current State
-✓ Strong thought leadership articles (6 posts, Feb-Nov 2025)
-✓ Strategic positioning language
-✓ User Research & Figma certifications
-✓ UX Book Club co-founder
-
-## Recommended Changes (High-Impact, Recruiter-Focused)
+Align the public profile with Director-level product-experience targeting.
+Full strategy: `CAREER_TARGETING_STRATEGY_V3.md`
 
 ---
 
-### 1. HEADLINE (Critical for Recruiter Search)
+## 1. HEADLINE (paste)
 
-**Current:** "Strategic UX and Design Technologist with 15+ years of experience driving user-centered..."
-
-**Recommended:**
 ```
-Principal Product Designer | Design Systems Architecture | AI-Augmented Workflows | 
-Leadership & Scale | Remote-Based (Golden, CO)
+Senior UX Lead, Comcast Business | Director-level product experience leadership | Enterprise B2B, product operating models, AI-enabled delivery
 ```
 
-**Why:** 
-- Recruiter search: "Principal Product Designer" + "Design Systems" 
-- Immediate clarity on level (Principal = decision-maker/leader)
-- Keywords: AI, design systems, leadership, remote
-- Location signals availability
+Avoid “transformation” in the headline. Test a variant after two weeks; keep whichever produces more recruiter inbound.
 
 ---
 
-### 2. ABOUT SECTION (Your Value Prop)
+## 2. ABOUT
 
-**Current:** (Not fully visible in search, but appears brief)
-
-**Recommended:**
 ```
-I translate user insight into strategic product decisions that drive measurable 
-business outcomes. My work focuses on building systems, leading teams, and turning 
-complexity into clarity at scale.
+I lead product experience in complex B2B environments: the customer-facing product,
+the design organization, and the operating model that gets work shipped. I make
+complex B2B products more usable while improving the system that produces them.
+AI-enabled delivery is how I do that today.
 
-SPECIALIZATIONS:
-• Design Systems & Scale — Built frameworks enabling 8+ teams to ship 40% faster 
-  while maintaining consistency
-• Product Leadership — Mentored 4+ designers, shaped product roadmaps, advised on 
-  UX strategy for healthcare, fintech, and emerging tech
-• AI-Augmented Workflows — Pioneered AI-driven design processes, reducing cycle 
-  time by 30% and increasing team productivity
-• Strategic Decision-Making — Reduced time-to-insight through market validation 
-  frameworks and design research
-
-BACKGROUND:
-10+ years across healthcare (Aetna), geospatial (MapQuest/AOL), telecom (Comcast, 
-Level 3), fintech (Pitney Bowes). Now building: Cultivate (SaaS ops), kinetic-ui 
-(design system), Kinlet (caregiver tech), swing trading systems.
+PROOF:
+• CVS Health / Aetna — task completion from 50% to 90% for 39M+ users during the
+  $69B merger [verify measurement details before amplifying further]
+• Pitney Bowes — design system across 300+ products; ~50% reduction in development time
+• Comcast Business — Senior UX Lead: UX maturity L2→L3, capability program, AI-assisted
+  designer workflows inside a large enterprise
 
 SEEKING:
-Principal, Director, or Head of Design roles in AI, fintech, or healthtech. 
-Remote preferred, open to Boulder/Denver area.
+Director or Head of Product Experience / Product Design / Experience Strategy /
+Product Operations at complex B2B software companies. Remote-first from Denver;
+$225K+ base; full-time.
 
-Thought leadership: https://winzenburg.com/articles
-Portfolio: [link your best work]
-
-Let's connect if you're hiring design leaders or building something interesting.
-```
-
-**Why:**
-- Specific metrics (40% faster, 30% improvement, mentored 4+)
-- Keywords: Design systems, AI, product leadership, mentoring
-- Clear availability signal
-- Personality + accomplishments
-
----
-
-### 3. FEATURED SECTION (Portfolio Showcase)
-
-**Add (in order of impact):**
-1. Link to: https://winzenburg.com/articles (or best 3 articles)
-2. LinkedIn Article: "4 Week Design System Framework" (high engagement)
-3. LinkedIn Article: "Why Most Design Systems Fail" (strategic insight)
-4. Portfolio case study: Your strongest work
-5. Link to: Cultivate, kinetic-ui, or Kinlet
-
-**Why:** Recruiters look at featured section in first 10 seconds. These signal thought leadership + deliverables.
-
----
-
-### 4. EXPERIENCE SECTION (Add Metrics)
-
-**For each role, add 1-2 quantified achievements:**
-
-Example format:
-```
-[Company] — [Title]
-
-Led [initiative], resulting in:
-• 35% improvement in [metric] (adoption, engagement, efficiency)
-• Mentored [X] designers through [phase]
-• Established [framework] enabling [outcome]
-
-Technologies: [relevant tools]
-```
-
-Apply this to your most recent roles (prioritize)
-
----
-
-### 5. SKILLS SECTION (Priority Order)
-
-Reorder to this (recruiter searches these):
-1. Product Design
-2. Design Systems
-3. Design Operations
-4. Product Strategy
-5. User Experience Design
-6. Leadership
-7. AI Workflows (emerging)
-8. Fintech
-9. Healthcare
-10. Mentoring
-
-**Ask for endorsements** on top 3 (Product Design, Design Systems, Design Operations)
-
----
-
-### 6. ACTIVITY (Weekly Updates)
-
-**Schedule:**
-- Mon: Share design systems insight (100-200 words, repost own article)
-- Wed: Comment thoughtfully on 2 design posts
-- Fri: Engage with 1 thought leadership article
-
-**Example posts:**
-```
-"Design systems aren't about components. They're about leverage. 
-
-I've watched teams spend 18 months building beautiful systems that no one uses. 
-The difference? Teams that succeeded focused on: [3 key points]
-
-What's your design system adoption rate?"
+In parallel, I have founded and operated applied AI and automation products
+(range, not the job I’m hiring for). Happy to discuss when relevant.
 ```
 
 ---
 
-## Implementation Checklist
+## 3. EXPERIENCE — Comcast title bridge
 
-**Today (Mar 5):**
-- [ ] Update headline (copy-paste above)
-- [ ] Update about section (copy-paste above, add portfolio links)
-- [ ] Add featured articles/portfolio links
-- [ ] Request endorsements on top 3 skills
+Keep formal title: **Senior UX Lead, Comcast Business**
 
-**This Week (Mar 5-9):**
-- [ ] Add 1-2 metrics to experience section
-- [ ] Reorder skills section
-- [ ] Post 1 design systems insight (LinkedIn)
+Add scope line under it:
 
-**Ongoing:**
-- [ ] Weekly LinkedIn activity (Mon/Wed/Fri)
-- [ ] Monthly article (Winzenburg.com or LinkedIn)
+> Enterprise product experience and AI-enabled operating-model leadership across
+> [product domain / portfolio]; lead a team of [N] designers and the UX capability program.
+
+First two bullets must answer: org scale, business scope, decision rights, executive audience, outcomes. Fill `[N]` and domain before the search scales.
 
 ---
 
-## Expected Results (7-30 Days)
+## 4. FEATURED
 
-**Week 1:**
-- Profile optimization complete
-- Visual impact immediate (headline + about visible to recruiters)
+1. One published piece on enterprise product experience or AI-enabled operating models  
+2. One published piece on product operating models / design maturity  
+3. Strongest employed case study (CVS or Pitney Bowes)  
+4. Do not lead Featured with venture landing pages  
 
-**Week 2-3:**
-- Recruiter messages start arriving (3-5 inbound)
-- Design community members notice (community invites)
-- LinkedIn connections spike (especially from recruiters)
-
-**Week 4:**
-- 5-10 recruiter inbound messages
-- 3-5 design community opportunities
-- Foundation for inbound recruiting set
+Line up two recommendations that speak to **scope** (VP-level Comcast Business stakeholder; former peer at CVS or Pitney Bowes).
 
 ---
 
-## Notes
+## 5. Recruiter opener (DM / email)
 
-- Recruiter search = headings + skills + featured section
-- Metrics > tasks (always quantify)
-- Thought leadership (articles) = passive recruiting magnet
-- Activity = visibility (weekly posts keep you in recruiter feeds)
-- Profile completeness = 3x more recruiter inbound
-
----
-
-*Ready to update? Copy the headline and about section above, paste into LinkedIn, and reply when done.*
+```
+I lead product experience in complex B2B environments: the customer-facing product,
+the design org, and the operating model behind it. At CVS I took task completion
+from 50% to 90% for 39 million users during the Aetna merger. At Pitney Bowes a
+design system I led cut development time in half across 300 products. Now I use AI
+to compress delivery from months to weeks. I'm looking for a Director or Head role
+where that combined mandate is real, not a design seat that executes after
+decisions are made.
+```

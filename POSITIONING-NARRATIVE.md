@@ -1,7 +1,12 @@
-# Job Search Positioning Narrative (3 Versions)
+# Job Search Positioning Narrative
+
+> **Sep 2026 update:** Application materials now follow **role-first, employment-led**
+> positioning. See `ROLE_TARGETING.md`, `templates/MASTER_RESUME.md`, and `VOICE_GUIDE.md`.
+> Do not use the founder / transformation pitches below for resumes or cover letters
+> aimed at Product Designer, Design Systems, or Director of Product Design jobs.
 
 **Created:** February 21, 2026  
-**Purpose:** Define compelling positioning for outreach across different company types  
+**Purpose:** Historical outreach narratives (warm intros / thought leadership only)  
 **Target Roles:** Head of Design Operations, VP/Director of Design, Principal Design Technologist  
 **Target Companies:** AI-native, design tools, enterprise SaaS
 
